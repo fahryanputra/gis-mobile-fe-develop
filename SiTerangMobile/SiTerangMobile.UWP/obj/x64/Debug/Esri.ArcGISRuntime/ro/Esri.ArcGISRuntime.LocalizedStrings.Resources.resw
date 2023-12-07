@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Nu se poate converti la matricea '{0}'.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Nu s-a reuşit localizarea unei configuraţii de buffer de cadru Open GL cu capacităţi minime</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Valorile scARGB trebuie să fie între 0 şi 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Parametrul Graphic.Geometry nu corespunde din punct de vedere al tipului de geometrie aşteptat, '{0}', pentru serviciu.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' nu este setat.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Parametrul LocalServerApplicationStatePath nu poate fi setat după iniţializarea ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Pentru detalii, consultaţi excepţia internă.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Creat de {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Tabelul de obiecte spaţiale nu este iniţializat.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Nu se poate converti un nul la un tip valoare.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Nu se poate obţine LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Nu se poate converti din valoarea de tip {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} nu poate fi modificat cât timp serviciul este în funcţiune.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Adresa URL a serviciului pentru token nu este setată.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Tipul geometriei nu este acceptat.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Harta trebuie încărcată înainte de a salva în portal.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Nu s-a reuşit analiza CSV.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Editat acum {0} minute</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Referinţa spaţială este nevalidă.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Serviciul nu poate fi iniţiat deoarece un LocalService cu acelaşi nume '{0}' se află deja în execuţie.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Stratul tematic nu acceptă elemente ataşate.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Se încearcă iniţializarea unui LocalService deşi nu este oprit.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nUn fişier rezidual în urma căderii a fost salvat în: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Serie nefinalizată introdusă.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Schema de acoperire nu este suportată în acest moment.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Nu se poate citi din flux</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Un obiect spaţial care nu există nu poate fi editat.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Editat de {0}, acum câteva secunde</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Serviciul  nu implementează adresa '{0}'.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Stratul tematic Hartă Bing nu poate fi trasat, deoarece nu este furnizată nicio cheie Bing.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Clauza Unde şi geometria nu pot fi simultan nule.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Operaţia de export a segmentelor tile a fost ştearsă</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Operaţia nu este acceptată când se utilizează GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Trebuie setat cel puţin unul din următorii parametri: Text, Geometry, Where, ObjectIDs sau TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Se încearcă oprirea unui LocalService deşi nu se află în execuţie.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Serviciul de obiecte spaţiale nu asigură metadatele necesare.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Numărul licenţei de extindere {0} a expirat.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Operaţia de export a segmentelor tile a fost anulată</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Creat de {0} pe {1} la {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Parametrul TempPath nu poate fi setat după iniţializarea ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Numărul licenţei de extindere {0} este nevalid.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Eroare de ieşire.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Capabilitatea necesară '{0}' nu este disponibilă pentru acest serviciu de obiecte spaţiale.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Eroare internă.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Comanda nu poate fi executată.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Stratul tematic nu poate fi creat din stratul tematic de hartă web.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Instrumentul de localizare nu a suportat funcţionalitatea de intersecţii.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Editat de {0} pe {1} la {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Trebuie să fie mai mare sau egală cu zero</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Editat pe {0} la {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>Şirurile de culori scARGB trebuie să specifice trei sau patru valori delimitate prin virgule</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Barierele cu geometrie nulă nu sunt suportate.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Serie nevalidă introdusă, se aştepta '['.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Această proprietate nu poate fi modificată după iniţializarea MessageLayer.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Calea specificată nu există.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Convertirea din alte tipuri decât şirul nu este acceptată</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Simbolul nu poate fi serializat la JSON.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Serviciul nu suportă exportul de segmente tile</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} este nul sau gol.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Nu se poate crea ServiceFeatureTable dintr-un strat tematic de serviciu de tipul: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Fişierul {0} există deja şi operaţia de descărcare a fost setată astfel încât să nu suprascrie fişiere existente</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Proprietatea '{0}' nu poate fi modificată după iniţializarea stratului tematic.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Nu se poate crea RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Pentru a efectua validarea, FeatureLayer trebuie iniţializat.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Serviciul de obiecte spaţiale nu asigură câmpul obligatoriu ID obiect.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Eroare la iniţializarea ArcGISRuntimeEnvironment. Nu a putut fi găsit directorul de instalare ArcGISRuntime. Asiguraţi-vă că în directorul în care se află executabilul aplicaţiei există şi subdirectorul "{0}" sau setaţi ArcGISRuntimeEnvironment.InstallPath la o altă locaţie. Directorul de instalare trebuie să conţină subdirectoarele corespunzătoare arhitecturii de proces a aplicaţiei dvs.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Editat acum {0} ore</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Pentru a fi iniţializat, serverul local necesită o licenţă de nivel standard. Nivelul licenţei actuale este De bază (consultaţi ArcGISRuntimeEnvironment.License.Level). Pentru o instalare, puteţi iniţializa procesul runtime cu o licenţă de nivel standard în ArcGISRuntimeEnvironment.License.SetLicense(). Dacă dezvoltaţi o aplicaţie, puteţi evita setarea ArcGISRuntimeEnvironment.ClientId pentru a rămâne în modul pentru dezvoltatori în vederea probării LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>ro</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>A survenit o eroare internă.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>A fost specificată o valoare nevalidă pentru cale.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Serviciul nu implementează adresele '{0}' şi '{1}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Operaţia de export a segmentelor tile a eşuat</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold şi ReportInterval nu pot fi ambele zero</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Nu se poate seta SymbolsPath după iniţializarea ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Licenţa principală a expirat.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer nu este iniţializat, astfel încât nu există servicii în funcţiune de oprit.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Proprietatea {0} nu este setată, nu se poate crea un serviciu.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Elementul de portal este nevalid pentru această operaţie.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Colecţia de straturi tematice nu poate fi modificată direct când este administrată de WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Creat de {0}, acum {1} minute</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Creat de {0}, acum o oră</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Tipul '{0}' nu este valid pentru 'Shape Type'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Nu se pot obţine setări implicite.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Analiza textului a eşuat.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Un MessageLayer poate fi adăugat numai în câte o singură hartă.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Parametrul Client Id nu poate fi setat după iniţializarea ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>RedirectUri trebuie setat înainte de a încerca să generaţi un token OAuth.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Nu se poate crea o vizualizare de hartă. Directorul necesar 'resources/shaders' nu a fost găsit în cadrul instalării ArcGIS Runtime.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Adresa de e-mail este nevalidă.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Editat pe {0} la {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Eşec la crearea unui '{0}', deoarece serviciul cu aceeaşi cale se opreşte deja.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Creat de {0}, acum un minut</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Nu a fost găsit unul din fişierele de localizare.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Nu se pot seta numele serviciilor când acestea sunt în funcţiune. Numele pot fi setate numai când serviciile sunt oprite.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Nume de culoare nevalid: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Mesajul nu a putut fi procesat. MessageLayer trebuie să fi fost încărcat cu succes într-o Vizualizare (de hartă sau scenă) înainte de apelarea ProcessMessage.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Eşec la crearea unui '{0}' pentru editare, deoarece serviciul cu aceeaşi cale rulează deja ca instanţă a '{1}' care nu acceptă editare.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Proprietatea {0} nu poate fi setată după iniţializarea FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Atributul '{0}' nu poate fi nul.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Parametrul ClientId furnizat este nevalid.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Nu se poate geocodifica adresa.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' nu se încadrează în intervalul aşteptat '{1}-{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl trebuie să fie situat în acelaşi domeniu ca şi serverul</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Obiect nevalid introdus, se aştepta ':' sau '}'.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Se încearcă oprirea LocalServer deşi acesta nu se află în execuţie.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Fişierul de localizare are o referinţă spaţială nesuportată.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} nu poate fi nul.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Operaţia de ataşare a eşuat la server.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Nu puteţi edita geometria când toate opţiunile de editare sunt dezactivate.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Editat de {0}, acum o oră</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Harta nu este pregătită.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Nu se pot accesa serviciile de locaţie</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Şir de relaţie nevalid; acesta trebuie să fie format din 9 caractere şi să respecte specificaţia DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Eroare de anulare obiect.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Nu se poate genera un token OAuth fără un handler de autorizare. Setaţi AuthenticationManager.Current.OAuthAuthorizeHandler la o implementare IOAuthAuthorizeHandler validă.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Creat pe {0} la {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 este singura referinţă spaţială acceptată pentru această funcţie.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Această aplicaţie este executată cu o licenţă de dezvoltator. Această licenţă este validă numai pentru dezvoltare şi testare.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Apel pentru o operaţie de geocodificare neiniţializată.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Din locaţia de intrare lipseşte un atribut obligatoriu.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' a depăşit lungimea impusă pentru câmp '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometria este nulă sau goală.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>Parametrul RecursionLimit trebuie să fie un întreg pozitiv.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Un strat tematic nu poate fi afişat pe o hartă cu o referinţă spaţială diferită.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Serviciul nu este pornit, astfel încât nu poate fi oprit.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Obiect nevalid introdus, se aştepta numele membrului.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Procesul de la server a fost abandonat în mod neaşteptat în timpul iniţializării.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Nu se acceptă utilizarea referinţelor spaţiale diferite.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Creat pe {0} la {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Nu se poate citi adresa de la cursorul de intrare sau parametrul reset() a fost returnat fals.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Proprietatea '{0}' nu poate fi modificată după iniţializarea stratului tematic.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Editat acum o oră</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Editat acum câteva secunde</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Metadatele stratului tematic nu pot fi deserializate.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Niciun grup din portal nu determină conţinutul promovat.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Nu se poate crea instrumentul de localizare.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Tipul '{0}' nu este suportat pentru deserializarea unei serii.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Creat de {0}, acum {1} ore</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Serviciul este nevalid, exportul hărţii nu este permis sau tipul serviciului nu este suportat.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Un parametru obligatoriu este nul sau necompletat.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Handlerul pentru solicitare nu a fost setat.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Creat acum {0} minute</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Harta trebuie mai întâi salvată într-un portal cu metoda 'Map.SaveAs'.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Serviciul de obiecte spaţiale nu vă permite să aplicaţi {0} asupra unui obiect spaţial pe care nu îl deţineţi.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Nu se poate crea o instanţă pentru {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Serviciul de obiecte spaţiale nu furnizează capabilităţile necesare.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Serviciu oprit neaşteptat. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Se poate seta o licenţă numai în cazul în care clasa ArcGISRuntimeEnvironment are un parametru ClientId valid şi dacă apelare la metoda ArcGISRuntimeEnvironment.Initialize a reuşit.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Nu puteţi salva modificări ale ataşărilor la un obiect spaţial care nu există pe server. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Colecţia de elemente grafice trebuie să fie goală înainte de a utiliza GraphicsSource.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>RenderingMode nu mai poate fi modificat după încărcarea stratului tematic.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>ArcGIS Runtime ({0}) sau una dintre dependențele acestuia nu s-a putut încărca. Asigurați-vă că „Microsoft Visual C++ 2015-2019 Redistributable” este instalat.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Valoarea este NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Niciun utilizator curent. Hărţile pot fi salvate doar de un utilizator autentificat.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Contextul aplicaţiei nu poate fi preluat</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Şirul de caractere nu a putut fi convertit în 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Parametrul InstallPath nu poate fi setat după iniţializarea ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nu s-a putut inițializa baza ArcGIS Runtime. Arhiva de bază ArcGIS Runtime este inaccesibilă.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>Operaţia GetPositionAsync a expirat</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Nu a fost definit niciun constructor fără parametri pentru tipul '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Serviciul nu conţine o schemă de acoperire validă</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Una sau mai multe proprietăţi ale instrumentului de localizare sunt nevalide.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Nu se poate rezolva.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' este atributul obligatoriu pentru {1} şi trebuie să fie prezent la obiectele spaţiale care există în serviciul de obiecte spaţiale.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Serviciul este în prezent în funcţiune şi nu poate fi pornit.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Creat acum un minut</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Format culoare hex nevalid</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Tipul '{0}' nu este suportat pentru serializarea/deserializarea unui dicţionar, cheile trebuie să fie şiruri sau obiecte.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Obiect nevalid introdus, se aştepta '{'.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Încărcarea explicită a arhivei de bază ArcGIS Runtime a eșuat,  Detalii privind excepția: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Creat acum câteva secunde</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Resursa nu a putut fi localizată.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Crearea instrumentului de geocodificare a eşuat.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Modul de redare nu este serializabil în JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Primitivă JSON nevalidă: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Iniţializarea LocalServer a eşuat: executabilul nu a fost găsit.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Licenţa principală este incorectă; se utilizează o licenţă de extindere, deşi este necesară o licenţă principală.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Opririle nu au nume de rută consecvente.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>A fost transmis un şir nevalid, se aştepta '\'"".</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Unitatea '{0}' nu este validă pentru 'DirectionsLengthUnits'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Valoarea trebuie să fie mai mare decât zero.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Operaţia este disponibilă numai pentru utilizatori autentificaţi.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Opririle cu geometrie nulă nu sunt suportate.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Serie nevalidă introdusă, se aştepta ','.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' din colecţia '{1}' trebuie să aibă ID-uri unice.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Fişierul de localizare are un format nesuportat.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Operaţia de export a segmentelor tile a expirat</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Proprietatea {0} nu poate fi modificată când serviciul este în funcţiune.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Se încearcă iniţializarea LocalServer deşi acesta nu este oprit.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Editat de {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Numărul licenţei de extindere {0} este incorect; se utilizează o licenţă principală, deşi este necesară o licenţă de extindere.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>Parametrul RecursionLimit este depăşit.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable nu implementează ataşări {0}.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Valorile scARGB trebuie să fie numerice</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Numărul '{0}' nu poate fi negativ</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Editat acum un minut</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Creat acum {0} ore</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol nu este acceptat pentru tipul de element: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Nu se poate converti un obiect de tipul '{0}' la tipul '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>OAuth ClientId trebuie setat înainte să încercaţi să generaţi un token OAuth.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Editat de {0}, acum {1} minute</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operarea este permisă numai din firul interfeţei cu utilizatorul</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Redarea SceneView necesită minimum 256MB (268.435.456 biți) de memorie</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' nu este de tipul de date necesar '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Resursa {0} este necunoscută. Serverul trebuie să fie înregistrat.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Serie nevalidă introdusă, se aştepta ']'.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Nu s-a putut converti la 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Editat de {0} pe {1} la {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Perioada de autentificare din Autentificarea la portal a expirat. Utilizatorul trebuie să se autentifice din nou.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' nu a fost găsit în lista de tipuri de obiecte spaţiale aşteptate.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' a fost apelat fără niciun corespondent '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>Şirul JSON este nevalid sau neacceptat.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Cel puţin unul din puncte este nul.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Creat cu o oră în urmă</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Valoarea nu poate fi mai mică decât zero.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Politica '{0}' nu este validă pentru 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Tipul de strat tematic {0} nu este suportat.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Nicio hartă nu a fost asociată cu editorul.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Acest serviciu nu poate fi pornit, deoarece rulează deja pe LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Editat de {0}, acum {1} ore</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Tokenul nu poate fi reîmprospătat</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' a fost apelat în afara unui obiect.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>Parametrul ArcGISRuntimeEnvironment.SymbolsPath nu a fost specificat. Setaţi ArcGISRuntimeEnvironment.SymbolsPath la calea către directorul 'symbols' al instalării ArcGISRuntime. Calea poate fi specificată în raport cu locaţia în care a fost instalată aplicaţia, de exemplu "".\Assets\symbols"".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Valori MinScale şi MaxScale nevalide. Intervalul specificat pentru scară trebuie să se încadreze între {0} şi {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Creat de {0} pe {1} la {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem trebuie salvat într-un portal şi conţine un ID valid.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Tipul de geometrie lipseşte sau nu este suportat</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Nu se poate deserializa un grafic de obiect în tipul '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometria nu poate fi reproiectată.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Creat de {0}, acum câteva secunde</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Nu se poate converti în şir de caractere.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} este doar pentru utilizare internă</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Înainte de a putea fi aplicată vreo editare, obiectul spaţial trebuie iniţializat.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Nu se poate efectua ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Editat de {0}, acum un minut</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>Elementele TimeWindow nu sunt suportate.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer nu răspunde la solicitări şi este posibil să fi căzut.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Eroare de licenţă cu ArcGISRuntimeEnvironment. Licenţa principală este nevalidă.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Atributul '{0}' există deja în grafic, care nu ar trebui să fie prezent în obiectele spaţiale care încă nu există în serviciul de obiecte spaţiale.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Eroare la iniţializarea ArcGISRuntimeEnvironment. Instalarea ArcGISRuntime nu poate fi încărcată</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Nu s-a reuşit setarea contextului Open GL pentru hartă</value>
+  </data>
+</root>

@@ -1,0 +1,76 @@
+@string/appbar_scrolling_view_behavior;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+alpha;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\enterfromleft.xml
+alpha;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\toolbar.xml
+androidx.appcompat.widget.Toolbar;obj\Release\110\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\shellcontent.xml
+attr;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\attrs.xml
+bitmap;obj\Release\110\res\drawable\splash_screen.xml
+Button;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+color;obj\Release\110\res\drawable\splash_screen.xml
+color;obj\Release\110\res\values\color.xml
+com.google.android.material.appbar.AppBarLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\tabbar.xml
+com.google.android.material.tabs.TabLayout;obj\Release\110\res\layout\tabbar.xml
+corners;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\thumb.xml
+declare-styleable;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\attrs.xml
+Esri.ArcGISRuntime.Toolkit.Primitives.Tickbar;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+FrameLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\bottomtablayout.xml
+group;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pausefill.xml
+group;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pauseoutline.xml
+item;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousbutton.xml
+item;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\playpausebutton.xml
+item;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\styles.xml
+item;obj\Release\110\res\drawable\splash_screen.xml
+item;obj\Release\110\res\values\styles.xml
+layer-list;obj\Release\110\res\drawable\splash_screen.xml
+LinearLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\bottomtablayout.xml
+merge;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousfill.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousoutline.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pausefill.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pauseoutline.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\trianglefill.xml
+path;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\triangleoutline.xml
+resources;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\attrs.xml
+resources;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\strings.xml
+resources;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\styles.xml
+resources;obj\Release\110\res\values\color.xml
+resources;obj\Release\110\res\values\styles.xml
+selector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousbutton.xml
+selector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\playpausebutton.xml
+set;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\enterfromleft.xml
+set;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\enterfromright.xml
+set;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\exittoleft.xml
+set;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\exittoright.xml
+shape;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\thumb.xml
+solid;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\thumb.xml
+Space;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+string;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\strings.xml
+stroke;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\thumb.xml
+style;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\values\styles.xml
+style;obj\Release\110\res\values\styles.xml
+TextView;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+ToggleButton;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+translate;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\enterfromleft.xml
+translate;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\enterfromright.xml
+translate;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\exittoleft.xml
+translate;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\anim\exittoright.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousfill.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\nextpreviousoutline.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pausefill.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\pauseoutline.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\trianglefill.xml
+vector;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\drawable\triangleoutline.xml
+View;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\2\jl\res\layout\timeslider.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\110\lp\60\jl\res\layout\flyoutcontent.xml

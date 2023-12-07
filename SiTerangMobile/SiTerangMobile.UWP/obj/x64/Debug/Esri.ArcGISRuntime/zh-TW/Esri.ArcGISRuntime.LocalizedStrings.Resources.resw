@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>無法轉換成 '{0}' 陣列。</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>找不到具備最低功能的 Open GL 框架緩衝區配置</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB 值必須在 0 到 1 之間</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry 不符合服務的預期幾何類型 '{0}'。</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' 未設定。</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>無法在初始化 ArcGISRuntimeEnvironment 後設定 LocalServerApplicationStatePath。</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>如需詳細資訊，請參閱內部例外情況。</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>建立者 {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>圖徵表格未初始化。</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>無法將 null 轉換至值類型。</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>無法取得 LocatorServiceInfo。</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>無法從類型 {0} 的值轉換</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>執行服務時無法變更 {0}。</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>未設定權杖服務 URL。</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>不受支援的幾何類型。</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>必須先載入地圖再儲存至入口網站。</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV 剖析失敗。</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>在 {0} 分鐘前更新</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>空間參考無效。</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>無法啟動服務，因為已在執行含相同名稱 '{0}' 的 LocalService。</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>圖層不支援附件。</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>正在嘗試啟動已停止的 LocalService。</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\n儲存至 '{0}' 的傾印檔已損毀</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>傳入未結束的字串。</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>目前不支援團磚方案。</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>無法從串流讀取</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>無法在不存在的圖徵上執行編輯。</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>由 {0} 在幾秒鐘前編輯</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>服務未實作 '{0}' 端點。</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Bing 地圖圖層無法繪製，因為未提供 Bing 金鑰。</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Where 子句和幾何不可皆為 null。</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>匯出圖磚操作已刪除</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>使用 GraphicsSource 時不支援操作。</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>至少必須設定下列一個查詢參數: Text、Geometry、Where、ObjectIDs 或 TimeExtent。</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>正在嘗試停止未執行的 LocalService。</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>圖徵服務未提供必要的中繼資料。</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。延伸授權號碼 {0} 已到期。</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>匯出圖磚操作已取消</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>由 {0} 在 {1} (位於 {2}) 建立</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>無法在初始化 ArcGISRuntimeEnvironment 後設定 TempPath。</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。延伸授權號碼 {0} 無效。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>逸出錯誤。</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>必要功能 '{0}' 不適用此圖徵服務。</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>內部錯誤。</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>無法執行命令。</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>無法從 web 地圖圖層建立圖層。</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>定位器不支援交集功能</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>由 {0} 在 {1} (位於 {2}) 編輯</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>必須大於或等於零</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>在 {0} (位於 {1}) 編輯</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB 色彩字串必須指定三個或四個逗號分隔值</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>包含 null 幾何的屏障不受支援。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>傳入無效的陣列，預期為 '['。</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>初始化 MessageLayer 後即無法變更此屬性。</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>指定的路徑不存在。</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>不支援從字串以外的類型轉換</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>無法將符號序列化至 JSON。</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>服務不支援匯出圖磚</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} 為 null 或空白。</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>無法從類型 '{0}' 的服務圖層建立 ServiceFeatureTable。</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>檔案 {0} 已存在，並已將下載操作設定為不覆寫現有的檔案</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>無法在初始化圖層後變更屬性 '{0}'。</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>無法建立 RouteTask。</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>必須先初始化圖徵圖層才能執行驗證。</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>圖徵服務未提供必要的 [物件 ID] 欄位</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>初始化 ArcGISRuntimeEnvironment 時發生錯誤。找不到 ArcGISRuntime 部署資料夾。確定在應用程式可執行檔所在的相同資料夾中，具有名為 "{0}" 的資料夾，或將 ArcGISRuntimeEnvironment.InstallPath 設為參考替代位置。部署資料夾必須包含符合應用程式之處理架構的子資料夾。</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>在 {0} 小時前編輯</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>本機伺服器需要標準級別授權才能啟動。目前的授權級基別是基本 (請參閱 ArcGISRuntimeEnvironment.License.Level)。若為部署，您可以在 ArcGISRuntimeEnvironment.License.SetLicense() 中使用標準級別授權來初始化執行階段。如果您正在開發應用程式，則可避免在開發者模式中設定 ArcGISRuntimeEnvironment.ClientId 以嘗試 LocalServer。</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>zh-TW</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>部分內部錯誤。</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>為路徑指定的值無效。</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>服務未實作 '{0}' 和 '{1}' 端點。</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>匯出圖磚操作失敗</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold 和 ReportInterval 不可皆為零</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>無法在初始化 ArcGISRuntimeEnvironment 後設定 SymbolsPath。</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。主授權已到期。</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer 未初始化，因此沒有要停止的執行中服務。</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} 屬性未設定，無法建立服務。</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>入口網站項目對此操作無效。</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>受 WebMapViewModel 管理時無法直接修改圖層集合</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>由 {0} 在 {1} 分鐘前建立</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>由 {0} 在一小時前建立</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>類型 '{0}' 對「形狀類型」無效。</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>無法取得預設設定。</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>文字剖析失敗。</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>只能將一個 MessageLayer 新增至單一地圖。</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>無法在初始化 ArcGISRuntimeEnvironment 後設定用戶端 Id。</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>必須先設定 RedirectUri 再嘗試產生 OAuth 權杖。</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>無法建立 MapView。在 ArcGIS Runtime 部署中找不到必要的 'resources/shaders' 資料夾。</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>無效的電子郵件位址。</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>在 {0} (位於 {1}) 編輯</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>無法建立 '{0}'，因為含相同路徑的服務已在停止中。</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>由 {0} 在一分鐘前建立</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>找不到其中一個定位器檔案。</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>當服務進行時，無法設定該服務的名稱。只有在停止服務時才能設定名稱。</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>無效的色彩名稱: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>無法處理訊息。必須先將 MessageLayer 成功載入檢視 (地圖或場景) 中，才能呼叫 ProcessMessage。</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>無法建立 '{0}' 進行編輯，因為含相同路徑的服務已在執行 (做為不支援編輯的 '{1}' 的執行個體)。</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>初始化圖徵圖層後無法設定 {0} 屬性。</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}' 屬性不可為 null。</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>提供的 ClientId 無效。</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>無法地理編碼地址。</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' 未落在預期的範圍 '{1}-{2}'。</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl 必須與伺服器屬於相同的網域</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>傳入無效的物件，預期為 ':' 或 '}'。</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>正在嘗試停止未執行的 LocalServer。</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>定位器檔案具有不支援的空間參考。</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} 不可設為 null</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>伺服器上的附件操作失敗。</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>停用所有編輯選項後，就無法編輯幾何。</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>由 {0} 在一小時前編輯</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>地圖未處於就緒狀態。</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>無法存取位置服務</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>無效的相關字串，長度必須有 9 個字元，並且符合 DE-9IM 規格。</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>取消物件錯誤。</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>無法產生不含授權處理常式的 OAuth 權杖。將 AuthenticationManager.Current.OAuthAuthorizeHandler 設為有效的 IOAuthAuthorizeHandler 實作。</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>在 {0} (位於 {1}) 建立</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 是此功能唯一支援的空間參考。</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>此應用程式是使用開發者授權執行。此授權僅對開發和測試有效。</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>呼叫未初始化的地理編碼任務。</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>輸入位置缺少必要屬性。</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' 已超出必要欄位長度 '{1}'。</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>幾何為 null 或空白。</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit 必須是整數。</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>無法在包含不同空間參考的地圖上部署圖層。</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>服務未啟動，因此無法停止它。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>傳入無效的物件，預期為成員名稱。</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>伺服器程序在啟動期間非預期結束。</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>不支援混合的空間參考。</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>在 {0} (位於 {1}) 建立</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>無法從輸入游標讀取地址，或 reset() 傳回 false。</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>初始化圖層後即無法變更 '{0}' 屬性。</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>在一小時前編輯</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>在幾秒鐘前編輯</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>無法還原序列化圖層中繼資料。</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>無入口網站群組驅動圖徵內容。</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>無法建立定位器。</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>不支援陣列之還原序列化的類型 '{0}'。</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>由 {0} 在 {1} 小時前建立</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>無效的服務、不允許地圖匯出，或服務類型不受支援。</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>必要參數為 null 或空白。</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>尚未設定挑戰處理常式。</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>在 {0} 分鐘前建立</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>必須先使用 'Map.SaveAs' 方法將地圖儲存至入口網站。</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>圖徵服務不允許您 {0} 您未擁有的圖徵。</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>無法建立 {0} 的執行個體。</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>圖徵服務未提供必要的功能。</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>服務非預期停止。'{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>只有在 ArcGISRuntimeEnvironment 類別具備有效的 ClientId，且呼叫 ArcGISRuntimeEnvironment.Initialize 方法成功時，才能設定設權。</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>您無法將附件編輯儲存至伺服器上不存在的圖徵。 </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>使用 GraphicsSource 前，圖形集合必須空白。</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>載入圖層後將無法變更 RenderingMode。</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>無法載入 ArcGIS Runtime ({0}) 或其中一種依存性。 請確定已安裝「Microsoft Visual C++ 2015-2019 Redistributable」。</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>值為 NaN。</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>目前沒有使用者。只能由已登入的使用者儲存地圖。</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>無法擷取應用程式內容</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>無法將 'string' 轉換成 'DateTime'。</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>無法在初始化 ArcGISRuntimeEnvironment 後設定 InstallPath。</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>無法初始化 ArcGIS Runtime 核心。ArcGIS Runtime 核心庫無法存取。</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync 操作已逾時</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>未針對類型 '{0}' 定義無參數建構函式。</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>服務不含有效的圖磚方案</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>定位器的一或多個屬性無效。</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>無法解析。</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' 是 {1} 的必要屬性，且必須出現在圖徵服務上的現存圖徵中。</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>服務目前進行中且無法啟動。</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>在一分鐘前建立</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>無效的十六進位色彩格式</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>不支援字典的序列化/原序列化的類型 '{0}'，金鑰必須是字串或物件。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>傳入無效的物件，預期為 '{'。</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>無法明確加載 ArcGIS Runtime 核心庫，例外詳細資訊：{0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>在幾秒鐘前建立</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>找不到資源。</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>無法建立地理編碼器。</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>無法將渲染器序列化至 JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>無效的 JSON 基本型別: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>LocalServer 啟動失敗: 找不到可執行檔。</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。主授權不正確，在需要主授權情況下使用延伸授權。</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>停靠點沒有一致的路線名稱。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>傳入無效的字串，預期為 '\'"。</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>單位 '{0}' 對 'DirectionsLengthUnits' 無效。</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>值必須大於零。</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>只有經驗證的使用者可進行操作。</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>包含 null 幾何的停靠點不受支援。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>傳入無效的陣列，預期為 ','。</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{1}' 集合中的 '{0}' 必須擁有唯一 Id。</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>定位器檔案具有不支援的格式。</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>匯出圖磚操作已逾時</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>執行服務時無法變更 {0} 屬性。</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>正在嘗試啟動未停止的 LocalServer。</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>編輯者: {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。延伸授權號碼 {0} 不正確，在需要延伸授權情況下使用主授權。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>已超出 RecursionLimit。</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable 未實作 {0} 附件。</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB 值必須是數值</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>'{0}' 號碼不可為負</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>在一分鐘前編輯</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>在 {0} 小時前建立</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>不支援元素類型 '{0}' 的 GetSymbol。</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>無法將類型 '{0}' 的物件轉換為類型 '{1}'。</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>必須先設定 OAuth ClientId 再嘗試產生 OAuth 權杖。</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>由 {0} 在 {1} 分鐘前編輯</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>僅允許從 UI 執行緒操作</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView 渲染需要至少 256 MB (268、435、456 位元組) 的記憶體</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' 不是必要的資料類型 '{1}'。</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>不明資源 {0}。需要登錄伺服器。</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>傳入無效的陣列，預期為 ']'。</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>無法轉換成 'TimeExtent'。</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>由 {0} 在 {1} (位於 {2}) 編輯</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>從入口網站驗證的登入期間已到期。使用者將需要重要登入。</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>在預期的圖徵類型清單中找不到 '{0}'。</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' 已呼叫，但沒有符合的 '{1}'。</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON 字串無效或不受支援。</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>點中至少有一點為 null。</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>在一小時前建立</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>值不能小於零。</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>政策 '{0}' 對「Uturn 政策」無效。</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>圖層類型 {0} 不受支援。</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>沒有編輯器的相關地圖。</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>無法啟動此服務，因為該服務已在 LocalServer 上執行。</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>由 {0} 在 {1} 小時前編輯</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>無法重新整理權杖</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>已在物件外部呼叫 '{0}'。</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>未指定 ArcGISRuntimeEnvironment.SymbolsPath。將 ArcGISRuntimeEnvironment.SymbolsPath 設為 ArcGISRuntime 部署 'symbols' 資料夾的路徑。可將路徑指定為相對於應用程式的安裝位置，例如 ".\Assets\symbols"。</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>無效的 MinScale 和 MaxScale 值。指定的比例範圍必須介於 {0} 到 {1} 之間。</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>由 {0} 在 {1} (位於 {2}) 建立</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem 必須儲存至入口網站並包含有效的 ID。</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>遺失或不支援的幾何類型</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>無法將物件圖形還原序列化至類型 '{0}'。</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>幾何無法重新計算。</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>由 {0} 在幾秒鐘前建立</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>無法轉換成字串。</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} 僅供內部使用</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>圖徵必須先初始化，才能套用任何編輯。</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>無法 ReverseGeocode。</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>由 {0} 在一分鐘前編輯</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows 不受支援。</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer 目前未回應請求並可能已損毀。</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 授權錯誤。主授權無效。</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>'{0}' 屬性已存在圖形上，不應顯示在圖徵服務還不存在的圖徵中。</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>初始化 ArcGISRuntimeEnvironment 時發生錯誤。無法載入 ArcGISRuntime 部署</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>無法設定地圖的 Open GL 內容</value>
+  </data>
+</root>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>'{0}' dizesine dönüştürülemiyor.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Minimum özelliklere sahip bir Open GL çerçevesi tampon yapılandırması bulunamadı</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB değerleri 0 ile 1 arasında olmalıdır</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry, servisinin beklenen geometri türü '{0}' ile eşleşmiyor.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' ayarlanmadı.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatıldıktan sonra LocalServerApplicationStatePath ayarlanamaz.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Ayrıntılar için iç özel durumu inceleyin.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Oluşturan {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Detay tablosu başlatılmadı.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Null bir değer türüne dönüştürülemez.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>LocatorServiceInfo alınamıyor.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>{0} türünde değerden dönüşüm yapılamaz</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Hizmet çalıştırılırken {0} değiştirilemez.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Belirteç hizmeti URL'si ayarlanmamış.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Geometri tipi desteklenmiyor.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Bir portala kaydedilebilmesi için haritanın önce yüklenmesi gerekir.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV ayrıştırması başarısız oldu.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>{0} dakika önce düzenlendi</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Mekansal referans geçersiz.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Aynı '{0}' adına sahip bir LocalService zaten çalıştığından servis başlatılamıyor.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Katman ekleri desteklemiyor.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Bir LocalService durdurulduğunda başlatılmaya çalışılıyor.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nKilitlenme bilgisi şuraya kaydedildi: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Sonlandırılmamış dize geçirildi.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Döşeme şeması şu anda desteklenmiyor.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Akıştan okunamıyor</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Olmayan bir detay üzerinde düzenleme yapamazsınız.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>{0} tarafından birkaç saniye önce düzenlendi</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Hizmet '{0}' uç noktasını uygulamıyor.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Bing Haritası katmanı, herhangi bir bing anahtarı sunulmadığından çizilemiyor.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Where yantümleci ve geometrinin her ikisi de null olamaz.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Döşeme dışa aktarma işlemi silindi</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>İşlem, GraphicsSource kullanılırken desteklenmez.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Aşağıdaki sorgu parametrelerinden en az biri: Text, Geometry, Where, ObjectIDs ya da TimeExtent ayarlanmalıdır.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Bir LocalService çalışmadığında durdurulmaya çalışılıyor.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Detay servisi gereken meta veriyi sağlamıyor.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Genişletme lisans numarası {0} sona erdi.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Döşeme dışa aktarma işlemi iptal edildi</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>{0} tarafından {1} tarihinde saat {2}'de oluşturuldu</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatıldıktan sonra TempPath ayarlanamaz.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Genişletme lisans numarası {0} geçersiz.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Bozuk çıkış.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Gereken '{0}' yeteneği bu detay servisi için kullanılabilir değil.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>İç hata.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Komut yürütülemiyor.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Webmap katmanından katman oluşturulamıyor.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Konumlandırıcı, kesişim işlevini desteklemiyor.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>{0} tarafından {1} tarihinde saat {2}’de düzenlendi</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Sıfırdan büyük veya ona eşit olmalıdır</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>{0} tarihinde saat {1}’de düzenlendi</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB renk dizeleri virgülle ayrılmış üç veya dört değer belirtmelidir</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Null geometrili engeller desteklenmez.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Geçersiz dizi geçirildi, '[' bekleniyordu.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Bu özellik, MessageLayer başlatıldıktan sonra değiştirilemez.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Belirtilen Yol mevcut değil.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Dize dışındaki türlerden dönüşüm desteklenmiyor</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Sembol, JSON'a serileştirilebilir değil.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Servis döşemelerin dışa aktarımını desteklemiyor</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} null ya da boş.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>ServiceFeatureTable şu servis katmanı türünden oluşturulamaz: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>{0} dosyası zaten var ve indirme işlemi var olan dosyanın üzerine yazmak için ayarlanmamış</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>'{0}' özelliği, katman başlatıldıktan sonra değiştirilemez.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>RouteTask oluşturulamıyor.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>FeatureLayer, doğrulamayı yapmak için başlatılmalıdır.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Detay servisi gereken Nesne Kimliğin alanını sağlamıyor.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatılırken hata oluştu. ArcGISRuntime dağıtım klasörü bulunamıyor. Yürütülebilir uygulama dosyanızın bulunduğu klasörde “{0}” adlı bir klasörün bulunduğundan emin olun veya ArcGISRuntimeEnvironment.InstallPath öğesini başka bir klasöre referans verecek şekilde ayarlayın. Dağıtım klasörü, uygulamanızın süreç mimarisiyle eşleşen alt klasörler içermelidir.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>{0} saat önce düzenlendi</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Yerel Sunucu için standart seviyeli bir lisans başlatılması gerekiyor. Geçerli lisans seviyesi temeldir (bkz. ArcGISRuntimeEnvironment.License.Level). Bir dağıtım için çalışma zamanını ArcGISRuntimeEnvironment.License.SetLicense() içinde standart seviyeli bir lisans ile başlatabilirsiniz. Bir uygulama geliştiriyorsanız LocalServer'ı denemek için geliştirici modunda kalmak amacıyla ArcGISRuntimeEnvironment.ClientId ayarlamaktan kaçınabilirsiniz.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>tr</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>İç hata.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Yol için geçersiz değer belirtildi.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Hizmet '{0}' ve '{1}' uç noktalarını uygulamıyor.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Döşeme dışa aktarma işlemi başarısız</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold ve ReportInterval özelliklerinin her ikisi birden sıfır olamaz</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatıldıktan sonra SymbolsPath ayarlanamaz.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Ana lisans sona erdi.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer başlatılmadı, sonuç olarak durdurulacak çalışan hizmet yok.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} özelliği ayarlanmamış, hizmet oluşturulamıyor.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Portal öğesi bu işlem için geçersiz.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>WebMapViewModel ile yönetildiğinde katmanlar koleksiyonu doğrudan değiştirilemez</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>{0} tarafından {1} dakika önce oluşturuldu</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>{0} tarafından bir saat önce oluşturuldu</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>'{0}' türü, 'Shape Type' için geçerli değil.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Varsayılan ayarlar alınamıyor.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Metin ayrıştırılamadı.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Bir MessageLayer yalnızca tekil bir Haritaya eklenebilir.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatıldıktan sonra Client Id ayarlanamaz.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Bir OAuth belirteci üretmeyi denemeden önce RedirectUri ayarlanmalıdır.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Bir MapView oluşturulamıyor. Gereken 'kaynaklar/gölgelendiriciler' klasörü ArcGIS Runtime dağıtımında bulunamadı.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Geçersiz e-posta adresi.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>{0} tarihinde saat {1}’de düzenlendi</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Aynı yola sahip hizmet zaten durdurulmakta olduğundan '{0}' oluşturulamadı.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>{0} tarafından bir dakika önce oluşturuldu</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Konumlandırma dosyalarından biri bulunamadı.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Hizmet sürdürülürken hizmet adı ayarlanamaz. Ad, yalnızca hizmet durdurulduğunda ayarlanabilir.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Geçersiz renk adı: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Mesaj işlenemedi. ProcessMessage çağrılmadan önce MessageLayer bir Görünüme (Harita ya da Sahne) başarıyla yüklenmiş olmalıdır.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Aynı yola sahip hizmet, düzenlenmeyi desteklemeyen bir '{1}' örneği olarak zaten çalıştığından düzenlenmek üzere bir '{0}' oluşturulamadı.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>{0} özelliği FeatureLayer başlatıldıktan sonra ayarlanamaz.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}' özniteliği null olamaz.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Sağlanan ClientId geçersiz.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Adres konum koduna dönüştürülemiyor.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}', beklenen '{1}-{2}' aralığında değil.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl sunucu ile aynı domaine sahip olmalıdır</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Geçersiz nesne geçirildi, ':' veya '}' bekleniyordu.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>LocalServer çalışmadığında durdurulmaya çalışılıyor.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Konumlandırma dosyasında desteklenmeyen çevresel başvuru var.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0}, boşluk olarak ayarlanamaz</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Sunucuda eklenti işlemi başarısız oldu.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Tüm düzenleme seçenekleri devre dışı olduğunda geometriyi düzenleyemezsiniz.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>{0} tarafından bir saat önce düzenlendi</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Harita hazır durumda değil.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Konum servislerine erişilemiyor</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Geçersiz ilişki dizgisi, 9 karakter uzunluğunda olmalı ve DE-9IM belirtimlerine uygun olmalıdır.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Nesne iptal hatası.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>OAuth belirteci, kimlik doğrulama tutamağı olmadan üretilemiyor. AuthenticationManager.Current.OAuthAuthorizeHandler değerini, geçerli bir IOAuthAuthorizeHandler uygulamasına ayarlayın.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>{0} tarihinde saat {1}’de oluşturuldu</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84, bu işlem için desteklenen tek mekansal başvurudur.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Bu uygulama geliştirici lisansı kullanılarak çalışıyor. Bu lisans yalnızca geliştirme ve test için geçerlidir.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Başlatılmayan konum kodu görevi çağrısı.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Girdi konumunda gereken bir öznitelik eksik.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' gereken '{1}' alan uzunluğunu aştı.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometri null ya da boş.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit pozitif tamsayı olmalıdır.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Katman farklı mekansal referansa sahip bir Haritada görüntülenemez.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Hizmet başlatılmadı, bu nedenle durdurulamaz.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Geçersiz nesne geçirildi, üye adı bekleniyordu.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Açılış sırasında sunucu işleminden beklenmedik şekilde çıkıldı.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Karma çevresel başvurular desteklenmez.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>{0} tarihinde saat {1}’de oluşturuldu</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Girdi imlecinden adres okunamıyor veya reset() false değerini döndürüyor.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Katman başlatıldıktan sonra '{0}' özelliği değiştirilemez.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Bir saat önce düzenlendi</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Birkaç saniye önce düzenlendi</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Katman Meta Verisinin serileştirmesi geri alınamıyor.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Barındırılan içeriği süren bir portal grubu yok.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Konumlandırıcı oluşturulamıyor.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>'{0}' türü, dizinin serileştirme kaldırması için desteklenmiyor.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>{0} tarafından {1} saat önce oluşturuldu</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Geçersiz servis, Harita Dışa Aktarımına izin verilmedi ya da servis türü desteklenmiyor.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Gerekli parametre null ya da boş.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Zorluk tutamağı ayarlanmadı.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>{0} dakika önce oluşturuldu</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Harita 'Map.SaveAs' yöntemi kullanılarak öncelikle bir portala kaydedilmelidir.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Detay servisi, size ait olmayan bir detay üzerinde {0} işlemi yapmanıza izin vermiyor.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>{0} örneği oluşturulamıyor.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Detay servisi gereken yetenekleri sağlamıyor.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Hizmet beklenmedik biçimde durduruldu. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Bir lisans yalnızca ArcGISRuntimeEnvironment sınıfında geçerli bir ClientId olduğunda ve bir ArcGISRuntimeEnvironment.Initialize yöntemi çağrısı başarılı olduğunda ayarlanabilir.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Ek düzenlemelerini sunucuda olmayan bir detaya kaydedemezsiniz. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Grafik koleksiyonu, GraphicsSource kullanılmadan önce boş olmalıdır.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Katman yüklendiğinde RenderingMode değiştirilemez.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>ArcGIS Runtime ({0}) veya bağımlılıklarından biri yüklenemedi. "Microsoft Visual C++ 2015-2019 Redistributable" kurulu olduğundan emin olun.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Değer: NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Geçerli kullanıcı yok. Haritalar yalnızca oturum açmış bir kullanıcı tarafından kaydedilebilir.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Uygulama kapsamı alınamıyor</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>'string' öğesi 'DateTime' öğesine dönüştürülemedi.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatıldıktan sonra InstallPath ayarlanamaz.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime çekirdeği başlatılamadı. ArcGIS Runtime çekirdek kitaplığına erişilemiyor.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync işlemi zaman aşımına uğradı</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>'{0}' türü için parametresiz oluşturucu tanımlanmamış.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Servis geçerli bir döşeme şeması içermiyor</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Konumlandırıcı özelliklerinden biri veya birkaçı geçersiz.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Çözümlenemiyor.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}', {1} için gerekli bir öznitelik ve detay servisinde var olan detaylarda bulunması gerekiyor.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Hizmet şu anda sürdürülüyor ve başlatılamıyor.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Bir dakika önce oluşturuldu</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Geçersiz altılı renk biçimi</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>'{0}' türü, bir sözlüğü serileştirme/serileştirme kaldırma için desteklenmiyor, anahtarlar dize ya da nesne olmalıdır.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Geçersiz nesne geçirildi, '{' bekleniyordu.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime çekirdek kitaplığı, Özel durum ayrıntıları: {0} açıkça yüklenemedi</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Birkaç saniye önce oluşturuldu</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Kaynak konumlandırılamadı.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Konum kodlayıcı oluşturulamadı.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>İşleyici JSON için serileştirilemez</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Geçersiz JSON eski adı: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>LocalServer başlatma başarısız oldu: yürütülebilir dosya bulunamadı.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Ana lisans yanlış, bir ana lisans gereken yerde bir genişletme lisansı kullanılıyor.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Durakların tutarlı yol adları yok.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Geçersiz dizgi geçirildi, '\'" bekleniyor.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>'{0}' birimi 'DirectionsLengthUnits' için geçerli değil.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Değer sıfırdan büyük olmalıdır.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>İşlem yalnızca kimliği doğrulamış kullanıcılar için kullanılabilir.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Null geometrili duraklar desteklenmez.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Geçersiz dizi geçirildi, ',' bekleniyordu.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{1}' koleksiyonundaki '{0}' öğesi benzersiz kimliklere sahip olmalıdır.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Konumlandırma dosyası desteklenmeyen biçime sahip.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Döşeme dışa aktarma işlemi süresi doldu</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Hizmet çalışırken {0} özelliği değiştirilemez.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Bir LocalServer durdurulmadığında başlatılmaya çalışılıyor.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>{0} tarafından düzenlendi</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Genişletme lisans numarası {0} yanlış, Bir genişletme lisansı gereken yerde ana lisans kullanılıyor.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit değeri aşıldı.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable, {0} eklentilerini uygulamıyor.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB değerleri sayısal olmalıdır</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>'{0}' sayısı negatif olamaz</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Bir dakika önce düzenlendi</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>{0} saat önce oluşturuldu</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol şu öğe türü için desteklenmez: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>'{0}' nesne türü '{1}' türüne dönüştürülemiyor.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Bir OAuth belirteci üretmeyi denemeden önce OAuth ClientId ayarlanmalıdır.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>{0} tarafından {1} dakika önce düzenlendi</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>İşleme yalnızca UI Thread içinden izin verilir</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView oluşturma en az 256 MB (268.435.456 bayt) bellek gerektirir</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}', gereken '{1}' veri türünde değil.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Bilinmeyen kaynak {0}. Sunucunun kaydedilmesi gerekiyor.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Geçersiz dizi geçirildi, ']' bekleniyordu.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>'TimeExtent' öğesine dönüştürülemedi.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>{0} tarafından {1} tarihinde saat {2}’de düzenlendi</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Portal kimlik doğrulaması oturum süresi sona erdi. Kullanıcının yeniden oturum açması gerekli.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' beklenen özellik türleri listesinde bulunamadı.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}', eşleşen '{1}' olmaksızın çağrıldı.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON dizesi geçersiz veya desteklenmiyor.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Noktalar içinde en az bir nokta null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Bir saat önce oluşturuldu</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Değer sıfırdan küçük olamaz.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>'{0}' ilkesi, 'Uturn Policy' için geçerli değil.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Katman türü {0} desteklenmiyor.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Editör ile ilişkilendirilen bir harita yok.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Zaten LocalServer üzerinde çalıştığı için bu hizmet başlatılamıyor.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>{0} tarafından {1} saat önce düzenlendi</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Belirteç yenilenemiyor</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}', bir nesnenin dışından çağrıldı.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath belirtilmedi. ArcGISRuntimeEnvironment.SymbolsPath yolunu ArcGISRuntime dağıtımı 'semboller' klasörünün yoluna ayarlayın. Yol uygulamanın yüklendiği konumuna göre örneğin ".\Assets\symbols" şeklinde ayarlanabilir.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Geçersiz MinScale ve MaxScale değerleri. Belirtilen ölçek aralığı {0} ile {1} arasında olmalıdır.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>{0} tarafından {1} tarihinde saat {2}'de oluşturuldu</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem bir portala kaydedilmeli ve geçerli bir kimlik bulundurmalıdır.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Eksik veya desteklenmeyen geometri türü</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Nesne grafiği serileştirme kaldırması '{0}' türüne uygulanamıyor.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometri yeniden yönlendirilemez.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>{0} tarafından birkaç saniye önce oluşturuldu</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Dizeye dönüştürülemez.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} yalnızca dahili kullanım içindir</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Herhangi bir düzenleme uygulanmadan önce özellik başlatılmalıdır.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>ReverseGeocode yapılamıyor.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>{0} tarafından bir dakika önce düzenlendi</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows desteklenmiyor.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer isteklere yanıt vermiyor ve çökmüş olabilir.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment ile lisans hatası. Ana lisans geçersiz.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>'{0}' özniteliği, detay servisinde var olmayan detaylar üzerinde var olmaması gereken grafik üzerinde zaten mevcut.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment başlatılırken hata oluştu. ArcGISRuntime dağıtımı yüklenemiyor</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Haritada Open GL kapsamı ayarlanamadı</value>
+  </data>
+</root>

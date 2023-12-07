@@ -1,0 +1,111 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\ActionBar\edit.png" />
+    <None Remove="Assets\ActionBar\map-marker-radius.png" />
+    <None Remove="Assets\ActionBar\pencil.png" />
+    <None Remove="Assets\ActionBar\tune-variant.png" />
+    <None Remove="Assets\ActionBar\view-grid.png" />
+    <None Remove="Assets\eye-off.png" />
+    <None Remove="Assets\eye.png" />
+    <None Remove="Assets\lock-open-variant.png" />
+    <None Remove="Assets\logo.png" />
+    <None Remove="Assets\logo_text_yellow.png" />
+    <None Remove="Assets\Menu\menu01.png" />
+    <None Remove="Assets\Menu\menu02.png" />
+    <None Remove="Assets\Menu\menu03.png" />
+    <None Remove="Assets\Menu\menu04.png" />
+    <None Remove="Assets\Menu\menu05.png" />
+    <None Remove="Assets\Menu\menu06.png" />
+    <None Remove="Assets\Menu\menu07.png" />
+    <None Remove="Assets\Menu\menu08.png" />
+    <None Remove="Assets\Menu\menu09.png" />
+    <None Remove="Assets\Menu\menu10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="Assets\ActionBar\pencil.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\ActionBar\edit.png" />
+    <EmbeddedResource Include="Assets\ActionBar\map-marker-radius.png" />
+    <EmbeddedResource Include="Assets\ActionBar\tune-variant.png" />
+    <EmbeddedResource Include="Assets\ActionBar\view-grid.png" />
+    <EmbeddedResource Include="Assets\eye-off.png" />
+    <EmbeddedResource Include="Assets\eye.png" />
+    <EmbeddedResource Include="Assets\lock-open-variant.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\logo.png" />
+    <EmbeddedResource Include="Assets\logo_text_yellow.png" />
+    <EmbeddedResource Include="Assets\Menu\menu01.png" />
+    <EmbeddedResource Include="Assets\Menu\menu02.png" />
+    <EmbeddedResource Include="Assets\Menu\menu03.png" />
+    <EmbeddedResource Include="Assets\Menu\menu04.png" />
+    <EmbeddedResource Include="Assets\Menu\menu05.png" />
+    <EmbeddedResource Include="Assets\Menu\menu06.png" />
+    <EmbeddedResource Include="Assets\Menu\menu07.png" />
+    <EmbeddedResource Include="Assets\Menu\menu08.png" />
+    <EmbeddedResource Include="Assets\Menu\menu09.png" />
+    <EmbeddedResource Include="Assets\Menu\menu10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Esri.ArcGISRuntime" Version="100.14.0" PrivateAssets="none" />
+    <PackageReference Include="Esri.ArcGISRuntime.Toolkit.Xamarin.Forms" Version="100.14.0" />
+    <PackageReference Include="Esri.ArcGISRuntime.Xamarin.Forms" Version="100.14.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MapMenuPage.xaml.cs">
+      <DependentUpon>MapMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Pages\MapPage.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\PelangganMenuPage.xaml.cs">
+      <DependentUpon>PelangganMenuPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\LayerVisibilityMap.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MapMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\PasswordEntry.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\PelangganMapPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\PelangganMenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

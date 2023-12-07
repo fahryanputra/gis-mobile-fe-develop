@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Tooltip" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="ThumbnailBitmap" />
+    <RootPropertyPathName Name="Value" />
+    <RootPropertyPathName Name="ErrorMessage" />
+    <RootPropertyPathName Name="Items" />
+    <RootPropertyPathName Name="IsBrowseOpen" />
+    <RootPropertyPathName Name="AllFacilities" />
+    <RootPropertyPathName Name="SelectedFacility" />
+    <RootPropertyPathName Name="SelectedSite" />
+    <RootPropertyPathName Name="Facilities" />
+    <RootPropertyPathName Name="AllSites" />
+    <RootPropertyPathName Name="ShowSiteNameSubtitle" />
+    <RootPropertyPathName Name="ShowFacilityBrowseLabel" />
+    <RootPropertyPathName Name="DisplayLevels" />
+    <RootPropertyPathName Name="SelectedLevel" />
+    <RootPropertyPathName Name="AllDisplayLevelsSelected" />
+    <RootPropertyPathName Name="ShowAllFloorsButton" />
+    <RootPropertyPathName Name="Site" />
+    <RootPropertyPathName Name="ShortName" />
+    <RootPropertyPathName Name="Symbol" />
+    <RootPropertyPathName Name="Content" />
+    <RootPropertyPathName Name="SketchEditor" />
+    <RootPropertyPathName Name="RedoCommand" />
+    <RootPropertyPathName Name="UndoCommand" />
+    <RootPropertyPathName Name="SelectedLinearUnit" />
+    <RootPropertyPathName Name="PluralDisplayName" />
+    <RootPropertyPathName Name="SelectedAreaUnit" />
+    <RootPropertyPathName Name="Map" />
+    <RootPropertyPathName Name="LoadStatus" />
+    <RootPropertyPathName Name="CustomDescriptionHtml" />
+    <RootPropertyPathName Name="DisplayedFields" />
+    <RootPropertyPathName Name="FormattedValue" />
+    <RootPropertyPathName Name="Field" />
+    <RootPropertyPathName Name="Label" />
+    <RootPropertyPathName Name="EditSummary" />
+    <RootPropertyPathName Name="Width" />
+    <RootPropertyPathName Name="EnableRepeatSearchHereButton" />
+    <RootPropertyPathName Name="RepeatSearchHereCommand" />
+    <RootPropertyPathName Name="SearchViewModel" />
+    <RootPropertyPathName Name="IsEligibleForRequery" />
+    <RootPropertyPathName Name="IsSourceSelectOpen" />
+    <RootPropertyPathName Name="Sources" />
+    <RootPropertyPathName Name="ActiveSource" />
+    <RootPropertyPathName Name="ResultViewVisibility" />
+    <RootPropertyPathName Name="ResultMessageVisibility" />
+    <RootPropertyPathName Name="Results" />
+    <RootPropertyPathName Name="Count" />
+    <RootPropertyPathName Name="SelectedResult" />
+    <RootPropertyPathName Name="Suggestions" />
+    <RootPropertyPathName Name="GroupedSuggestions" />
+    <RootPropertyPathName Name="SourceSelectVisibility" />
+    <RootPropertyPathName Name="Key" />
+    <RootPropertyPathName Name="DisplayName" />
+    <RootPropertyPathName Name="SelectedSuggestion" />
+    <RootPropertyPathName Name="IsWaiting" />
+    <RootPropertyPathName Name="SearchCommand" />
+    <RootPropertyPathName Name="ClearCommand" />
+    <RootPropertyPathName Name="Text" />
+    <RootPropertyPathName Name="ActivePlaceholder" />
+    <RootPropertyPathName Name="CurrentQuery" />
+    <RootPropertyPathName Name="DisplayTitle" />
+    <RootPropertyPathName Name="IsCollection" />
+    <RootPropertyPathName Name="DisplaySubtitle" />
+    <RootPropertyPathName Name="MarkerImageSource" />
+    <RootPropertyPathName Name="CurrentExtent" />
+    <RootPropertyPathName Name="EndTime" />
+    <RootPropertyPathName Name="StartTime" />
+    <RootPropertyPathName Name="Parent" />
+    <RootPropertyPathName Name="TickFill" />
+    <RootPropertyPathName Name="TickLabelColor" />
+    <RootPropertyPathName Name="Height" />
+    <RootPropertyPathName Name="FullExtent" />
+    <RootPropertyPathName Name="PlaybackButtonsStroke" />
+    <RootPropertyPathName Name="PlaybackButtonsFill" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="ThemeDictionaries" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Imaging.BitmapImage">
+      <RootProperty Name="UriSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="BackgroundSizing" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="IsTabStop" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.BasemapGallery">
+      <RootProperty Name="GridItemTemplate" />
+      <RootProperty Name="ListItemTemplate" />
+      <RootProperty Name="ListItemContainerStyle" />
+      <RootProperty Name="GridItemContainerStyle" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FlowDirection" />
+      <RootProperty Name="Height" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.UWPCustomListView">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="HorizontalScrollMode" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="IsHorizontalRailEnabled" />
+      <RootProperty Name="IsVerticalRailEnabled" />
+      <RootProperty Name="IsDeferredScrollingEnabled" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="Content" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetVerticalScrollMode" />
+      <RootMethod Name="SetVerticalScrollMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="IsIndeterminate" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="ConverterParameter" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="UpdateSourceTrigger" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalTextAlignment" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="TextTrimming" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BackgroundSizing" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+      <RootProperty Name="Transitions" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="Storyboard" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetTargetName" />
+      <RootMethod Name="SetTargetName" />
+      <RootMethod Name="GetTargetProperty" />
+      <RootMethod Name="SetTargetProperty" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="To" />
+      <RootProperty Name="Duration" />
+      <RootProperty Name="BeginTime" />
+      <RootProperty Name="From" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ObjectAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+      <RootProperty Name="Duration" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DiscreteObjectKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.BookmarksView">
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="ItemTemplateSelector" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="GroupStyle" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.Compass" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualTransition">
+      <RootProperty Name="To" />
+      <RootProperty Name="GeneratedDuration" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Path">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Data" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.EllipseGeometry">
+      <RootProperty Name="Center" />
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.RotateTransform" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.FeatureDataField">
+      <RootProperty Name="SelectorTemplate" />
+      <RootProperty Name="InputTemplate" />
+      <RootProperty Name="ReadOnlyTemplate" />
+      <RootMethod Name="GetTextBoxChangedListener" />
+      <RootMethod Name="SetTextBoxChangedListener" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="HorizontalTextAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Visibility" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Color" />
+    <RootType FullName="System.Double" />
+    <RootType FullName="Windows.UI.Xaml.Media.FontFamily" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.BoolToVisibilityConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.FilteringListView">
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="NoResultsMessage" />
+      <RootProperty Name="Placeholder" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton">
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ButtonBase" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.FloorFilter">
+      <RootProperty Name="BrowseLabel" />
+      <RootProperty Name="BrowseSitesLabel" />
+      <RootProperty Name="BrowseFacilitiesLabel" />
+      <RootProperty Name="CloseLabel" />
+      <RootProperty Name="CollapseLabel" />
+      <RootProperty Name="ExpandLabel" />
+      <RootProperty Name="ZoomToLabel" />
+      <RootProperty Name="NoResultsMessage" />
+      <RootProperty Name="AllFacilitiesLabel" />
+      <RootProperty Name="BackButtonLabel" />
+      <RootProperty Name="AllFloorsLabel" />
+      <RootProperty Name="SearchPlaceholder" />
+      <RootProperty Name="LevelDataTemplate" />
+      <RootProperty Name="SiteDataTemplate" />
+      <RootProperty Name="FacilityDataTemplate" />
+      <RootProperty Name="DifferentiatingFacilityDataTemplate" />
+      <RootProperty Name="CommonListStyle" />
+      <RootProperty Name="ExpandCollapseButtonStyle" />
+      <RootProperty Name="BrowseButtonStyle" />
+      <RootProperty Name="ZoomToButtonStyle" />
+      <RootMethod Name="GetIsExpanded" />
+      <RootMethod Name="SetIsExpanded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerDownThemeAnimation" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.LayerLegend">
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.SymbolDisplay">
+      <RootProperty Name="Symbol" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.Legend">
+      <RootProperty Name="LayerItemTemplate" />
+      <RootProperty Name="SublayerItemTemplate" />
+      <RootProperty Name="LegendInfoItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Thickness" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.MeasureToolbar" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.LoadStatusToVisibilityConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.OverviewMap" />
+    <RootType FullName="Esri.ArcGISRuntime.UI.Controls.MapView">
+      <RootProperty Name="IsAttributionTextVisible" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.PopupViewer" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.VisibilityConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.HtmlToPlainTextConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.ScaleLine">
+      <RootProperty Name="TargetWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="RadiusX" />
+      <RootProperty Name="RadiusY" />
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.EmptyStringToVisibilityConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.CollectionIsEmptyToBoolConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.CollectionIsSingletonToBoolConverter" />
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.NullToBoolSelectionConverter" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="IsHitTestVisible" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.SearchView">
+      <RootProperty Name="NoResultMessage" />
+      <RootProperty Name="AllSourceSelectText" />
+      <RootProperty Name="ClearSearchTooltipText" />
+      <RootProperty Name="SearchTooltipText" />
+      <RootProperty Name="RepeatSearchButtonText" />
+      <RootProperty Name="EnableDefaultWorldGeocoder" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="VerticalOffset" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="IsLightDismissEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
+      <RootProperty Name="IsSourceGrouped" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GroupStyle">
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="HeaderContainerStyle" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewHeaderItem" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPresenter" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingColorKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Thumb">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.UI.Controls.TimeSlider">
+      <RootProperty Name="ThumbFill" />
+      <RootProperty Name="ThumbStroke" />
+      <RootProperty Name="CurrentExtentFill" />
+      <RootProperty Name="FullExtentFill" />
+      <RootProperty Name="FullExtentStroke" />
+      <RootProperty Name="TimeStepIntervalTickFill" />
+      <RootProperty Name="PlaybackButtonsFill" />
+      <RootProperty Name="PlaybackButtonsStroke" />
+      <RootProperty Name="CurrentExtentLabelColor" />
+      <RootProperty Name="FullExtentLabelColor" />
+      <RootProperty Name="TimeStepIntervalLabelColor" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Internal.StringFormatConverter" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
+      <RootProperty Name="KeyFrames" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.SplineDoubleKeyFrame">
+      <RootProperty Name="KeyTime" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Line">
+      <RootProperty Name="X1" />
+      <RootProperty Name="Y1" />
+      <RootProperty Name="X2" />
+      <RootProperty Name="Y2" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetAlignRightWithPanel" />
+      <RootMethod Name="SetAlignRightWithPanel" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+      <RootMethod Name="GetAlignLeftWith" />
+      <RootMethod Name="SetAlignLeftWith" />
+      <RootMethod Name="GetAlignRightWith" />
+      <RootMethod Name="SetAlignRightWith" />
+      <RootMethod Name="GetAlignHorizontalCenterWith" />
+      <RootMethod Name="SetAlignHorizontalCenterWith" />
+      <RootMethod Name="GetAlignVerticalCenterWith" />
+      <RootMethod Name="SetAlignVerticalCenterWith" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.RepeatButton">
+      <RootProperty Name="Height" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Esri.ArcGISRuntime.Toolkit.Primitives.Tickbar">
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="TickFill" />
+      <RootProperty Name="TickLabelColor" />
+      <RootProperty Name="MinorTickmarkTemplate" />
+      <RootProperty Name="MajorTickmarkTemplate" />
+    </RootType>
+  </Roots.RootTypes>
+</Roots>

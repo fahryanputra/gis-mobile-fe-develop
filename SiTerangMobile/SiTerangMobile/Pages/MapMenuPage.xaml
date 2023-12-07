@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SiTerangMobile;assembly=SiTerangMobile"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             x:Class="SiTerangMobile.MapMenuPage">
+    <NavigationPage.TitleView>
+        <Label Text = "PETA LISTRIK" HorizontalTextAlignment="Center" FontSize="Title" FontAttributes="Bold" TextColor="White" FontFamily="roboto"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="PILIH MENU:" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" Padding="0, 10"/>
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1.2*"/>
+                        <RowDefinition Height="1.2*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" Grid.Row="0">
+                        <Frame x:Name="frame01" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu01.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Peta Jaringan" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="0">
+                        <Frame x:Name="frame02" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu02.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Peta Listrik Jakarta" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="0">
+                        <Frame x:Name="frame03" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnPelangganClicked"/>
+                            </Frame.GestureRecognizers>
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu03.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Pelanggan Sekitar" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="0">
+                        <Frame x:Name="frame04" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu04.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text='Pelanggan Kode "N"' HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="1">
+                        <Frame x:Name="frame05" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu05.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Pelanggan P2TL" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="1">
+                        <Frame x:Name="frame06" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu06.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Peta Tunggakan" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="1">
+                        <Frame x:Name="frame07" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu07.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Potensi Pasar" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="3" Grid.Row="1">
+                        <Frame x:Name="frame08" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu08.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Peta AMR" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="0" Grid.Row="2">
+                        <Frame x:Name="frame09" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu09.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Peta Lokasi SPLU" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="2">
+                        <Frame x:Name="frame10" Padding="0" WidthRequest="80" HeightRequest="80" HasShadow="True" CornerRadius="20" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Image Source="{local:ImageResource SiTerangMobile.Assets.Menu.menu10.png}" Scale=".7"/>
+                        </Frame>
+                        <Label Text="Pascabayar/prabayar" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

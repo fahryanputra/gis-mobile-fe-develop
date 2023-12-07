@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:esriUI="clr-namespace:Esri.ArcGISRuntime.Xamarin.Forms;assembly=Esri.ArcGISRuntime.Xamarin.Forms"
+             xmlns:mapping="clr-namespace:Esri.ArcGISRuntime.Mapping;assembly=Esri.ArcGISRuntime"
+             xmlns:toolkit="clr-namespace:Esri.ArcGISRuntime.Toolkit.Xamarin.Forms;assembly=Esri.ArcGISRuntime.Toolkit.Xamarin.Forms"
+             x:Class="SiTerangMobile.Pages.PelangganMapPage">
+    <NavigationPage.TitleView>
+        <Label Text = "PETA LOKASI PELANGGAN" HorizontalTextAlignment="Center" FontSize="Title" TextColor="White" Margin="0, 0, 75, 0"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <StackLayout Orientation="Vertical">
+                <Entry x:Name="queryEntry" Text="New York"/>
+                <Button Text="Search" Clicked="OnQueryClicked"/>
+            </StackLayout>
+            <esriUI:MapView x:Name="PelangganMapView" GeoViewTapped="PelangganMapTapped" Grid.Row="1"/>
+            <Grid  Grid.Row="2">
+                <toolkit:PopupViewer x:Name="PelangganPopup" IsVisible="False"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

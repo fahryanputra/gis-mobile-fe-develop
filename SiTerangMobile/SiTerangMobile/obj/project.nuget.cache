@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "sfo7+25Wv93pZUhh7czPqlf+5BbvnmHsH8yGCWV2B96QWU0dEft3P4Qaa2UOB1zcuuUqe5iLal29t4mhMOloPQ==",
+  "success": true,
+  "projectFilePath": "D:\\Work\\Xamarin Projects\\SiTerangMobile\\SiTerangMobile\\SiTerangMobile\\SiTerangMobile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fahry\\.nuget\\packages\\esri.arcgisruntime\\100.14.0\\esri.arcgisruntime.100.14.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\esri.arcgisruntime.toolkit\\100.14.0\\esri.arcgisruntime.toolkit.100.14.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\esri.arcgisruntime.toolkit.xamarin.forms\\100.14.0\\esri.arcgisruntime.toolkit.xamarin.forms.100.14.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\esri.arcgisruntime.xamarin.forms\\100.14.0\\esri.arcgisruntime.xamarin.forms.100.14.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
+    "C:\\Users\\fahry\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}

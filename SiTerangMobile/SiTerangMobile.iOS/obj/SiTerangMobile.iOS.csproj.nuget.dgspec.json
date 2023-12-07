@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\SiTerangMobile.iOS.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\SiTerangMobile.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\SiTerangMobile.iOS.csproj",
+        "projectName": "SiTerangMobile.iOS",
+        "projectPath": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\SiTerangMobile.iOS.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Esri.ArcGISRuntime": {
+              "target": "Package",
+              "version": "[100.14.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Δεν είναι δυνατή η μετατροπή σε πίνακα '{0}'.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Απέτυχε ο εντοπισμός διαμόρφωσης ζώνης πλαισίου Open GL με ελάχιστες δυνατότητες</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Οι τιμές scARGB πρέπει να είναι μεταξύ 0 και 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Η ιδιότητα Graphic.Geometry δεν αντιστοιχεί στον αναμενόμενο τύπο γεωμετρίας '{0}' της υπηρεσίας.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>Η τιμή 'Url' δεν έχει οριστεί.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του LocalServerApplicationStatePath μετά την αρχικοποίηση του ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Ανατρέξτε στην εσωτερική εξαίρεση για λεπτομέρειες.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Δημιουργήθηκε από το χρήστη {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Το Feature table δεν έχει αρχικοποιηθεί.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Δεν είναι δυνατή η μετατροπή πεδίου null σε τύπο τιμής.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Δεν είναι δυνατή η λήψη LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Δεν είναι δυνατή η μετατροπή από την τιμή τύπου {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Το {0} δεν είναι δυνατό να αλλάξει όταν εκτελείται η υπηρεσία.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Δεν έχει οριστεί η διεύθυνση URL της υπηρεσίας διακριτικών.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Ο τύπος γεωμετρίας δεν υποστηρίζεται.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Ο χάρτης πρέπει να φορτωθεί πριν από την αποθήκευση σε πύλη.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Η ανάλυση του CSV απέτυχε.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία πριν από {0} λεπτά.</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Η χωρική αναφορά δεν είναι έγκυρη.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Δεν είναι δυνατή η έναρξη της υπηρεσίας, επειδή εκτελείται ήδη μια υπηρεσία LocalService με το ίδιο όνομα '{0}'.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Το θεματικό επίπεδο δεν υποστηρίζει συνημμένα.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Γίνεται προσπάθεια εκκίνησης μιας υπηρεσίας LocalService ενώ η λειτουργία της δεν έχει διακοπεί.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nΤο αρχείο αποτύπωσης σφαλμάτων αποθηκεύτηκε στη θέση: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Μεταβιβάστηκε συμβολοσειρά που δεν τερματίζεται.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Το tiling scheme δεν υποστηρίζεται τη συγκεκριμένη στιγμή.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ανάγνωση από τη ροή</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εφαρμογή τροποποιήσεων σε ένα στοιχείο που δεν υπάρχει.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} πριν από μερικά δευτερόλεπτα.</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Η υπηρεσία δεν υλοποιεί το τελικό σημείο '{0}'.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σχεδίαση του Bing Map θεματικού επιπέδου επειδή δεν έχουν καταχωρηθεί κλειδιά bing.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Ο όρος where και η γεωμετρία δεν μπορούν να είναι και τα δύο null.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Η λειτουργία εξαγωγής tile διαγράφηκε</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Η λειτουργία δεν υποστηρίζεται όταν χρησιμοποιείται το GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Πρέπει να οριστεί τουλάχιστον μία από τις ακόλουθες παραμέτρους ερωτήματος: Text, Geometry, Where, ObjectIDs ή TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Γίνεται προσπάθεια διακοπής μιας υπηρεσίας LocalService ενώ δεν εκτελείται.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Το feature service δεν παρέχει τα απαιτούμενα μεταδεδομένα.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης στο ArcGISRuntimeEnvironment. Η επέκταση άδειας χρήσης με αριθμό {0} έληξε.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Η λειτουργία εξαγωγής tile ακυρώθηκε</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} στις {1} στις {2}.</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του TempPath μετά την αρχικοποίηση του ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης με το ArcGISRuntimeEnvironment. Ο αριθμός άδειας χρήσης επέκτασης {0} δεν είναι έγκυρος.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Εσφαλμένη διαφυγή.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Η απαιτούμενη δυνατότητα '{0}' δεν είναι διαθέσιμη για τo συγκεκριμένo feature service.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Εσωτερικό σφάλμα.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση της εντολής.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία του θεματικού επιπέδου από το webmap θεματικό επίπεδο.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Το Εργαλείο εντοπισμού δεν υποστηρίζει τη λειτουργία εντοπισμού διασταύρωσεων.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} στις {1} στις {2}.</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Πρέπει να είναι μεγαλύτερο από ή ίσο με το μηδέν</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία στις {0} στις {1}.</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>Οι συμβολοσειρές χρώματος scARGB πρέπει να προσδιορίζουν τρεις ή τέσσερις τιμές διαχωρισμένες με κόμματα</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Τα εμπόδια με γεωμετρία null δεν υποστηρίζονται.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρος πίνακας, ενώ αναμενόταν '['.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αλλαγή αυτής της ιδιότητας μετά την αρχικοποίηση του MessageLayer.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Η καθορισμένη διαδρομή δεν υπάρχει.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Δεν υποστηρίζεται η μετατροπή από τύπους εκτός της συμβολοσειράς</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σειριοποίηση του συμβόλου σε JSON</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Η υπηρεσία δεν υποστηρίζει την εξαγωγή tiles</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>Το στοιχείο {0} είναι null ή κενό.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία του ServiceFeatureTable από το επίπεδο υπηρεσίας με τύπο: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Το αρχείο {0} υπάρχει ήδη και η λειτουργία λήψης δεν έχει ρυθμιστεί για την αντικατάσταση των υφιστάμενων αρχείων</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αλλαγή της ιδιότητας '{0}' μετά την αρχικοποίηση του θεματικού επιπέδου.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Για να εκτελεστεί η επαλήθευση, πρέπει πρώτα να γίνει αρχικοποίηση του FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>To feature service δεν παρέχει το απαιτούμενο πεδίο Object ID.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα κατά την εκκίνηση του περιβάλλοντος ArcGISRuntimeEnvironment. Δεν είναι δυνατή η εύρεση του φακέλου ανάπτυξης ArcGISRuntime. Βεβαιωθείτε ότι υπάρχει ένας φάκελος με την ονομασία "{0}" στον ίδιο φάκελο με το εκτελέσιμο αρχείο της εφαρμογής σας ή ρυθμίστε το στοιχείο ArcGISRuntimeEnvironment.InstallPath ώστε να αναφέρει μια εναλλακτική τοποθεσία. Ο φάκελος ανάπτυξης πρέπει να περιέχει υποφακέλους που να συμφωνούν με την αρχιτεκτονική διαδικασιών της εφαρμογής σας.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία πριν από {0} ώρες.</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Ο τοπικός διακομιστής απαιτεί άδεια χρήσης τυπικού επιπέδου για να εκκινηθεί. Το τρέχον επίπεδο άδειας χρήσης είναι βασικό (ανατρέξτε στο ArcGISRuntimeEnvironment.License.Level). Για την ανάπτυξη, μπορείτε να προετοιμάσετε το χρόνο εκτέλεσης με άδεια χρήσης τυπικού επιπέδου στο ArcGISRuntimeEnvironment.License.SetLicense(). Αν αναπτύσσετε εφαρμογή, μπορείτε να αποφύγετε τη ρύθμιση του ArcGISRuntimeEnvironment.ClientId ώστε να παραμείνει στη λειτουργία προγραμματιστή για τη δοκιμή του LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>el</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Εσωτερικό σφάλμα.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Καθορίστηκε μη έγκυρη τιμή για τη διαδρομή.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Η υπηρεσία δεν υλοποιεί τα τελικά σημεία '{0}' και '{1}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Η λειτουργία εξαγωγής tile απέτυχε</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>Το MovementThreshold και το ReportInterval δεν μπορούν να είναι και τα δύο μηδέν</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του SymbolsPath μετά την αρχικοποίηση του ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης στο ArcGISRuntimeEnvironment. Η κύρια άδεια χρήσης έληξε.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>Δεν έχει γίνει προετοιμασία του LocalServer, επομένως δεν υπάρχουν εκτελούμενες υπηρεσίες προς διακοπή.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Η ιδιότητα {0} δεν έχει οριστεί. Δεν είναι δυνατή η δημιουργία υπηρεσίας.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Το αντικείμενο της πύλης δεν είναι έγκυρο για αυτήν τη λειτουργία.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Δεν είναι δυνατή η απευθείας τροποποίηση της συλλογής θεματικών επιπέδων όταν η διαχείριση γίνεται από το WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} πριν από {1} λεπτά.</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} πριν από μία ώρα.</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Ο τύπος '{0}' δεν είναι έγκυρος για το 'Shape Type'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Δεν είναι δυνατή η λήψη των προεπιλεγμένων ρυθμίσεων.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Η ανάλυση κειμένου απέτυχε.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Τα στοιχεία MessageLayer μπορούν να προστεθούν σε έναν μόνο χάρτη.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του αναγνωριστικού προγράμματος-πελάτη μετά την αρχικοποίηση του ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Το RedirectUri πρέπει να οριστεί πριν από την προσπάθεια δημιουργίας διακριτικού OAuth.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία MapView. Ο απαιτούμενος φάκελος 'πόρων/γραμμοσκιάσεων' δεν βρέθηκε στην υλοποίηση του ArcGIS Runtime.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Μη έγκυρη διεύθυνση email.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία στις {0} στις {1}.</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Απέτυχε η δημιουργία '{0}' επειδή γίνεται ήδη διακοπή της υπηρεσίας με την ίδια διαδρομή.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} πριν από ένα λεπτό.</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Δεν βρέθηκε ένα από τα αρχεία του εργαλείου εντοπισμού.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του ονόματος υπηρεσιών όσο η υπηρεσία βρίσκεται σε εξέλιξη. Το όνομα μπορεί να οριστεί μόνο αφού διακοπεί η εκτέλεση της υπηρεσίας.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Μη έγκυρο όνομα χρώματος: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η επεξεργασία του μηνύματος. Το στοιχείο MessageLayer θα πρέπει να έχει φορτωθεί με επιτυχία  σε μια προβολή (Χάρτη ή 3D Προβολή) πριν από την κλήση του ProcessMessage.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Απέτυχε η δημιουργία '{0}' προς επεξεργασία επειδή η υπηρεσία με την ίδια διαδρομή εκτελείται ήδη ως παρουσία (instance) του '{1}' το οποίο δεν υποστηρίζει την επεξεργασία.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Η ιδιότητα {0} δεν μπορεί να οριστεί αν έχει ήδη γίνει αρχικοποίηση του FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Το χαρακτηριστικό '{0}' δεν μπορεί να είναι null.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Το ClientId που καταχωρήθηκε δεν είναι έγκυρο.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Δεν είναι δυνατή η γεωκωδικοποίηση της διεύθυνσης.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>Η τιμή '{0}' δεν βρίσκεται εντός του αναμενόμενου εύρους '{1}-{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>Το TokenUrl πρέπει να ανήκει στον ίδιο τομέα με το διακομιστή</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρο αντικείμενο, ενώ αναμενόταν ':' ή '}'.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Γίνεται προσπάθεια διακοπής του LocalServer ενώ δεν εκτελείται.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Το αρχείο εργαλείου εντοπισμού έχει μη υποστηριζόμενη χωρική αναφορά.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>Το στοιχείο {0} δεν μπορεί να οριστεί σε null</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Η λειτουργία επισύναψης απέτυχε στο διακομιστή.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επεξεργασία της γεωμετρίας όταν έχουν απενεργοποιηθεί όλες οι επιλογές επεξεργασίας.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} πριν από μία ώρα.</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Ο χάρτης δεν είναι σε κατάσταση ετοιμότητας.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Δεν είναι δυνατή η πρόσβαση στις υπηρεσίες τοποθεσίας</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Μη έγκυρη συμβολοσειρά συσχέτισης. Πρέπει να έχει μήκος 9 χαρακτήρων και να συμμορφώνεται με τις προδιαγραφές DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Σφάλμα ακύρωσης αντικειμένου.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία διακριτικού OAuth χωρίς δείκτη χειρισμού (handler) εξουσιοδότησης. Ορίστε το AuthenticationManager.Current.OAuthAuthorizeHandler σε έγκυρη υλοποίηση του IOAuthAuthorizeHandler.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Δημιουργήθηκε στις {0} στις {1}.</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>Η τιμή WGS84 είναι η μόνη υποστηριζόμενη χωρική αναφορά για αυτήν τη λειτουργία.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Αυτή η εφαρμογή εκτελείται με άδεια χρήσης προγραμματιστή. Αυτή η άδεια χρήσης είναι έγκυρη μόνο για ανάπτυξη και δοκιμή.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Κλήση σε μη αρχικοποιημένη εργασία γεωκωδικοποίησης.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Ένα απαιτούμενο χαρακτηριστικό λείπει από την τοποθεσία εισόδου.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>Η τιμή '{0}' υπερβαίνει το απαιτούμενο μήκος πεδίου '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Η γεωμετρία είναι null ή κενή.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>Η τιμή RecursionLimit πρέπει να είναι θετικός ακέραιος.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Το θεματικό επίπεδο δεν μπορεί να προβληθεί σε χάρτη με διαφορετική χωρική αναφορά.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Η υπηρεσία δεν έχει εκκινηθεί, οπότε δεν μπορεί να διακοπεί.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρο αντικείμενο, ενώ αναμενόταν το όνομα μέλους.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Έγινε απροσδόκητη έξοδος από τη διαδικασία διακομιστή κατά τη διάρκεια της εκκίνησης.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Οι ανάμικτες χωρικές αναφορές δεν υποστηρίζονται.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Δημιουργήθηκε στις {0} στις {1}.</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ανάγνωση της διεύθυνσης από την τρέχουσα ομάδα εγγραφών εισόδου ή η εντολή reset() επιστρέφει τιμή false.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αλλαγή της ιδιότητας '{0}' μετά την αρχικοποίηση του θεματικού επιπέδου.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Τροποποιήθηκε πριν από μία ώρα</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Τροποποιήθηκε πριν από μερικά δευτερόλεπτα</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποσειριοποίηση των μεταδεδομένων επιπέδου.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Καμία ομάδα πύλης δεν οδηγεί στο προτεινόμενο περιεχόμενο.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία του Εργαλείου εντοπισμού.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Ο τύπος '{0}' δεν υποστηρίζεται για την αποσειριοποίηση πινάκων.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} πριν από {1} ώρες.</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Μη έγκυρη υπηρεσία, δεν επιτρέπεται η εξαγωγή χάρτη ή ο τύπος υπηρεσίας δεν υποστηρίζεται.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Η απαιτούμενη παράμετρος είναι null ή κενή.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Δεν έχει οριστεί ο δείκτης χειρισμού (handler) δοκιμασίας ασφάλειας.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε πριν από {0} λεπτά.</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Ο χάρτης πρέπει πρώτα να αποθηκευτεί σε πύλη, χρησιμοποιώντας τη μέθοδο "Map.SaveAs".</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>To feature service δεν επιτρέπει να εκτελέσετε {0}, ενός στοιχείου που δεν σας ανήκει.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Δεν είναι δυνατή η δημιουργία παρουσίας (instance) του {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Το Feature service δεν παρέχει τις απαιτούμενες δυνατότητες.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Η υπηρεσία διακόπηκε απροσδόκητα. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Οι άδειες χρήσης μπορούν να οριστούν μόνο εάν η κλάση ArcGISRuntimeEnvironment έχει έγκυρο ClientId και η κλήση της μεθόδου ArcGISRuntimeEnvironment.Initialize ολοκληρώθηκε με επιτυχία.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποθήκευση τροποποιήσεων συνημμένου για ένα στοιχείο, το οποίο δεν υπάρχει στο διακομιστή. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Η συλλογή γραφικών πρέπει να είναι κενή πριν από τη χρήση του GraphicsSource.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αλλαγή της λειτουργίας RenderingMode μετά τη φόρτωση του θεματικού επιπέδου.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η φόρτωση του ArcGIS Runtime ({0}) ή ενός από τα εξαρτώμενα στοιχεία του. Βεβαιωθείτε ότι έχει εγκατασταθεί το "Microsoft Visual C++ 2015 -2019 Redistributable"</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Η τιμή είναι NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Δεν υπάρχει τρέχων χρήστης. Οι χάρτες μπορούν να αποθηκευτούν μόνο από συνδεδεμένο χρήστη.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ανάκτηση του περιβάλλοντος εφαρμογής</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η μετατροπή της τιμής 'string' σε τιμή 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Δεν είναι δυνατός ο ορισμός του InstallPath μετά την προετοιμασία του ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Η αρχικοποίηση του πυρήνα του ArcGIS Runtime απέτυχε. Η βιβλιοθήκη του πυρήνα του ArcGIS Runtime δεν είναι προσβάσιμη.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>Έληξε το χρονικό όρο για τη λειτουργία GetPositionAsync</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Δεν έχει οριστεί συνάρτηση κατασκευαστής χωρίς παραμέτρους για τον τύπο '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Η υπηρεσία δεν περιέχει έγκυρο tiling scheme</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Μία ή περισσότερες από τις ιδιότητες του εργαλείου εντοπισμού δεν είναι έγκυρες.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επίλυση.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>Το '{0}' είναι απαιτούμενο χαρακτηριστικό για το {1} και θα πρέπει να συμπεριλαμβάνεται στα υπάρχοντα στοιχεία της υπηρεσίας δυνατοτήτων.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Η υπηρεσία βρίσκεται σε εξέλιξη και δεν είναι δυνατή η εκκίνησή της.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε πριν από ένα λεπτό</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Μη έγκυρη μορφή δεκαεξαδικού χρώματος</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Ο τύπος '{0}' δεν υποστηρίζεται για τη σειριοποίηση/αποσειριοποίηση λεξικών. Τα κλειδιά πρέπει να είναι συμβολοσειρές ή αντικείμενα.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρο αντικείμενο, ενώ αναμενόταν '{'.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Η πλήρης φόρτωση της βιβλιοθήκης του πυρήνα του ArcGIS Runtime απέτυχε. Αναλυτικά στοιχεία εξαίρεσης: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε πριν από μερικά δευτερόλεπτα</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Δεν ήταν δυνατός ο εντοπισμός του πόρου.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Η δημιουργία του εργαλείου γεωκωδικοποίησης απέτυχε.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Δεν είναι δυνατή η σειριοποίηση της απεικόνισης σε JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Μη έγκυρο στοιχειώδες JSON: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Αποτυχία έναρξης του LocalServer: το εκτελέσιμο αρχείο δεν βρέθηκε.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης με το ArcGISRuntimeEnvironment. Η κύρια άδεια χρήσης δεν είναι σωστή. Μια άδεια χρήσης επέκτασης χρησιμοποιείται όταν απαιτείται κύρια άδεια χρήσης.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Δεν υπάρχει συνέπεια στα ονόματα διαδρομής των στάσεων.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρη συμβολοσειρά, ενώ αναμενόταν '\'".</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Η μονάδα '{0}' δεν είναι έγκυρη για το 'DirectionsLengthUnits'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Η τιμή πρέπει να είναι μεγαλύτερη από το μηδέν.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Η λειτουργία είναι διαθέσιμη μόνο για χρήστες που έχουν ολοκληρώσει τον έλεγχο ταυτότητας.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Οι στάσεις με γεωμετρία null δεν υποστηρίζονται.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρος πίνακας, ενώ αναμενόταν ','.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>Τα στοιχεία '{0}' στη συλλογή '{1}' πρέπει να έχουν μοναδικά αναγνωριστικά.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Το αρχείο εργαλείου εντοπισμού έχει μη υποστηριζόμενη μορφή.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Έληξε το χρονικό όρο για τη λειτουργία εξαγωγής tile</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Η ιδιότητα {0} δεν είναι δυνατό να αλλάξει όταν εκτελείται η υπηρεσία.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Γίνεται προσπάθεια εκκίνησης του LocalServer ενώ η λειτουργία του δεν έχει διακοπεί.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0}.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης με το ArcGISRuntimeEnvironment. Ο αριθμός άδειας χρήσης επέκτασης {0} δεν είναι σωστός. Η κύρια άδεια χρήσης χρησιμοποιείται όταν απαιτείται άδεια χρήσης επέκτασης.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>Έχει γίνει υπέρβαση του RecursionLimit.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>Το στοιχείο GeodatabaseFeatureServiceTable δεν υλοποιεί συνημμένα {0}.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Οι τιμές scARGB πρέπει να είναι αριθμητικές</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Ο αριθμός '{0}' δεν μπορεί να είναι αρνητικός</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Τροποποιήθηκε πριν από ένα λεπτό</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε πριν από {0} ώρες.</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>Το GetSymbol δεν υποστηρίζεται για τον τύπο στοιχείου: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Δεν είναι δυνατή η μετατροπή αντικειμένου τύπου '{0}' σε αντικείμενο τύπου '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Το ClientId OAuth πρέπει να οριστεί πριν από την προσπάθεια δημιουργίας διακριτικού OAuth.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} πριν από {1} λεπτά.</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Η λειτουργία επιτρέπεται μόνο από το νήμα περιβάλλοντος εργασίας χρήστη (UI Thread)</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Για την απόδοση του SceneView απαιτούνται τουλάχιστον 256 MB (268.435.456 byte) χώρου στη μνήμη.</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>Η τιμή '{0}' δεν ανήκει στον απαιτούμενο τύπο δεδομένων '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Άγνωστος πόρος {0}. Ο διακομιστής πρέπει να έχει καταχωρηθεί.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Μεταβιβάστηκε μη έγκυρος πίνακας, ενώ αναμενόταν ']'.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η μετατροπή σε 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} στις {1} στις {2}.</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Η περίοδος σύνδεσης από τον έλεγχο ταυτότητας πύλης έχει λήξει. Ο χρήστης θα πρέπει να συνδεθεί ξανά.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>Η τιμή '{0}' δεν βρέθηκε στη λίστα των αναμενόμενων τύπων δυνατοτήτων.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>Έγινε κλήση του '{0}' χωρίς αντίστοιχο '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>Η συμβολοσειρά JSON δεν είναι έγκυρη ή δεν υποστηρίζεται.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Τουλάχιστον ένα από τα σημεία είναι null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε πριν από μία ώρα</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Η τιμή δεν μπορεί να είναι μικρότερη από το μηδέν.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Η πολιτική '{0}' δεν είναι έγκυρη πολιτική 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Ο τύπος θεματικού επιπέδου {0} δεν υποστηρίζεται.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Δεν έχουν συσχετιστεί χάρτες με το Εργαλείο επεξεργασίας.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Δεν είναι δυνατή η έναρξη αυτής της υπηρεσίας επειδή εκτελείται ήδη στο LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} πριν από {1} ώρες.</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Δεν είναι δυνατή η ανανέωση του διακριτικού</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>Έγινε κλήση του '{0}' εκτός αντικειμένου.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>Δεν έχει καθοριστεί ArcGISRuntimeEnvironment.SymbolsPath. Ορίστε το ArcGISRuntimeEnvironment.SymbolsPath στη διαδρομή προς το φάκελο 'symbols' της εγκατάστασης του ArcGISRuntime. Η διαδρομή μπορεί να καθοριστεί ως σχετική της τοποθεσίας εγκατάστασης της εφαρμογής, όπως για παράδειγμα ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Μη έγκυρες τιμές MinScale και MaxScale.  Το εύρος κλίμακας που καθορίστηκε πρέπει να κυμαίνεται μεταξύ {0} και {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} στις {1} στις {2}.</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>Το PortalItem πρέπει να αποθηκευτεί σε πύλη και να περιέχει έγκυρο αναγνωριστικό.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Ο τύπος γεωμετρίας λείπει ή δεν υποστηρίζεται</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Δεν είναι δυνατή η αποσειριοποίηση του γραφικού αντικειμένου σε τύπο '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Δεν είναι δυνατή η επαναπροβολή της γεωμετρίας.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Δημιουργήθηκε από τον χρήστη {0} πριν από μερικά δευτερόλεπτα.</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Δεν είναι δυνατή η μετατροπή σε συμβολοσειρά.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>Το {0} είναι μόνο για εσωτερική χρήση</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Για την εφαρμογή οποιασδήποτε επεξεργασίας, πρέπει πρώτα να γίνει προετοιμασία του στοιχείου.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Δεν είναι δυνατή η εκτέλεση ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Υποβλήθηκε σε επεξεργασία από τον χρήστη {0} πριν από ένα λεπτό.</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>Τα TimeWindows δεν υποστηρίζονται.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>Το LocalServer δεν ανταποκρίνεται σε αιτήματα και η λειτουργία του ενδέχεται να έχει τερματιστεί.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Σφάλμα άδειας χρήσης με το ArcGISRuntimeEnvironment. Η κύρια άδεια χρήσης δεν είναι έγκυρη.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Στο γραφικό υπάρχει ήδη το χαρακτηριστικό '{0}', το οποίο δεν θα πρέπει να συμπεριλαμβάνεται στα στοιχεία που δεν υπάρχουν ήδη στο feature service.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Σφάλμα κατά την αρχικοποίηση του ArcGISRuntimeEnvironment. Δεν ήταν δυνατή η φόρτωση της ανάπτυξης του ArcGISRuntime</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Απέτυχε ο ορισμός περιβάλλοντος  Open GL για το χάρτη</value>
+  </data>
+</root>

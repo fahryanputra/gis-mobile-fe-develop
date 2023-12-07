@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiTerangMobile.Pages.MenuPage"
+             xmlns:viewModels="clr-namespace:SiTerangMobile.ViewModels">
+    <ScrollView InputTransparent="True" Padding="0">
+        <StackLayout>
+            <Frame BackgroundColor="White" CornerRadius="20" HasShadow="True" Padding="50" Margin="0">
+                <Grid ColumnDefinitions="100, *">
+                    <StackLayout Grid.Column="1">
+                        <Label x:Name="dateLabel" Text="Tanggal" TextColor="#4CDBDA"/>
+                        <Label Text="Selamat datang kembali" TextColor="LightGray"/>
+                        <Label Text="John Doe" FontAttributes="Bold" FontSize="18"/>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+            <StackLayout Padding="10">
+                <Label Text="TOTAL GARDU" FontSize="18" FontAttributes="Bold" Padding="10"/>
+                <CollectionView ItemsSource="{Binding Gardus}" ItemsLayout="VerticalGrid, 3" HeightRequest="170">
+                    <CollectionView.BindingContext>
+                        <viewModels:GarduViewModel/>
+                    </CollectionView.BindingContext>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BorderColor="Transparent" BackgroundColor="Transparent" Padding="5, 0">
+                                <Frame CornerRadius="20" BorderColor="Transparent" HasShadow="True" BackgroundColor="{Binding Color}">
+                                    <Grid RowDefinitions="*, 20, *">
+                                        <Label Grid.Row="0" Text="{Binding Total}" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Padding="10" FontSize="20"/>
+                                        <Label Grid.Row="2" Text="{Binding Name}" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Padding="10" FontSize="20"/>
+                                    </Grid>
+                                </Frame>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Lihat lokasi di peta" BackgroundColor="Transparent" TextColor="Blue" HorizontalOptions="End" Clicked="OnLihatPetaClicked"/>
+                <Label Text="INFORMASI PELANGGAN" FontSize="18" FontAttributes="Bold" Padding="10"/>
+                <CollectionView ItemsSource="{Binding Pelanggans}" ItemsLayout="VerticalList" HeightRequest="330">
+                    <CollectionView.BindingContext>
+                        <viewModels:PelangganViewModel/>
+                    </CollectionView.BindingContext>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame BackgroundColor="Transparent" Padding="5">
+                                <Frame BorderColor="#ffb43a" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" CornerRadius="20">
+                                    <Grid ColumnDefinitions="50, *">
+                                        <StackLayout Grid.Column="1">
+                                            <Label Text="{Binding Total}" TextColor="#4CDBDA" FontAttributes="Bold" FontSize="20"/>
+                                            <Label Text="{Binding Type}" TextColor="#ffb43a" FontAttributes="Bold" FontSize="16"/>
+                                        </StackLayout>
+                                    </Grid>
+                                </Frame>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Button Text="Lihat lokasi di peta" BackgroundColor="Transparent" TextColor="Blue" HorizontalOptions="End" Clicked="OnLihatPetaClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,305 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SiTerangMobile/1.0.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime": "100.14.0",
+          "Esri.ArcGISRuntime.Toolkit.Xamarin.Forms": "100.14.0",
+          "Esri.ArcGISRuntime.Xamarin.Forms": "100.14.0",
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Essentials": "1.7.3",
+          "Xamarin.Forms": "5.0.0.2244"
+        },
+        "runtime": {
+          "SiTerangMobile.dll": {}
+        }
+      },
+      "Esri.ArcGISRuntime/100.14.0": {
+        "runtime": {
+          "lib/netstandard2.0/Esri.ArcGISRuntime.dll": {
+            "assemblyVersion": "100.14.0.0",
+            "fileVersion": "100.14.0.3489"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ar/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/netstandard2.0/bg/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "bg"
+          },
+          "lib/netstandard2.0/bs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "bs"
+          },
+          "lib/netstandard2.0/ca/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/netstandard2.0/cs/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/da/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "da"
+          },
+          "lib/netstandard2.0/de/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/el/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "el"
+          },
+          "lib/netstandard2.0/es/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/et/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "et"
+          },
+          "lib/netstandard2.0/fi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/netstandard2.0/fr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/he/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "he"
+          },
+          "lib/netstandard2.0/hr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/netstandard2.0/hu/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/netstandard2.0/id/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "id"
+          },
+          "lib/netstandard2.0/it/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/lt/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lt"
+          },
+          "lib/netstandard2.0/lv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "lv"
+          },
+          "lib/netstandard2.0/nb-NO/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/netstandard2.0/nl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.0/no/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "no"
+          },
+          "lib/netstandard2.0/pl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/pt-PT/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netstandard2.0/ro/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/netstandard2.0/ru/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/sk/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/netstandard2.0/sl/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/netstandard2.0/sr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sr"
+          },
+          "lib/netstandard2.0/sv/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netstandard2.0/th/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "th"
+          },
+          "lib/netstandard2.0/tr/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/uk/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/netstandard2.0/vi/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/netstandard2.0/zh-CN/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/netstandard2.0/zh-HK/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/netstandard2.0/zh-Hans/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-TW/Esri.ArcGISRuntime.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.Toolkit/100.14.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime": "100.14.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esri.ArcGISRuntime.Toolkit.dll": {
+            "assemblyVersion": "100.14.0.0",
+            "fileVersion": "100.14.0.0"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.Toolkit.Xamarin.Forms/100.14.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime.Toolkit": "100.14.0",
+          "Esri.ArcGISRuntime.Xamarin.Forms": "100.14.0",
+          "Xamarin.Forms": "5.0.0.2244"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esri.ArcGISRuntime.Toolkit.Xamarin.Forms.dll": {
+            "assemblyVersion": "100.14.0.0",
+            "fileVersion": "100.14.0.0"
+          }
+        }
+      },
+      "Esri.ArcGISRuntime.Xamarin.Forms/100.14.0": {
+        "dependencies": {
+          "Esri.ArcGISRuntime": "100.14.0",
+          "Xamarin.Forms": "5.0.0.2244"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esri.ArcGISRuntime.Xamarin.Forms.dll": {
+            "assemblyVersion": "100.14.0.0",
+            "fileVersion": "100.14.0.3489"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xamarin.Essentials/1.7.3": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/5.0.0.2244": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.819"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.819"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.819"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SiTerangMobile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esri.ArcGISRuntime/100.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hjwNfEqbezlbGu2TjaBsP72QwPRhsZFyQn9ze2pEvIgy6rB65t5+qXGCERFd35OT0uVR6hZzm0yq8yVq5tpDpg==",
+      "path": "esri.arcgisruntime/100.14.0",
+      "hashPath": "esri.arcgisruntime.100.14.0.nupkg.sha512"
+    },
+    "Esri.ArcGISRuntime.Toolkit/100.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3U4Ng1i46J9ueZ9EjoBZJb1/lZtHCP8agRsKwqm086IfJ0I3D7QSvhVV0I8gOpra0FIvqtJFlXJa8RP1lurcA==",
+      "path": "esri.arcgisruntime.toolkit/100.14.0",
+      "hashPath": "esri.arcgisruntime.toolkit.100.14.0.nupkg.sha512"
+    },
+    "Esri.ArcGISRuntime.Toolkit.Xamarin.Forms/100.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cxZhP1S8iUHlT78qvkuwrhNg8llIJ0ktaOHGirLgsOhqnjS7jBfXAk3Kmi6/65RI/eKs9QdDC1HyQWyXA0YAjQ==",
+      "path": "esri.arcgisruntime.toolkit.xamarin.forms/100.14.0",
+      "hashPath": "esri.arcgisruntime.toolkit.xamarin.forms.100.14.0.nupkg.sha512"
+    },
+    "Esri.ArcGISRuntime.Xamarin.Forms/100.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JB+8X14Z6QKGlMhEKP0QAV8C3YpBG5xQt0WdlBtOhbkuJXRX6GY0qhZc8I4cxJ+VG75iWXNgirrct0bEcOcpVQ==",
+      "path": "esri.arcgisruntime.xamarin.forms/100.14.0",
+      "hashPath": "esri.arcgisruntime.xamarin.forms.100.14.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xamarin.Essentials/1.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b6NfxOfkmMGN54a4OcV/D7KXclWWqFwgixMPzlAku3kfKgUBGW4vBdNaujIBmk57NbGpWB2IS78ek0gDHNKwoQ==",
+      "path": "xamarin.essentials/1.7.3",
+      "hashPath": "xamarin.essentials.1.7.3.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2244": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ssr+0Pf11oHcaMHM4dHXW1NGex0h9uH7gQxuoLtiZcdPtXBli3SXzY3rF9ovp4Bw2mTe7cYpvy554pIpuW6fvA==",
+      "path": "xamarin.forms/5.0.0.2244",
+      "hashPath": "xamarin.forms.5.0.0.2244.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Kan ikke konvertere til {0} array.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Kan ikke finne en bufferkonfigurasjon for en OpenGL-ramme med minimumskapasitet</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB-verdier må være mellom 0 og 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry stemmer ikke overens med den forventede geometritypen '{0}' for tjenesten.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>Url er ikke angitt.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Kan ikke angi LocalServerApplicationStatePath etter at ArcGISRuntimeEnvironment er blitt initialisert.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Se det indre unntaket for detaljer.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Opprettet av {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Funksjonstabellen er ikke initialisert.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Kan ikke konvertere null til en verditype.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Kan ikke hente LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Kan ikke konvertere fra verdi av typen {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} kan ikke endres når tjenesten kjører.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Token-tjeneste-URLen er ikke angitt.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Geometritypen støttes ikke.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Kartet må lastes inn før det lagres på en portal.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV-lesing mislyktes.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Redigert for {0} minutter siden</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Den geografiske referansen er ugyldig.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Kan ikke starte tjenesten fordi en LocalService med samme navn, '{0}', allerede kjører.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Kartlaget støtter ikke vedlegg.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Prøver å starte en LocalService når den stoppes.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nKrasj-dumpfil lagret til: {0}</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Ikke-terminert streng sendt inn.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Flisesystemer støttes for tiden ikke.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Kan ikke lese fra strøm</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Kan ikke utføre redigering av et geoobjekt som ikke finnes.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Redigert av {0} for sekunder siden</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Tjenesten implementerer ikke sluttpunktet {0}.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Bing Map-laget kan ikke tegnes fordi det ikke er oppgitt noen Bing-nøkler.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Der betinelsen og geometrien ikke begge kan være null.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Eksportoperasjonen for flis ble slettet</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Operasjonen støttes ikke når GraphicsSource brukes.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Minst en av følgende spørreparametere må angis: Text, Geometry, Where, ObjectID-er og TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Prøver å stoppe en LocalService når den ikke kjører.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Geoobjektstjenesten gir ikke de påkrevde metadataene.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Tilleggslisens nummer {0} er utløpt.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Eksportoperasjonen for flis avbrutt</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Opprettet av {0} {1} {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Kan ikke angi TempPath etter at ArcGISRuntimeEnvironment er blitt initialisert.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Utvidelseslisens nummer {0} er ugyldig.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Feil avslutning.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Den påkrevde egenskapen '{0}' er ikke tilgjengelig for denne geoobjektstjenesten.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Intern feil.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Kan ikke utføre kommando.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Kan ikke opprette laget fra webkartlaget.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Posisjonsindikatoren har veikryssfunksjonalitet som ikke støttes.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Redigert av {0} {1} {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Må være større enn eller lik null</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Redigert {0} {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB-fargestrenger må angi tre eller fire kommadelte verdier</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Hindringer med null-geometri støttes ikke.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Ugyldig array sendt inn, [ forventet.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Denne egenskapen kan ikke endres etter at MessageLayer er blitt initialisert.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Den angitte banen finnes ikke.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Konvertering fra andre typer enn streng støttes ikke</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Symbolet kan ikke gjøres til en serie i JSON.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Tjenesten støtter ikke eksport av fliser</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} er null eller tom.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Kan ikke opprette ServiceFeatureTable fra tjenestelag av typen: {0}.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Filen {0} finnes allerede, og nedlastingen er ikke stilt inn slik at den overskriver eksisterende filer</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Kan ikke endre egenskapen '{0}' etter at laget er initialisert.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Kan ikke opprette RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Geoobjektslaget må initialiseres for å utføre validering.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Geoobjektstjenesten gir ikke det påkrevde Object ID-feltet.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Feil med initialisering av ArcGISRuntimeEnvironment. Finner ikke installasjonsmappen for ArcGISRuntime.  Kontroller at det finnes en mappe med navnet "{0}" i samme mappe som exe-filen for programmet, eller angi ArcGISRuntimeEnvironment.InstallPath slik at den viser til en alternativ plassering. Installasjonsmappen må inneholde undermapper som samsvarer med programmets prosessarkitektur.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Redigert for {0} timer siden</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Local Server må ha en standardlisens for å starte. Nåværende lisensnivå er grunnleggende (se ArcGISRuntimeEnvironment.License.Level). Til en installasjon kan du initialisere runtime med en lisens på standardnivået i ArcGISRuntimeEnvironment.License.SetLicense(). Hvis du utvikler et program, kan du ikke unngå å stille inn ArcGISRuntimeEnvironment.ClientId for å bli i utviklermodus for å prøve LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>En intern feil.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Ugyldig verdi angitt for banen.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Tjenesten implementerer ikke {0}- og {1}-sluttpunkter.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Eksportoperasjonen for flis mislyktes</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold og ReportInterval kan ikke begge være null</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Kan ikke angi SymbolsPath etter at ArcGISRuntimeEnvironment er blitt initialisert.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Hovedlisensen er utløpt.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer er ikke initialisert, så det er ingen tjenester som kjører og som kan stoppes.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Egenskapen {0} er ikke angitt. Kan ikke opprette en tjeneste.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Portal-elementet er ugyldig for denne operasjonen.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Kan ikke modifisere lagsamlingen direkte når den administreres av WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Opprettet av {0} for {1} minutter siden</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Opprettet av {0} for en time siden</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Typen {0} er ikke gyldig for Shape Type.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Kan ikke hente standardinnstillinger.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Tekstanalyse mislyktes.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Et MessageLayer kan bare legges til ett enkelt kart.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Kan ikke angi Client Id etter at ArcGISRuntimeEnvironment er blitt initialisert.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>RedirectUri må være angitt før du prøver å generere et OAuth-token.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Kan ikke opprette MapView. Den påkrevde mappen 'resources/shaders' ble ikke funnet i ArcGIS Runtime-installasjonen.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Ugyldig e-postadresse.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Redigert {0} {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Kunne ikke opprette {0} fordi tjenesten med samme bane allerede stopper.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Opprettet av {0} for et minutt siden</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Finner ikke én av posisjonsindikatorfilene.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Kan ikke angi tjenestenavn når tjenesten pågår. Navnet kan bare angis når tjenesten er stoppet.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Ugyldig fargenavn: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Meldingen kunne ikke behandles. MessageLayer må ha blitt lastet inn i en visning (Kart eller Scene) før oppkall av ProcessMessage.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Kunne ikke opprette {0} for redigering fordi tjenesten med samme bane allerede kjører som en forekomst av {1}, som ikke støtter redigering.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>{0} egenskap kan ikke angis etter at FeatureLayer er blitt initialisert.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Attributtet '{0}' kan ikke være null.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Den angitte ClientId er ugyldig.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Kan ikke geokode adresse.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' faller ikke innenfor det forventede området '{1}-{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl må tilhøre samme domene som serveren</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Ugyldig objekt sendt inn, : eller } forventet.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Prøver å stoppe LocalServer når den ikke kjører.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Posisjonsindikatorfilen har en romlig referanse som ikke støttes.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} kan ikke angis som null</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Vedleggsoperasjonen mislyktes på serveren.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Du kan ikke redigere geometrien når alle redigeringsalternativer er deaktivert.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Redigert av {0} for en time siden</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Kartet er ikke ferdig.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Får ikke tilgang til stedstjenester</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Ugyldig relasjonsstreng; den må være 9 tegn lang og være i samsvar med spesifikasjonen DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Avbrytelse, objektfeil.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Kan ikke generere OAuth-token uten godkjenningsbehandler. Sett AuthenticationManager.Current.OAuthAuthorizeHandler til en gyldig IOAuthAuthorizeHandler-implementering.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Opprettet {0} {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 er den eneste romlige referansen som støttes for denne funksjonen.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Dette programmet kjører ved hjelp av en utviklerlisens. Lisensen er bare gyldig i forbindelse med utvikling og testing.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Kall til ikke initialisert geokodingsoppgave.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Inndatalokasjonen mangler et nødvendig attributt.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' har oversteget den påkrevde feltlengden '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometry er null eller tom.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit må være et positivt heltall.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Laget kan ikke vises på et kart med en annen geografisk referanse.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Tjenesten er ikke startet, så den kan ikke stoppes.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Ugyldig objekt sendt inn, medlemsnavn forventet.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Serverprosessen ble avbrutt under oppstart.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Blandede koordinater støttes ikke.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Opprettet {0} {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Kan ikke lese adresse fra inndatamarkør eller det kan hende reset() returnerer en feil.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Egenskapen {0} kan ikke endres etter at et kartlag er initialisert.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Redigert for en time siden</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Redigert for sekunder siden</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Kan ikke fjerne serien i lagmetadataene.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Det er ingen portalgrupper som kjører det fremhevede innholdet.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Kan ikke opprette posisjonsindikator.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Typen {0} støttes ikke for deserialisering av et array.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Opprettet av {0} for {1} timer siden</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Ugyldig tjeneste. Karteksport er ikke tillatt, eller tjenestetypen støttes ikke.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Påkrevd parameter er null eller tom.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Spørsmålsbehandleren er ikke angitt.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Opprettet for {0} minutter siden</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Kartet må først lagres på en portal ved hjelp av «Map.SaveAs»-metoden.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Geoobjektstjenesten lar deg ikke {0} et geoobjekt du ikke eier.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Kan ikke opprette forekomst av {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Geoobjektstjenesten tilbyr ikke de påkrevde egenskapene.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Tjenesten stoppet uventet. {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>En lisens kan angis bare hvis ArcGISRuntimeEnvironment-klassen har en gyldig ClientId, og et kall til ArcGISRuntimeEnvironment.Initialize-metoden har vært vellykket.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Du kan ikke lagre redigeringer av vedlegg til et geoobjekt som ikke finnes på serveren. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Grafikksamling må være tom før GraphicsSource brukes.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>RenderingMode kan ikke endres når laget er lastet inn.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Kan ikke laste inn ArcGIS Runtime ({0}) eller en av dens avhengigheter. Kontroller at Microsoft Visual C++ 2015-2019 Redistributable er installert.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Verdien er NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Ingen gjeldende bruker. Kart kan bare lagres av en pålogget bruker.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Kan ikke hente applikasjonskontekst</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Kunne ikke konvertere "string" til DateTime.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Kan ikke angi InstallPath etter at ArcGISRuntimeEnvironment er blitt initialisert.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Kan ikke initialisere ArcGIS Runtime-kjerne.  ArcGIS Runtime kjernebibliotek er utilgjengelig.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync -operasjon ble tidsavbrutt</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Ingen parameterløs konstruktør definert for typen {0}.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Tjenesten inneholder ikke noe gyldig flisesystem</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Én eller flere av posisjonsindikatorens egenskaper er ugyldige.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Kan ikke løse.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' er et obligatorisk attributt for {1} og bør finnes på geoobjekter som eksisterer på geoobjektstjenesten.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Tjenesten pågår og kan ikke startes.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Opprettet for et minutt siden</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Ugyldig heksadesimalfargeformat</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Typen {0} støttes ikke for serialisering/deserialisering av en ordliste, nøkler må være strenger eller objekter.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Ugyldig objekt sendt inn, { forventet.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Kan ikke eksplisitt laste ArcGIS Runtime-kjernebibliotek,  Detaljer om unntak: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Opprettet for sekunder siden</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Fant ikke ressurs.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Kunne ikke opprette geokoder.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Opptegning kan ikke serialiseres til JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Ugyldig JSON-primitiv: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Start av LocalServer mislyktes: fant ikke kjørefilen.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Hovedlisensen er feil; en utvidelseslisens brukes der det kreves en hovedlisens.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Stoppene har ikke konsistente rutenavn.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Ugyldig streng sendt inn, \" forventet.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Enheten {0} er ikke gyldig for DirectionsLengthUnits.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Verdien må være større enn null.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Operasjonen er tilgjengelig bare for autentiserte brukere.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Stopp med null-geometri støttes ikke.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Ugyldig array sendt inn, , forventet.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>{0} i {1}-samlingen må ha unike IDer.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Posisjonsindikatorfilen er i et format som ikke støttes.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Eksportoperasjonen for flis fikk tidsavbrudd</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0}-egenskapen kan ikke endres når tjenesten kjører.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Prøver å starte LocalServer når den ikke stoppes.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Redigert av {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Utvidelseslisensnummer {0} er feil; en hovedlisens brukes der det kreves en utvidelseslisens.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit nådd.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable implementerer ikke {0} vedlegg.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB-verdier må være numeriske</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>{0}-tallet kan ikke være negativt</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Redigert for et minutt siden</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Opprettet for {0} timer siden</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol støttes ikke for elementtype: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Kan ikke konvertere objekt av typen {0} til type {1}.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>OAuth ClientId må være angitt før du prøver å generere en OAuth-token.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Redigert av {0} for {1} minutter siden</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operasjonen er bare tillatt fra UI-tråden</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView-gjengivelsen krever minst 256 MB (268 435 456 byte) ledig minne</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' har ikke den påkrevde datatypen '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Ukjent ressurs: {0}. Serveren må registreres.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Ugyldig array sendt inn, ] forventet.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Kunne ikke konvertere til TimeExtent.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Redigert av {0} {1} {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Påloggingsperioden for portalgodkjenning har utløpt. Brukeren må logge på på nytt.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' finnes ikke i listen over forventede geoobjektstyper.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>{0} kalt uten samsvarende {1}.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON-streng er ugyldig eller støttes ikke.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Minst ett punkt er null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Opprettet for en time siden</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Verdien kan ikke være lavere enn null.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Policyen {0} er ikke gyldig for Uturn Policy.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Lagtypen {0} støttes ikke.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Det er ikke assosiert noe kart med redigeringen.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Kan ikke starte denne tjenesten fordi den allerede kjører på LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Redigert av {0} for {1} timer siden</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Kan ikke oppdatere token</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>{0} kalt utenfor et objekt.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath ble ikke spesifisert. Angi ArcGISRuntimeEnvironment.SymbolsPath til banen for ArcGISRuntime-installasjonens 'symbols'-mappe. Banen kan angis som relativ i forhold til programmets installasjonsplassering, f.eks. ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Ugyldige MinScale- og MaxScale-verdier. Det angitte skalaområdet må være mellom {0} og {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Opprettet av {0} {1} {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem må lagres på en portal og inneholde en gyldig ID.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Geometritype som mangler eller ikke støttes</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Kan ikke deserialisere objektgraf til typen {0}.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometrien kan ikke projiseres på nytt.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Opprettet av {0} for sekunder siden</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Kan ikke konvertere til streng.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} er bare til intern bruk</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Geoobjektet må initialiseres før noen redigeringer kan benyttes.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Kan ikke ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Redigert av {0} for et minutt siden</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows støttes ikke.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer svarer ikke på forespørsler og kan ha krasjet.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Lisensfeil med ArcGISRuntimeEnvironment. Hovedlisensen er ugyldig.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Attributtet '{0}' finnes allerede på grafikken, som ikke bør være til stede på geoobjekter som ikke allerede eksisterer på geoobjektstjenesten.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Feil med initialisering av ArcGISRuntimeEnvironment. Kan ikke laste inn ArcGISRuntime-installasjonen</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Kan ikke angi OpenGL-kontekst for kart</value>
+  </data>
+</root>

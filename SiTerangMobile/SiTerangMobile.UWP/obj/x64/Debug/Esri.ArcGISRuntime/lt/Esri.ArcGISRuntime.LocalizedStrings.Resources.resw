@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Negalima konvertuoti '{0}' į masyvą.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Nepavyko rasti Open GL buferio konfigūracijos su minimaliomis galimybėmis</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB reikšmės turi būti tarp 0 ir 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry neatitinka numatyto paslaugos geometrijos tipo '{0}'.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' nenustatytas.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Inicijavus ArcGISRuntimeEnvironment, LocalServerApplicationStatePath nustatyti negalima.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Norėdami sužinoti daugiau peržiūrėkite vidines išimtis.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Sukūrė {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Elementų lentelė neinicijuota.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Nepavyko konvertuoti  null reikšmės tipą.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Nepavyko gauti LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Negalima konvertuoti tipo {0} reikšmės</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} negali būti pakeista, kada veikia paslauga.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Prieigos rakto paslaugos URL nenustatytas.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Nepalaikomas geometrijos tipas.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Prieš įrašant žemėlapį į portalą jį reikia įkelti.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV analizavimas nepavyko.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Redaguota prieš {0} min.</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Neteisinga erdvinė charakteristika.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Nepavyksta paleisti paslaugos, nes jau veikia LocalService tokiu pačiu pavadinimu '{0}'.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Sluoksnis nepalaiko priedų.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Bandoma paleisti LocalService, kai ji sustabdyta.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nStrigties išklotinės failas įrašytas į: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Pateikta neužbaigta eilutė.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Šiuo metu išklotinių struktūra nepalaikoma.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Negalima skaityti iš srauto</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Negalima redaguoti elemento, kurio nėra.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Prieš kelias sekundes redagavo {0}</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Paslauga nerealizuoja '{0}' prieigos.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Negalima atvaizduoti Bing Map sluoksnio, nes nepateikti Bing raktai.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Sąlyga kur ir geometrija kartu negali būti null.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Išklotinių eksportavimo operacija ištrinta</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Veiksmas nepalaikomas naudojant GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Turi būti nustatytas bent vienas iš šių užklausos parametrų: Tekstas, Geometrija, Kur, ObjectIDs arba TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Bandoma sustabdyti LocalService, kai jis neveikia.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Elementų paslauga nepateikė reikiamų metaduomenų.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Įvyko ArcGISRuntimeEnvironment licencijos klaida. Pasibaigė plėtinio licencijos Nr. {0} galiojimo laikas.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Išklotinių eksportavimo operacija atšaukta</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>{1} {2} sukūrė {0}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Inicijavus ArcGISRuntimeEnvironment, TempPath nustatyti negalima.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Įvyko ArcGISRuntimeEnvironment licencijos klaida. Plėtinio licencija Nr. {0} netinkama.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Netinkama kaita.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Reikiama galimybė '{0}' nepasiekiama šiai elementų paslaugai.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Vidinė klaida.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Komandos įvykdyti negalima.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Nepavyksta sukurti sluoksnio iš internetinio žemėlapio sluoksnio.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Lokatorius nepalaikė sankryžų funkcionalumo.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>{1} {2} redagavo {0}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Turi būti daugiau arba lygu nuliui</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Redaguota {0} {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB spalvų įrašai turi nurodyti tris arba keturias kableliais atskirtas reikšmes</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Barjerai su nuline geometrija nepalaikomi.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Pateiktas klaidingas masyvas, tikėtasi ']'.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Inicijavus MessageLayer, šios savybės keisti negalima.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Nurodytas kelias neegzistuoja.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Palaikomas tik tekstinio lauko tipo konvertavimas</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Simbolio serializuoti į JSON negalima.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Paslauga nepalaiko išklotinių eksportavimo</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} yra null arba tuščia.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Nepavyko sukurti ServiceFeatureTable naudojant paslaugos sluoksnio tipą: „{0}“.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Failas {0} jau yra, o nustatymai neleidžia, kad atliekant atsisiuntimo veiksmą būtų perrašyti esami failai</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Inicijavus sluoksnį, savybės '{0}' pakeisti negalima.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Neįmanoma sukurti RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Norint patikrinti, būtina inicijuoti FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Elementų paslauga nepateikė būtino lauko Object ID.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Klaida inicijuojant ArcGISRuntimeEnvironment. Nepavyko rasti ArcGISRuntime diegimo aplanko. Patikrinkite, ar tame pačiame aplanke, kuriame yra jūsų vykdoma aplikacija, yra aplankas „{0}“ arba nustatykite, kad ArcGISRuntimeEnvironment.InstallPath nurodytų alternatyvią vietą. Diegimo aplanke turi būti antrinių aplankų, atitinkančių jūsų aplikacijos proceso architektūrą.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Redaguota prieš {0} val.</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Norint paleisti vietinį serverį būtina standartinio lygio licencija. Dabartinis licencijos lygis yra bazinis (žr. ArcGISRuntimeEnvironment.License.Level). Naudodami ArcGISRuntimeEnvironment.License.SetLicense() galite inicijuoti diegimo aplinką, turinčią standartinio lygio licenciją. Jei kuriate aplikaciją, galite išvengti  ArcGISRuntimeEnvironment.ClientId nustatymo, kad liktumėte dirbti kūrėjo režimu ir galėtumėte išbandyti LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>lt</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Kažkokia vidinė klaida.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Nurodyta neteisinga kelio reikšmė.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Paslauga nerealizuoja '{0}' ir '{1}' prieigų.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Išklotinių eksportavimo operacija nepavyko</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>Abi MovementThreshold ir ReportInterval reikšmės negali būti nuliai</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Inicijavus ArcGISRuntimeEnvironment, SymbolsPath nustatyti negalima.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Įvyko ArcGISRuntimeEnvironment licencijos klaida. Pasibaigė pagrindinės licencijos galiojimo laikas.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer neinicijuotas, tad stabdymui nėra veikiančių paslaugų.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} savybė nenustatyta, paslaugos sukurti negalima.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Šiam veiksmui portalo elementas netinkamas.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Negalima tiesiogiai modifikuoti sluoksnių rinkinio, kai juos valdo WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Prieš {1} min. sukūrė {0}</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Prieš valandą sukūrė {0}</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Tipas '{0}' negalimas 'Shape Type'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Neįmanoma gauti nustatymų pagal nutylėjimą.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Teksto analizavimas nepavyko.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayer galima įtraukti tik į vieną žemėlapį.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Inicijavus ArcGISRuntimeEnvironment, kliento ID nustatyti negalima.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Prieš bandant generuoti OAuth prieigos raktą, turi būti nustatytas RedirectUri.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Nepavyksta sukurti MapView. ArcGIS Runtime diegime nerastas būtinas aplankas 'resources/shaders'.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Netinkamas el. pašto adresas.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Redaguota {0} {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Nepavyko sukurti '{0}', kadangi paslauga tuo pačiu keliu yra stabdoma.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Prieš minutę sukūrė {0}</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Nerastas vienas iš lokatoriaus failų.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Paslaugos vardo jai veikiant nustatyti negalima. Vardas gali būti nustatytas tik paslaugą sustabdžius.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Negalimas spalvos pavadinimas: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Pranešimo apdoroti nepavyko. Prieš iškviečiant ProcessMessage, į vaizdą (žemėlapio arba scenos) turi būti įkeltas MessageLayer.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Redagavimui '{0}' sukurti nepavyko, nes paslauga turinti tą patį kelią jau veikia kaip egzempliorius '{1}', kuris redagavimo nepalaiko.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Kai FeatureLayer jau inicijuotas, {0} savybės nustatyti negalima.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}' atributas negali būti null.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Pateiktas ClientId netinkamas.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Nepavyko geokoduoti adreso.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' nepatenka į numatytą intervalą '{1}–{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl turi priklausyti tam pačiam domenui kaip serveris</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Pateiktas neteisingas objektas, tikėtasi ':' arba '}'.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Bandoma sustabdyti LocalServer, kai jis neveikia.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Lokatoriaus failo koordinačių sistema nepalaikoma.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} negali būti nustatytas į nulį</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Serveryje nepavyko atlikti priedo veiksmo.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Negalite redaguoti geometrijos, kai išjungtos visos redagavimo parinktys.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Prieš valandą redagavo {0}</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Žemėlapis yra neparengtoje būsenoje.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Neįmanoma pasiekti vietos paslaugos</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Neleistina ryšio eilutė, ji turi būti 9 simbolių ilgio ir atitikti DE-9IM specifikaciją.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Objekto atšaukimo klaida.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Be įgaliojimų doroklės negalima sugeneruoti OAuth prieigos rakto. Nustatykite AuthenticationManager.Current.OAuthAuthorizeHandler kaip tinkamą IOAuthAuthorizeHandler diegimą.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Sukurta {0} {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 yra vienintelė palaikoma šios funkcijos erdvinė charakteristika.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Ši aplikacija naudoja programuotojo licenciją. Šią licenciją galima naudoti tik programavimo ir testavimo tikslais.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Nepradėtos geokodavimo užduoties šaukimas.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Įvesties vietoje nėra reikiamo atributo.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' viršijo privalomo lauko ilgį '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometrija yra null arba tuščia.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit turi būti teigiamas sveikas skaičius.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Sluoksnio negalima rodyti žemėlapyje, kurio kitokia erdvinė charakteristika.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Paslauga nepaleista, tad ji negali būti sustabdyta.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Pateiktas neteisingas objektas, laukta elemento pavadinimo.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Paleidžiant serverio procesas netikėtai baigė darbą.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Mišrios erdvinės charakteristikos nepalaikomos.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Sukurta {0} {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Neįmanoma nuskaityti adreso iš įvesties kursoriaus arba reset() grąžina false.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Kai sluoksnis yra inicijuotas, '{0}' savybė negali būti pakeista.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Redaguotas prieš valandą</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Redaguotas prieš keletą sekundžių</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Nepavyksta deserializuoti sluoksnio metaduomenų.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Jokios portalo grupės nevaldo rekomenduojamo turinio.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Nepavyko sukurti lokatoriaus.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Masyvo deserializacijai tipas '{0}' nepalaikomas.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Prieš {1} val. sukūrė {0}</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Neleistina paslauga, neleidžiama eksportuoti žemėlapio arba nepalaikomas paslaugos tipas.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Privalomas parametras yra null arba tuščias.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Nenurodyta patvirtinimo doroklė.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Sukurta prieš {0} min.</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Žemėlapį pirmiausia reikia įrašyti į portalą naudojant Map.SaveAs metodą.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Elementų paslauga neleidžia {0} elemento, kuris jums nepriklauso.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Nepavyko sukurti {0} egzemplioriaus.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Elementų paslauga neteikia reikiamų galimybių.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Paslauga nenumatytai nutrūko. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Licenciją galima nustatyti tik tuo atveju, jei ArcGISRuntimeEnvironment klasė turi leistiną ClientId ir sėkmingai pavyksta iškviesti ArcGISRuntimeEnvironment.Initialize metodą.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Negalite įrašyti priedų redagavimų elementui, kurio nėra serveryje. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Prieš naudojantis GraphicsSource, grafikos rinkinys turi būti tuščias.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Įkėlus sluoksnį, RenderingMode pakeisti negalima.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Nepavyko įkelti ArcGIS Runtime ({0}) arba vieno iš jam priklausančių elementų. Patikrinkite, ar įdiegta „Microsoft Visual C++ 2015-2019 Redistributable“.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Reikšmė nėra skaičius.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Dabartinio naudotojo nėra. Žemėlapius gali įrašyti tik prisijungę naudotojai.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Nepavyksta gauti aplikacijos konteksto</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Nepavyko konvertuoti  'string' į 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Inicijavus ArcGISRuntimeEnvironment, InstallPath nustatyti negalima.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nepavyko inicijuoti ArcGIS Runtime branduolio. ArcGIS Runtime branduolio biblioteka nepasiekiama.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync operacijai skirtas laikas pasibaigė</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Tipui '{0}' nėra apibrėžto neparametrizuoto konstruktoriaus.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Paslaugoje nėra leistinos išklotinių struktūros</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Vienas ar daugiau lokatoriaus nustatymų negalimas.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Neįmanoma išspręsti.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' yra būtinas {1} atributas ir jį privalo turėti elementų paslaugoje esantys elementai.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Paslauga šiuo metu naudojama ir negali būti paleista.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Sukurtas prieš minutę</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Negalimas šešioliktainis spalvos formatas</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Tipas '{0}' nepalaikomas žodyno serializacijai/deserializacijai, raktai turi būti eilutės arba objektai.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Pateiktas klaidingas objektas, tikėtasi '{'.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nepavyko tiksliai įkelti ArcGIS Runtime branduolio bibliotekos, išimties informacija: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Sukurtas prieš keletą sekundžių</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Resursas negali būti įkeltas.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Geokoderio kūrimas nepavyko.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Atvaizdavimas į JSON neserializuojamas</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Klaidingas JSON primityvas: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>LocalServer paleisti nepavyko: nerasta vykdomojo failo.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Įvyko licencijos ArcGISRuntimeEnvironment klaida. Pagrindinė licencija netinkama, plėtinio licencija naudojama ten, kur būtina pagrindinė licencija.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Sustojimai neturi suderinamų maršruto pavadinimų.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Perduota netinkama eilutė, tikėtasi – '\'"</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Vienetas '{0}' negalimas 'DirectionsLengthUnits'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Reikšmė turi būti didesnė už nulį.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Veiksmą gali atlikti tik autentifikuoti naudotojai.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Sustojimai su nuline geometrija nepalaikomi.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Pateiktas klaidingas masyvas, tikėtasi ','.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' esantys '{1}' rinkinyje privalo turėti unikalius Id.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Lokatoriaus failo formatas nepalaikomas.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Baigėsi išklotinių eksportavimo operacijai skirtas laikas</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} savybės pakeisti negalima, kol veikia paslauga.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Bandoma paleisti LocalServer, kai jis nesustabdytas.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Redagavo {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Įvyko licencijos ArcGISRuntimeEnvironment klaida. Plėtinio licencija Nr. {0} netinkama, pagrindinė licencija naudojama ten, kur būtina plėtinio licencija.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>Pasiektas RecursionLimit.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable nerealizuoti {0} priedai.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB reikšmės turi būti skaitinės</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Skaičius '{0}' negali būti neigiamas</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Redaguotas prieš minutę</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Sukurta prieš {0} val.</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol nepalaikoma elemento tipui: {0}.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Nepavyko konvertuoti '{0}' tipo objekto į '{1}' tipą.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Prieš bandant generuoti OAuth prieigos raktą, turi būti nustatytas OAuth ClientId.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Prieš {1} min. redagavo {0}</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Veiksmas galimas tik iš UI gijos</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Generuojant „SceneView“ reikia mažiausiai 256 MB (268 435 456 baitų) atminties</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' nėra reikiamas duomenų tipas '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Nežinomi ištekliai {0}. Būtina užregistruoti serverį.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Pateiktas klaidingas masyvas, tikėtasi ']'.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Negalima konvertuoti į 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>{1} {2} redagavo {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Baigėsi portalo autentifikacijos prisijungimo laikotarpis. Naudotojas turės prisijungti iš naujo.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' nėra numatytų elementų tipų sąraše.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' kreiptasi be atitikties '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON eilutė yra neteisinga arba nepalaikoma.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Bent vienas iš taškų yra null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Sukurtas prieš valandą</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Reikšmė negali būti mažiau nei nulis.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Taisyklė '{0}' negalima 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Sluoksnio tipas {0} nepalaikomas.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Su redaktoriumi nesusietas joks žemėlapis.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Šios paslaugos paleisti negalima, kadangi ji jau veikia LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Prieš {1} val. redagavo {0}</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Nepavyksta atnaujinti prieigos rakto</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' kreiptasi objekto išorėje.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath nenurodytas. Nustatykite, kad ArcGISRuntimeEnvironment.SymbolsPath nurodytų kelią į ArcGISRuntime diegimo aplanką 'symbols' . Galima nurodyti su taikomosios programos diegimo vieta susijusį kelią, pvz., ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Neleistinos MinScale ir MaxScale reikšmės. Nurodytas mastelio intervalas turi būti tarp {0} ir {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>{1} {2} sukūrė {0}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem turi būti įrašytas į portalą ir privalo turėti tinkamą ID.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Trūkstamas arba nepalaikomas geometrijos tipas</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Objekto grafo į '{0}' tipą deserializuoti negalima.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometrija negali būti perprojektuota.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Prieš kelias sekundes sukūrė {0}</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Nepavyko konvertuoti į tekstą.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} skirtas tik vidiniam naudojimui</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Norint elementą redaguoti, pirmiausia jį reikia inicijuoti.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Nepavyko ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Prieš minutę redagavo {0}</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows nepalaikomi.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer neatsako į užklausas, gal būt jis užstrigo.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Įvyko ArcGISRuntimeEnvironment licencijos klaida. Pagrindinė licencija netinkama.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Grafiniame elemente jau yra '{0}' atributas, kurio neturi būti elementuose, dar nesančiuose elementų paslaugoje.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Inicijuojant ArcGISRuntimeEnvironment įvyko klaida. Nepavyko įkelti ArcGISRuntime diegimo</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Nepavyko nustatyti žemėlapio Open GL konteksto</value>
+  </data>
+</root>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Ei saa konverteerida '{0}' vooks.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Miinimumfunktsioonidega avatud GL-raami puhvrikonfiguratsiooni ei leitud</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB väärtus peab olema vahemikus 0 ja 1.</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry ei vasta teenuse eeldatud geomeetriatüübile '{0}'.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' ei ole määratud.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Pärast ArcGISRuntimeEnvironmenti käivitumist ei saa teed LocalServerApplicationStatePath määrata.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Vaata sisemisest erandist detaile.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Koostaja on {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Objektiga seotud tabelit pole käivitatud.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Ei saa konverteerida null &gt; väärtuse tüüp</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Lokaatori teenuse info hankimine ebaõnnestus.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Ei saa tüübiga {0} väärtusest teisendada</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} ei saa muuta kui teenus on töös.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Võtme teenuse URL ei ole määratud.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Geomeetria tüüp ei ole toetatud.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Kaart tuleb enne portaali salvestamist laadida.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV lugemine ebaõnnestus</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Muudetud {0} minutit tagasi</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Koordinaatsüsteem on vigane.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Teenust ei saa käivitada, sest sama nimega ('{0}') LocalService juba töötab.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Kiht ei toeta manuseid.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>LocalService'i käivitamise katse, kui see on peatatud.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nKokkujooksmist kirjeldav fail salvestati järgmisesse asukohta: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Ebamäärane string ette antud.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Pildiüksuse skeemi praegu ei toetata.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Ei saa lugeda voost</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Muudatusi ei saa teostada objektis, mida ei eksisteeri.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Muudetud {0} sekundi eest</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Teenus ei toeta '{0}' liidest.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Bingi kaardi kihti ei saa kuvada, sest Bingi võtmed on puudu.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Klausel ja geomeetria ei tohi mõlemad nullväärtusega olla.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Pildiüksuse eksportimine kustutati</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Operatsioon ei ole toetatud kasutades GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Vähemalt üks järgmistest päringuparameetritest peab olema määratud: Text, Geometry, Where, ObjectIDs või TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>LocalService'i peatamise katse, kui see ei tööta ei tööta.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Objektiteenus ei paku nõutud metaandmeid.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Pikenduslitsents number {0} on aegunud.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Pildiüksuse eksportimine tühistati</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Loodud {1} kell {2}, autor: {0}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Pärast ArcGISRuntimeEnvironmenti käivitumist ei saa teed TempPath määrata.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Pikenduslitsents number {0} on vigane.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Halb katkestus.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Nõutud funktsioon '{0}' ei ole selle objektiteenuse jaoks saadaval.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Sisemine viga.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Ei saa käsklust käivitada.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Veebikaardi kihist ei saa kihti luua.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Lokaator ei toeta lõikumiste funktsionaalsust.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Muudetud {1} kell {2}, muutja: {0}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Peab olema nullist suurem või sellega võrdne</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Muudetud {0} kell {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB värvistringid peavad määrama kolm või neli komaeraldusega väärtust</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Null geomeetriaga takistused ei ole toetatud.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Vale voog, '[' oodatud.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Pärast MessageLayeri käivitumist ei saa seda väärtust muuta.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Defineeritud teekonda ei eksisteeri.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Toetatakse ainult stringitüüpidest teisendamist</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Sümbol ei ole JSON-is serialiseeritav.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Teenus ei toeta pildiüksuste eksportimist</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} on nullväärtusega või tühi.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>ServiceFeatureTable'it ei saa luua '{0}' tüüpi teenusekihist.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Fail {0} on juba olemas ja allalaadimise puhul ei ole määratud olemasolevate failide ülekirjutamine</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Pärast kihi käivitamist ei saa väärtust '{0}' muuta.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Ei õnnestu luua teekonna ülesannet.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Valideerimise teostamiseks peab FeatureLayer olema käivitatud.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Objektiteenus ei paku nõutud objekti ID välja.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Tõrge ArcGISRuntimeEnvironment lähtestamisel. ArcGISRuntime juurutamiskausta ei leitud. Veenduge, et kaust nimega "{0}" oleks rakenduse täitmisfailiga samas kaustas või määrake alternatiivsele asukohale viitav ArcGISRuntimeEnvironment.InstallPath. Juurutamiskaust peab sisaldama alamkaustu, mis vastavad rakenduse protsessi arhitektuurile.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Muudetud {0} tundi tagasi</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>LocalServeri käivitamiseks on vaja tavalise taseme litsentsi. Praegu on litsentsi tase esmane (vt ArcGISRuntimeEnvironment.License.Level). Juurutamiseks saate käivitada Runtime'i tavalise taseme litsentsiga, valides seade ArcGISRuntimeEnvironment.License.SetLicense(). Kui arendate rakendust, saate jätta seade ArcGISRuntimeEnvironment.ClientId arendusrežiimi, et proovida LocalServerit.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>et</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Sisemine viga.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Tee jaoks on määratud vale väärtus.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Teenus ei toeta '{0}' ja '{1}' liideseid.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Pildiüksuse eksportimine nurjus</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold ja ReportInterval ei saa mõlemad olla väärtusega null</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Pärast ArcGISRuntimeEnvironmenti käivitumist ei saa teed SymbolsPath määrata.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Põhilitsents on aegunud.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>Kohalik server ei ole käivitatud, seega puuduvad jooksvad teenused, mida peatada.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} väärtus ei ole määratud, ei saa luua teenust.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Portaaliüksus on selle toimingu jaoks vale.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Kihtide kogu ei saa otse muuta, kui seda hallatakse WebMapViewModeli kaudu</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Loodud {1} minutit tagasi, autor: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Loodud tund aega tagasi, autor: {0}</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Tüüp '{0}' ei ole sobiv määratlusele 'Ruumikuju'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Ei õnnestu hankida vaikimisi sätteid.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Teksti parsimine ebaõnnestus.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayeri saab lisada ainult ühele kaardile.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Pärast ArcGISRuntimeEnvironmenti käivitumist ei saa ClientId-d määrata.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Enne OAuthi võtme loomise katset peab olema määratud RedirectUri.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Funktsiooni MapView ei saa luua. Nõutud kausta 'ressursid/varjutajad' ei leitud ArcGIS Runtime'i juurutamisest.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Vale meiliaadress.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Muudetud {0} kell {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Ebaõnnestus '{0}' loomine kuna sama teekonnaga teenus on juba peatumas.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Loodud minut aega tagasi, autor: {0}</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Ühte lokaatori failidest ei leitud.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Ei saa seadistada teenuse nime kui teenus on töös. Nime saab määrata ainult teenuse seistes.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Sobimatu värvinimi: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Sõnumit ei õnnestunud töödelda. Enne ProcessMessage'i käivitamist peab MessageLayer olema vaatesse (kaart või vaade) laaditud.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Ebaõnnestus '{0}' loomine redigeerimiseks kuna teenus sama teekonnaga on juba käivitatud asukohas '{1}' ja ei toeta redigeerimist.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Pärast FeatureLayeri käivitumist ei saa väärtust {0} määrata.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Atribuut '{0}' ei tohi olla nullväärtusega.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Antud ClientId on vigane.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Aadressi geokodeerimine ebaõnnestus.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' ei jää eeldatud ulatuse '{1}–{2}' piiresse.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl peab kuuluma serveriga samasse domeeni</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Vale objekt ette antud, ':' või '}' oodatud.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>LocalServeri peatamise katse, kui see ei tööta.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Lokaatori failil on mittetoetatud koordinaatsüsteem.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>Atribuudile {0} ei saa määrata tühiväärtust</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Manustamine nurjus serveris.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Kui kõik muutmisvalikud on keelatud, ei saa te geomeetriat muuta.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Muudetud üks tund tagasi, muutja: {0}</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Kaart ei ole valmis.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Asukohateenusele ei pääse juurde</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Seosestring on vigane, see peab olema 9 tähemärki pikk ning vastama DE-9IM-määratlusele.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Tühistamise objekti viga.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>OAuthi võtit ei õnnestu ilma autoriseerimisohjurita luua. Määrake seade AuthenticationManager.Current.OAuthAuthorizeHandler jaoks õige IOAuthAuthorizeHandleri juurutamine.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Loodud {0} kell {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 on selle funktsionaalsuse osas ainus toetatud koordinaatsüsteem.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Rakendus töötab arendaja litsentsil. See litsents on kehtiv ainult arendamiseks ja testimiseks.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Käivita geokodeerimise ülesande tagasivõtmiseks.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Asukoha sisendist puudub nõutud atribuut.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' on ületanud nõutud väljapikkuse '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geomeetria on nullväärtusega või tühi.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit peab olema positiivne täisarv.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Kihti ei saa kaardil teistsuguses koordinaatsüsteemis kuvada.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Teenus ei ole käivitatud, seega seda ei saa peatada.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Vale objekt ette antud, liikme nimi oodatud.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Serveriprotsess katkes käivitamisel ootamatult.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Erinevad koordinaatsüsteemid ei ole koos toetatud.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Loodud {0} kell {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Ei suuda lugeda aadresse sisendkursorist või on reset() tagasipöördumine vale.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>'{0}' väärtust ei saa enam muuta peale selle käivitumist.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Muudetud üks tund tagasi</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Muudetud mõned sekundid tagasi</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Kihi metaandmeid ei saa deserialiseerida.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Ükski portaalirühm ei käita esiletoodud sisu.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Lokaatori loomine ebaõnnestus.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Tüüp '{0}' ei ole voos toetatud.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Loodud {1} tundi tagasi, autor: {0}</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Vale teenus, kaardi eksport pole lubatud või teenuse tüüp pole toetatud.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Nõutud parameeter on null või tühi.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Väljakutse ohjurit pole määratud.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Loodud {0} minutit tagasi</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Kaart tuleb esmalt meetodi „Map.SaveAs“ abil portaali salvestada.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Objektiteenus ei luba teil {0} objekti, mille omanik te ei ole.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Ei saa luua {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Objektiteenus ei paku nõutud funktsioone.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Teenus peatud ootamatult. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Litsentsi saab määrata vaid siis, kui ArcGISRuntimeEnvironmenti klass sisaldab õiget ClientId-d ja ArcGISRuntimeEnvironment.Initialize'i meetodi käivitamine õnnestus.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Te ei saa manuse muudatusi salvestada objekti, mida serveris ei eksisteeri. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Graafika kollektsioon peab olema tühi enne GraphicsSource kasutamist.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Režiimi RenderingMode ei saa muuta, kui kiht on juba laaditud.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>ArcGIS Runtime'i ({0}) või ühte selle sõltuvust ei saanud laadida. Veenduge, et värskendus "Microsoft Visual C++ 2015-2019 Redistributable" oleks installitud.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Väärtus on NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Praegust kasutajat pole. Kaarte saab salvestada ainult sisselogitud kasutaja.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Rakenduse konteksti ei saa tuua</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Ei saanud konverteerida 'string' väärtust 'DateTime' kujule.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Pärast ArcGISRuntimeEnvironmenti käivitumist ei saa teed InstallPath määrata.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime baasversiooni ei saanud lähtestada. ArcGIS Runtime standardsele teegile ei pääse juurde.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsynci toimingu ajalõpp</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Parameetrita konstruktorit pole defineeritud tüübile '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Teenuses pole õiget pildiüksuse skeemi</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Üks või enam lokaatori seadetest on ebasobiv.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Ei saa lahendada.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' on objekti {1} jaoks nõutud atribuut ja peaks objektiteenuses olevate objektide puhul saadaval olema.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Teenus on hetkel töös ja ei saa käivitada.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Loodud minut tagasi</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Sobimatu kuueteistkümnendikväärtusega värvivorming</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Tüüp '{0}' ei ole toetatud, võtmed peavad olema stringid või objektid.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Ebakorrektne objekt ette antud, '{' oodatud.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime’i tuumteeki ei saanud laadida, erandi üksikasjad: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Loodud mõned sekundid tagasi</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Ressurssi ei leitud</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Geokodeerija loomine ebaõnnestus.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Renderdaja ei ole loodav JSON'is</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Ebakorrektne JSON primitiiv: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>LocalServeri käivitamine nurjus: täitmisfaili ei leitud.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Põhilitsents pole õige, põhilitsentsi nõudmise korral kasutatakse pikenduslitsentsi.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Peatustel ei ole järjekindlaid teekonna nimesid.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Vale string, '\'" oodatud.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Ühik '{0}' ei ole sobiv määratlusele 'JuhistePikkuseÜhikud'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Väärtus peab olema suurem kui null.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Toiming on saadaval vaid autenditud kasutajate jaoks.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Null geomeetriaga peatused ei ole toetatud.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Vale voog, ',' oodatud.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' kollektsioonis '{1}' peavad omama unikaalseid ID'sid.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Lokaatori failil on mittetoetatud formaat.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Pildiüksuse eksportimine aegus</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} seadet ei saa muuta kui teenus on töös.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>LocalServeri käivitamise katse, kui see pole peatatud.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Muutis {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Pikenduslitsents number {0} pole õige, pikenduslitsentsi nõudmise korral kasutatakse põhilitsentsi.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit ületatud.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable ei rakenda {0} manust.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB väärtus peab olema arv</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>'{0}' number ei saa olla negatiivne</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Muudetud üks minut tagasi</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Loodud {0} tundi tagasi</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>Funktsiooni getSymbol ei toetata elemenditüübi {0} jaoks.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Ei saa konverteerida tüüpi '{0}' tüübiks '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Enne OAuthi võtme loomise katset peab olema määratud OAuthi ClientId.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Muudetud {1} minutit tagasi, muutja: {0}</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operatsioon lubatud ainult UI kaudu</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView renderdamine eeldab vähemalt 256 MB (268 435 456 baiti) mälu</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' ei ole nõutud andmetüüpi '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Tundmatu ressurss {0}. Server tuleb registreerida.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Vale voog, ']' oodatud.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Ei õnnestunud konverteerida 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Muudetud {1} kell {2}, muutja: {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Portaali autentimise sisselogimise periood on aegunud. Kasutaja peab uuesti sisse logima.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' ei ole eeldatud objektitüüpide loendis.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' kutsuti ühegi kokkulangevuseta '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON string on vale või mittetoetatud.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Vähemalt üks punktidest on nullväärtusega.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Loodud üks tund tagasi</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Väärtus ei saa olla alla nulli.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Reegel '{0}' ei ole sobiv määratlusele 'U-pöörde reegel'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Kihi tüüp {0} pole toetatud.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Redaktoriga ei ole seotud ükski kaart.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Ei saa käivitada seda teenust kuna see juba jookseb kohalikul serveril.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Muudetud {1} tundi tagasi, muutja: {0}</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Võtit ei saa värskendada</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' kutsuti väljastpoolt objekti.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>Teed ArcGISRuntimeEnvironment.SymbolsPath ei määratud. Määrake tee ArcGISRuntimeEnvironment.SymbolsPath asukohaks ArcGISRuntime'i juurutuskaust 'sümbolid'. Teed saab määrata rakenduse installitud asukoha järgi (nt ".\Vahendid\sümbolid").</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Valed MinScale'i ja MaxScale'i väärtused.  Määratud mõõtkavavahemik peab jääma {0} ja {1} vahele.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Loodud {1} kell {2}, autor: {0}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem tuleb salvestada portaali ja see peab sisaldama sobivat ID-d.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Puuduv või mittetoetatud geomeetria tüüp</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Ei saa muuta objekti graafi tüübiks '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geomeetriat ei saa reprojekteerida.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Loodud mõne sekundi eest, autor: {0}</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Ei saa konverteerida tekstilisele kujule.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} on ainult sisemise kasutuse jaoks</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Enne muudatuste rakendamist peab objekt olema käivitatud.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Pöördgeokodeerimine ebaõnnestus.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Muudetud üks minut tagasi, muutja: {0}</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>AjaAknad ei ole toetatud.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>Kohalik server ei vasta päringutele ja võib olla kokku jooksnud.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti litsentsiga seoses esines tõrge. Põhilitsents on vigane.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Atribuut '{0}' on juba olemas graafikas, mis ei tohiks olla saadaval objektide puhul, mida objektiteenuses ei ole.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironmenti käivitamisel esines tõrge. ArcGISRuntime'i juurutamist ei õnnestunud laadida</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Open GL konteksti määramine kaardi jaoks nurjus</value>
+  </data>
+</root>

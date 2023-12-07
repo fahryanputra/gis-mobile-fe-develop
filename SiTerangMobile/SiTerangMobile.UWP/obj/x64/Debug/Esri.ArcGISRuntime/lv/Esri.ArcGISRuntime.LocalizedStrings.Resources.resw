@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Nevar konvertēt uz '{0}' masīvu.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Neizdevās atrast Open GL kadru buferzonas konfigurācija ar minimālām iespējām</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB vērtībām ir jābūt no 0 līdz 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry neatbilst paredzētajam servisa ģeometrijas tipam '{0}'.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' nav iestatīts.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Pēc ArcGISRuntimeEnvironment  inicializēšanas nevar iestatīt LocalServerApplicationStatePath.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Skatīt iekšējo izņēmumu priekš detaļām.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Izveidoja {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Elementu tabula nav inicializēta.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Nevar konvertēt nulli uz vērtību tipu.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Nevar iegūt NovietojumaServisaInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Nevar konvertēt no tipa {0} vērtības</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} nevar mainīt, kad serviss darbojas.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Marķiera pakalpojuma URL nav iestatīts.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Ģeometrijas tips netiek atbalstīts.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Karte ir jāsaglabā pirms saglabāšanas portālā.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV parsēšanas neveiksme.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Rediģēts pirms {0} minūtēm</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Telpiskā atskaite nav derīga.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Nevar startēt servisu, jo pašlaik darbojas LocalService ar tādu pašu nosaukumu '{0}'.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Slānis neatbalsta pielikumus.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Mēģinājums stratēt LocalService, kad tas ir apturēts.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nAvārijas izmetes fails saglabāts kā: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Nepabeigta virkne pieņemta.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Mozaīku veidošanas shēma pašlaik nav atbalstīta.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Nevar nolasīt no straumes</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Nevar rediģēt neeksistējošu elementu.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Rediģēja lietotājs pirms {0} sekundēm</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Serviss neīsteno '{0}' galapunktu.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Nevar uzzīmēt Bing Map slāni, jo nav nodrošināta neviena Bing atslēga.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Klauzula Where un ģeometrija nevar būt nulle.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Mozaīku eksportēšanas darbība tika dzēsta</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Darbība netiek atbalstīta, kad lieto GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Ir jāiestata vismaz viens no šādiem vaicājuma parametriem: Text, Geometry, Where, ObjectIDs vai TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Mēģinājums apturēt LocalService, kad tas nedarbojas.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Elementu serviss nenodrošina nepieciešamos metadatus.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Paplašinājuma licencei nr. {0} ir beidzies derīguma termiņš.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Mozaīku eksportēšanas darbība ir atcelta</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Izveidoja lietotājs {0}: {1}, {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Pēc ArcGISRuntimeEnvironment inicializēšanas nevar iestatīt TempPath.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Paplašinājuma licences numurs {0} nav derīgs.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Nepareizs izņēmums.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Nepieciešamā iespēja '{0}' šim elementu servisam nav pieejama.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Iekšēja kļūda.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Nevar izpildīt komandu.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Nevar izveidot slāni no web kartes slāņa.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Izvietojums neatbalsta krustošanās funkcionalitāti.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Rediģēja lietotājs {0}: {1}, {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Jābūt lielākam vai vienādam ar nulli</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Rediģēts: {0}, {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB krāsu virknēm ir jānorāda trīs vai četras ar komatiem atdalītas vērtības</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Barjeras bez ģeometrijas netiek atbalstītas.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Nederīgs masīvs pieņemts, '[' sagaidāms.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Pēc MessageLayer inicializēšanas šo īpašību nevar mainīt.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Norādītais ceļš neeksistē.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Konvertēšana nevis no virknes tipa, bet citiem tipiem netiek atbalstīta</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Simbols nav serializējams uz JSON.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Serviss neatbalsta mozaīku eksportēšanu</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} ir nulle vai tukšs.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Nevar izveidot ServiceFeatureTable no šāda pakalpojuma slāņa veida: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Fails {0} jau pastāv, un lejupielādes darbība ir iestatīta nepārrakstīt esošus failus</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Pēc slāņa inicializēšanas nevar mainīt īpašību '{0}'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Nevar izveidot Maršruta uzdevumu.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Lai veiktu validāciju, ir jābūt inicializētam FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Elementu serviss nenodrošina nepieciešamo Object ID lauku.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Inicializējot ArcGISRuntimeEnvironment, radās kļūda. Nevar atrast ArcGISRuntime izvietošanas mapi. Nodrošiniet, lai mapē, kurā atrodas jūsu lietotnes izpildfails, būtu arī mape ar nosaukumu "{0}" vai iestatiet, lai ArcGISRuntimeEnvironment.InstallPath norādītu uz alternatīvu novietojumu. Izvietošanas mapē ir jābūt apakšmapēm, kuras atbilst jūsu lietotnes procesu arhitektūrai.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Rediģēts pirms {0} stundām</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Lokālajam serverim darba sākšanai ir nepieciešama standarta līmeņa licence. Pašreiz licencei ir pamata līmenis (sk. ArcGISRuntimeEnvironment.License.Level). Izvietojumam jūs varat inicializēt izpildlaiku, izmantojot ArcGISRuntimeEnvironment.License.SetLicense() esošo standarta līmeņa licenci. Ja izstrādājat aplikāciju, varat neiestatīt ArcGISRuntimeEnvironment.ClientId, lai paliktu izstrādātāja režīmā un izmēģinātu LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>lv</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Dažas iekšējas kļūdas.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Ceļam norādīta nederīga vērtība.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Serviss neīsteno '{0}' un '{1}' galapunktus.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Mozaīku eksportēšanas darbība neizdevās</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold un ReportInterval abi nevar būt nulle</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Pēc ArcGISRuntimeEnvironment inicializēšanas nevar iestatīt SymbolsPath.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Ir beidzies galvenās licences derīguma termiņš.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer nav inicializēts, tāpēc nav darbojošos servisu, ko apturēt.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} īpašības nav iestatītas, nevar radīt servisu.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Portāla vienība šai darbībai nav derīga.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Slāņu kolekciju nevar modificēt tieši, ja pārvaldība tiek veikta, izmantojot WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Izveidoja lietotājs {0} pirms {1} minūtēm</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Izveidoja lietotājs {0} pirms stundas</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Tips '{0}' nav derīgs 'Formas tipam'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Nevar iegūt noklusējuma iestatījumus.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Teksta parsētāja neveiksme.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayer var pievienot tikai vienai kartei.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Pēc ArcGISRuntimeEnvironment inicializēšanas nevar iestatīt Client Id.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>RedirectUri ir jāiestata pirms mēģinājuma ģenerēt OAuth marķieri.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Nevar izveidot MapView. Nepieciešamā mape 'resources/shaders' ArcGIS Runtime izvietojumā netika atrasta.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Nederīga e-pasta adrese.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Rediģēts: {0}, {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Neizdevās izveidot '{0},' jo serviss ar to pašu ceļu jau ir apturēts.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Izveidoja lietotājs {0} pirms minūtes</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Viens no izvietojuma failiem nav atrasts.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Nevar iestatīt servisu nosaukumu, kad servisi ir darbībā. Nosaukumu var iestatīt tikai tad, ja serviss tiek pārtraukts.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Nederīgs krāsas nosaukums: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Ziņojumu nevarēja apstrādāt. Pirms ProcessMessage izsaukuma MessageLayer ir jābūt sekmīgi ielādētam skatā (kartē vai scēnā).</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Neizdevās izveidot '{0}' rediģēšanai, jo serviss ar to pašu ceļu jau darbojas, kā piemēram'{1},' kas neatbalsta rediģēšanu.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Ja FeatureLayer jau ir inicializēts, {0} īpašību nevar iestatīt.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}' atribūts nevar būt nulle.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Piegādātais ClientId nav derīgs.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Nevar ģeokodēt adreses.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' neiekļaujas paredzētajā diapazonā '{1}–{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl un serverim ir jāpieder vienam un tam pašam domēnam</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Nederīgs objekts pieņemts, ':' vai '}' sagaidāms.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Mēģinājums apturēt LocalServer, kad tas nedarbojas.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Izvietojuma failam ir neatbalstītas telpiskās atsauksmes.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} nevar iestatīt kā nulli</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Pielikuma darbība serverī neizdevās.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Jūs nevarat rediģēt ģeometriju, ja visas rediģēšanas opcijas ir atspējotas.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Rediģēja lietotājs {0} pirms stundas</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Karte nav lietošanai gatavā stāvoklī.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Nevar piekļūt izvietojuma noteikšanas pakalpojumiem</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Nederīga relāciju virkne, tai ir jābūt vismaz 9 rakstzīmes garai un jāatbilst DE-9IM specifikācijai.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Objektu atcelšanas kļūda.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Nevarēja ģenerēt OAuth talonu bez autorizācijas apdarinātāja. Iestatiet AuthenticationManager.Current.OAuthAuthorizeHandler kā derīgu IOAuthAuthorizeHandler ieviešanu.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Izveidoja lietotājs {0}; {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 ir vienīgā šai funkcijai atbalstītā telpiskā atskaite.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Aplikācija strādā izmantojot izstrādātāja licenci. Šī licence ir derīga tikai izstrādei un testēšanai.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Izsauc neinicializētu ģeokodēšanas uzdevumu.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Ievades izvietojumam trūkst nepieciešamie atribūti.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' pārsniedz vajadzīgo lauka garumu '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Ģeometrija ir nulle vai tukša.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit jābūt pozitīvam veselam skaitlim.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Slāni nevar parādīt kartē ar atšķirīgu telpisko atsauci.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Serviss nav sācies, tāpēc tas nevar tikt pārtraukts.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Nederīgs objekts pieņemts, biedra vārds sagaidāms.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Startēšanas laikā negaidīti notika iziešana no servera procesa.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Sajauktas telpiskās atskaites netiek atbalstītas.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Izveidoja lietotājs {0}; {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Nevar nolasīt adresi no ievades kursora vai reset() atgriež false.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>'{0}' īpašību nevar mainīt, kad slānis ir inicializēts.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Rediģēts pirms stundas</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Rediģēts pirms dažām sekundēm</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Nevar deserializēt slāņa metadatus.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Neviena portāla grupa nenodrošina attēloto saturu.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Nevar izveidot Novietojumu.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Tips '{0}' netiek atbalstīta priekš masīva deserializēšanas.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Izveidoja lietotājs {0} pirms {1} stundām</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Nederīgs serviss, kartes eksportēšana nav atļauta vai servisa tips nav atbalstīts.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Nepieciešamais parametrs ir nulle vai tukšs.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Izaicinājuma apdarinātājs nav iestatīts.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Izveidots pirms {0} minūtēm</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Karte vispirms ir jāsaglabā portālā, izmantojot metodi Map.SaveAs.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Elementu serviss neļauj {0} jums nepiederošu elementu.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Nevar izveidot instanci no {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Elementu pakalpojumā netiek piedāvātas nepieciešamās iespējas.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Servisu negaidīti apturēja.  '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Licenci var iestatīt tikai tad, ja ArcGISRuntimeEnvironment klasei ir derīgs ClientId un ir izdevies izsaukums uz ArcGISRuntimeEnvironment.Initialize metodi.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Jūs nevarat saglabāt elementa rediģētos pielikumus, ja elements serverī neeksistē. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Grafikas kolekcijai jābūt tukšai, pirms lietojat GraphicsSource.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Kad slānis ir ielādēts, RenderingMode nevar mainīt.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Nevarēja ielādēt ArcGIS Runtime ({0}) vai kādu no tā atkarīgajiem parametriem. Pārliecinieties, vai ir instalēts “Microsoft Visual C++ 2015-2019 Redistributable”.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Vērtība nav cipars.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Nav pašreizējā lietotāja. Kartes drīkst saglabāt tikai pieteicies lietotājs.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Nevar izgūt lietotnes kontekstu</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Nevar konvertēt 'string' uz 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Pēc ArcGISRuntimeEnvironment inicializēšanas nevar iestatīt InstallPath.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Neizdevās inicializēt ArcGIS Runtime pamatu. ArcGIS Runtime pamatbibliotēka ir nepieejama.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync operācijai iestājās taimauts</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Nav definēts konstruktors bez parametriem priekš tipa'{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Servisā nav ietverta derīga mozaīku shēma</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Viena vai vairākas izvietojuma īpašibas ir nederīgas.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Nevar atrisināt.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' ir vajadzīgs {1} atribūts un tam ir jābūt ievietotam elementos, kas pastāv elementu servisā.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Serviss šobrīd ir progresā, un nevar tikt uzsākts.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Izveidots pirms minūtes</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Nederīgs HEX krāsu formāts</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Tips '{0}' netiek atbalstīts priekš serializēšanas/deserializēšanas no vārdnīcas, atslēgām ir jābūt virknēm vai objektiem.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Nederīgs objekts pieņemts, '{' sagaidāms.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Neizdevās skaidri ielādēt ArcGIS Runtime pamatbibliotēku; detalizēta informācija par izņēmumu: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Izveidots pirms dažām sekundēm</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Resursu nevar atrast.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Neizdevās izveidot ģeokodētāju.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Renderētājs nav no sērijas JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Nederīgs JSON primitīvs: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>LocalServer startēšana neizdevās:</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Galvenā licence nav pareiza — galvenās licences vietā ir izmantota paplašinājuma licence.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Pieturām nav konsekventsi maršruta nosaukumi.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Nederīga virkne pieņemta, '\'" sagaidāms.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Vienība '{0}' nav derīga 'VirzienuGarumaVienībām'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Vērtībai ir jābūt lielākai par nulli.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Darbība ir pieejama tikai autentificētiem lietotājiem.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Pieturas bez ģeometrijas netiek atbalstītas.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Nederīgs masīvs pieņemts, ',' sagaidāms.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' iekš '{1}' kolekcijas jābūt unikāliem Ids.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Izvietojuma failam ir neatbalstīts formāts.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Iestājās mozaīku eksportēšanas darbības noildze</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} īpašības nevar mainīt, kamēr darbojas serviss.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Mēģinājums startēt LocalServer, kad tas nav apturēts.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Rediģēja lietotājs {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Paplašinājuma licences numurs {0} nav pareizs, galvenās licences vietā ir izmantota paplašinājuma licence.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit pārsniegts.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable neievieš {0} pielikumus.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB vērtībām ir jābūt skaitliskām</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>'{0}' skaitlis nedrīkst būt negatīvs.</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Rediģēts pirms minūtes</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Izveidots pirms {0} stundām</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol netiek atbalstīts elementa tipam: {0}.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Nevar konvertēt objektu no tipa '{0}' uz tipu '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Pirms mēģināt ģenerēt OAuth marķieri, ir jāiestata OAuth ClientId.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Rediģēja lietotājs {0} pirms {1} minūtēm</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Darbība ir atļauta tikai no UI pavediena</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView renderēšanai nepieciešamais minimālais atmiņas apjoms ir 256 MB (268 435 456 baitu)</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' nav nepieciešamo datu tips '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Nezināms resurss {0}. Ir jāreģistrē serveris.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Nederīgs masīvs pieņemts, ']' sagaidāms.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Nevarēja konvertēt uz 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Rediģēja lietotājs {0}: {1}, {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Ir beidzies pierakstīšanās periods kopš portāla autentifikācijas. Lietotājam būs jāpiesakās vēlreiz.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' nav atrasts paredzēto īpašību veidu sarakstā.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' ko sauc ar neatbilstošu '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON virkne ir nederīga vai neatbalstīta.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Punktos vismaz viens punkts ir nulle.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Izveidots pirms stundas</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Vērtība nevar būt mazāka par nulli.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Politika '{0}' nav derīga 'Apgriezties braukšanai pretējā virzienā politikai'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Slāņa tips {0} nav atbalstīts.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Neviena karte nav saistīta ar Editor.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Nevar startēt šo servisu, jo tas jau darbojas uz  LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Rediģēja lietotājs {0} pirms {1} stundām</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Nevar atsvaidzināt marķieri</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' ko sauc ārpusē no objekta.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath netika norādīts. Iestatiet ArcGISRuntimeEnvironment.SymbolsPath ceļā uz ArcGISRuntime izvietojuma mapi 'symbols'. Ceļu var norādīt atbilstošo aplikācijas instalētajai atrašanās vietai, piemēram, ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Nederīgas MinScale un MaxScale vērtības. Norādītajam skalas diapazonam ir jābūt starp {0} un {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Izveidoja lietotājs {0}: {1}, {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem ir jāsaglabā portālā un tam ir jāsatur derīgs ID.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Trūkst ģeometrijas tipa vai tas netiek atbalstīts.</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Nevar deserializēt objekta grafu par tipu no '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Nevar reprojicēt ģeometriju.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Izveidoja lietotājs pirms {0} sekundēm</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Nevar konvertēt uz virkni.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} ir paredzēts tikai iekšējai lietošanai</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Pirms rediģējumu piemērošanas ir jāinicializē elements.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Nevar ApvērstĢeokodu.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Rediģēja lietotājs {0} pirms minūtes</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>Laika logi netiek atbalstīti.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer nereaģē uz pieprasījumiem, un var būt avarējis.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Izmantojot ArcGISRuntimeEnvironment, radās licences kļūda. Galvenā licence nav derīga.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>'{0}' atribūts jau pastāv grafikā, kuram nevajadzētu būt ievietotam tādos elementos, kas nav elementu servisā.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Inicializējot ArcGISRuntimeEnvironment, radās kļūda. Nevarēja ielādēt ArcGISRuntime izvietojumu</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Neizdevās kartei iestatīt Open GL kontekstu</value>
+  </data>
+</root>

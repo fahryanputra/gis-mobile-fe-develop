@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>'{0}' 배열로 변환할 수 없습니다.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>최소 기능이 있는 Open GL 프레임 버퍼 구성을 찾지 못했습니다</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB 값은 0에서 1 사이여야 함</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry가 서비스의 예상 지오메트리 유형 '{0}'과(와) 일치하지 않습니다.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url'이 설정되지 않았습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment가 초기화된 후에는 LocalServerApplicationStatePath를 설정할 수 없습니다.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>세부 정보에 대한 내부 예외를 참고하세요.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>만든 사람: {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>피처 테이블이 초기화되지 않았습니다.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>null은 값 유형으로 변환할 수 없습니다.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>로케이터 서비스 정보를 가져올 수 없습니다.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>값 또는 유형 {0}에서 변환할 수 없음</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>서비스가 실행 중일 때는 {0}을(를) 변경할 수 없습니다.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>토큰 서비스 URL이 설정되지 않았습니다.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>지오메트리 유형이 지원되지 않습니다.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>맵은 포털에 저장하기 전에 불러와야 합니다.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV 구문 분석에 실패했습니다.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>{0}분 전에 편집됨</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>공간 참조가 잘못되었습니다.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>'{0}'과(와) 이름이 같은 로컬 서비스가 이미 실행 중이므로 서비스를 시작할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>레이어가 첨부를 지원하지 않습니다.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>로컬 서비스가 중지된 상태에서 시작하려고 했습니다.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\n크래시 덤프 파일 저장 위치: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>종결되지 않은 문자열이 전달되었습니다.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>타일링 스키마는 현재 지원되지 않습니다.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>스트림에서 읽을 수 없음</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>존재하지 않는 피처에 편집을 수행할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>{0}이(가) 몇 초 전에 편집함</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>서비스가 '{0}' 엔드포인트를 구현할 수 없습니다.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>제공된 Bing 키가 없으므로 Bing Map 레이어를 그릴 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Where 절과 지오메트리가 모두 null일 수는 없습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>타일 내보내기 작업 삭제됨</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>GraphicsSource를 사용할 때 작업이 지원되지 않습니다.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Text, Geometry, Where, Objectid 또는 TimeExtent 쿼리 매개변수 중 하나 이상을 설정해야 합니다.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>로컬 서비스가 실행되지 않은 상태에서 중지하려고 했습니다.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>피처 서비스가 필수 메타데이터를 제공하지 않습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 익스텐션 라이선스 번호 {0}이(가) 만료되었습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>타일 내보내기 작업 취소됨</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}에 생성함</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment가 초기화된 후에는 TempPath를 설정할 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 익스텐션 라이선스 번호 {0}이(가) 잘못되었습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>잘못된 이스케이프입니다.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>필수 기능 '{0}'을(를) 이 피처 서비스에 사용할 수 없습니다.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>내부 오류입니다.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>명령을 실행할 수 없습니다.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>웹 맵 레이어에서 레이어를 생성할 수 없습니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>로케이터에서 교차 기능이 지원되지 않습니다.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}에 편집함</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>0보다 크거나 같아야 함</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>{0}에서 {1}에 편집됨</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB 색상 문자열은 쉼표로 구분된 값을 3~4개 지정해야 함</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>null 지오메트리가 있는 장애물은 지원되지 않습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>잘못된 배열이 전달되었습니다. 올바른 값은 '['입니다.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>MessageLayer가 초기화된 후에는 이 등록정보를 변경할 수 없습니다.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>지정된 경로가 없습니다.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>문자열 외의 유형에서 변환이 지원되지 않음</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>심볼이 JSON에 직렬화되어 있지 않습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>서비스에서 타일 내보내기를 지원하지 않습니다.</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0}이(가) null이거나 비어 있습니다.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>'{0}' 유형의 서비스 레이어에서 ServiceFeatureTable을 생성할 수 없습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>{0} 파일이 이미 있습니다. 기존 파일을 덮어쓰지 않도록 다운로드 작업이 설정되었습니다.</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>레이어를 초기화한 후에는 '{0}' 등록정보를 변경할 수 없습니다.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>RouteTask를 생성할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>유효성을 검사하려면 피처 레이어를 초기화해야 합니다.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>피처 서비스가 필수 Objectid 필드를 제공하지 않습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment를 초기화하는 중 오류가 발생했습니다. ArcGISRuntime 배포 폴더를 찾을 수 없습니다. 이름이 "{0}"인 폴더가 실행 가능한 응용프로그램과 같은 폴더에 있는지 확인하거나 ArcGISRuntimeEnvironment.InstallPath가 대체 위치를 참조하도록 설정하세요. 배포 폴더에는 응용프로그램의 프로세스 아키텍처와 일치하는 하위 폴더가 있어야 합니다.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>{0}시간 전에 편집됨</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>로컬 서버를 시작하려면 표준 수준의 라이선스가 필요합니다. 현재 라이선스 수준은 기본입니다(ArcGISRuntimeEnvironment.License.Level 참조). 배포의 경우 ArcGISRuntimeEnvironment.License.SetLicense()에서 표준 수준 라이선스를 사용하여 런타임을 초기화할 수 있습니다. 앱을 개발하는 경우 로컬 서버를 시험해 볼 때 개발자 모드를 유지하려면 ArcGISRuntimeEnvironment.ClientId를 설정하지 않도록 하세요.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>ko</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>일부 내부 오류가 발생했습니다.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>경로에 대해 잘못된 값이 지정되었습니다.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>서비스가 '{0}' 및 '{1}' 엔드포인트를 구현하지 않습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>타일 내보내기 작업 실패</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold와 ReportInterval 둘 다 0일 수는 없음</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment가 초기화된 후에는 SymbolsPath를 설정할 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 기본 라이선스가 만료되었습니다.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>로컬 서버가 초기화되지 않아 중지할 실행 중인 서비스가 없습니다.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>{0} 속성이 설정되지 않아 서비스를 만들 수 없습니다.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>이 작업에 대한 포털 항목이 잘못되었습니다.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>WebMapViewModel에서 관리되는 레이어 컬렉션은 직접 수정할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>{0}이(가) {1}분 전에 생성함</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>{0}이(가) 1시간 전에 생성함</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>'{0}' 유형은 '쉐이프 유형'으로 유효하지 않습니다.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>기본 설정을 가져올 수 없습니다.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>텍스트 구문 분석에 실패했습니다.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayer 하나는 단일 맵에만 추가할 수 있습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment가 초기화된 후에는 ClientId를 설정할 수 없습니다.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>OAuth 토큰을 생성하려면 먼저 RedirectUri를 설정해야 합니다.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>MapView를 생성할 수 없습니다. ArcGIS Runtime 배포에서 필요한 'resources/shaders' 폴더를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>잘못된 이메일 주소입니다.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>{0}에서 {1}에 편집됨</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>이미 중지되고 있는 것과 동일한 경로의 서비스로 '{0}'을(를) 만들지 못했습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>{0}이(가) 1분 전에 생성함</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>로케이터 파일 중 하나를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>서비스가 진행 중이면 서비스 이름을 설정할 수 없습니다. 서비스가 중지된 경우에만 이름을 설정할 수 있습니다.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>잘못된 색상 이름: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Message를 처리할 수 없습니다. ProcessMessage를 호출하려면 먼저 MessageLayer를 보기(맵 또는 씬(Scene))에 로드한 상태여야 합니다.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>편집을 지원하지 않는 '{1}'의 인스턴스로 이미 실행 중인 것과 동일한 경로의 서비스로 편집을 위한 '{0}'을(를) 만들지 못했습니다.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>피처 레이어가 이미 초기화된 후에는 {0} 등록정보를 설정할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}' 등록정보는 null일 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>제공된 ClientId가 잘못되었습니다.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>주소를 지오코딩할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}'이(가) 예상 범위인 '{1}~{2}'에 포함되지 않습니다.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl은 서버와 동일한 도메인에 속해야 합니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>잘못된 객체가 전달되었습니다. 올바른 값은 ':' 또는 '}'입니다.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>로컬 서버가 실행되지 않은 상태에서 중지하려고 했습니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>로케이터 파일에 지원되지 않는 공간 참조가 있습니다.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0}은(는) null로 설정할 수 없음</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>서버에서 첨부 작업에 실패했습니다.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>모든 편집 옵션이 비활성화된 경우 지오메트리를 편집할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>{0}이(가) 1시간 전에 편집함</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>맵이 준비된 상태가 아닙니다.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>위치 서비스에 접근할 수 없음</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>잘못된 관계 문자열입니다. DE-9IM 사양에 맞게 9자여야 합니다.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>취소 개체 오류입니다.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>인증 핸들러 없이 OAuth 토큰을 생성할 수 없습니다. AuthenticationManager.Current.OAuthAuthorizeHandler를 올바른 IOAuthAuthorizeHandler 구현으로 설정하세요.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>{0}에서 {1}에 생성됨</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84는 이 기능에만 공간 참조가 지원됩니다.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>이 응용프로그램은 개발자 라이선스를 사용하여 실행되고 있습니다. 이 라이선스는 개발 및 테스트용으로만 유효합니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>초기화되지 않은 지오코드 작업에 대한 호출입니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>입력 위치에 필요한 특성이 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}'이(가) 필수 필드 길이인 '{1}'을(를) 초과했습니다.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>지오메트리가 null이거나 비어 있습니다.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit는 양의 정수여야 합니다.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>다른 공간 참조를 사용하는 맵에 레이어를 표시할 수 없습니다.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>서비스가 시작되지 않아 중지할 수 없습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>잘못된 객체가 전달되었습니다. 올바른 값은 구성원 이름입니다.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>서버 프로세스가 시작되는 중에 예기치 않게 종료되었습니다.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>혼합 공간 참조가 지원되지 않습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>{0}에서 {1}에 생성됨</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>입력 커서에서 주소를 읽거나 false 반환을 재설정()할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>레이어를 초기화한 후에는 '{0}' 속성을 변경할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>1시간 전에 편집됨</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>몇 초 전에 편집됨</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>레이어 메타데이터를 역직렬화할 수 없습니다.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>주요 컨텐츠를 실행하는 포털 그룹이 없습니다.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>로케이터를 생성할 수 없습니다.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>'{0}' 유형은 배열 직렬화 해제에 사용할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>{0}이(가) {1}시간 전에 생성함</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>잘못된 서비스입니다. 맵 내보내기가 허용되지 않거나 서비스 유형이 지원되지 않습니다.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>필수 매개 변수가 null이거나 비어 있습니다.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Challenge 핸들러가 설정되지 않았습니다.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>{0}분 전에 생성됨</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>맵은 'Map.SaveAs’ 메소드를 사용하여 포털에 먼저 저장해야 합니다.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>피처 서비스에서는 사용자가 소유하지 않은 피처 {0}을(를) 사용할 수 없습니다.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>{0} 인스턴스를 생성할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>피처 서비스가 필수 기능을 제공하지 않습니다.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>서비스가 예기치 않게 중단되었습니다. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 클래스에 올바른 ClientId가 있고 ArcGISRuntimeEnvironment.Initialize 메서드에 대한 호출이 성공한 경우에만 라이선스를 설정할 수 있습니다.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>서버에 존재하지 않는 피처에 첨부 파일 편집을 저장할 수 없습니다. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>GraphicsSource를 사용하기 전에 그래픽 컬렉션이 비어 있어야 합니다.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>레이어가 로드되면 RenderingMode를 변경할 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>ArcGIS Runtime({0}) 또는 해당 종속성 중 하나를 불러올 수 없습니다. "Microsoft Visual C++ 2015~2019 재배포 가능 패키지"가 설치되어 있는지 확인합니다.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>값이 NaN입니다.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>현재 사용자가 없습니다. 로그인한 사용자만 맵을 저장할 수 있습니다.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>응용프로그램 컨텍스트를 검색할 수 없음</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>'string'을 'DateTime'으로 변환하지 못했습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment가 초기화된 후에는 InstallPath를 설정할 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime 코어를 초기화하지 못했습니다. ArcGIS Runtime 코어 라이브러리에 접근할 수 없습니다.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync 작업 시간이 초과됨</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>'{0}' 유형에 대해 정의된 매개 변수 없는 생성자가 없습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>서비스에 올바른 타일 스키마가 없습니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>로케이터 속성 중 하나 이상이 잘못되었습니다.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>해결할 수 없습니다.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}'은(는) {1}의 필수 등록정보이므로 피처 서비스의 기존 피처에 있어야 합니다.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>서비스가 현재 진행 중이므로 시작할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>1분 전에 생성됨</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>잘못된 HEX 색상 형식</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>'{0}' 유형은 사전의 직렬화/직렬화 해제에 사용할 수 없습니다. 키는 문자열 또는 객체여야 합니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>잘못된 객체가 전달되었습니다. 올바른 값은 '{'입니다.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>ArcGIS Runtime 코어 라이브러리를 불러오지 못했습니다. 예외 세부정보: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>몇 초 전에 생성됨</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>리소스를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>지오코더를 생성하지 못했습니다.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>렌더러가 JSON에 직렬화되어 있지 않습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>잘못된 JSON 프리머티브입니다. {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>로컬 서버를 시작하지 못했습니다. 실행 파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 기본 라이선스가 잘못되었습니다. 기본 라이선스가 필요한 경우 익스텐션 라이선스가 사용됩니다.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>경유지의 경로 이름이 일관되지 않습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>잘못된 문자열이 전달되었습니다. 올바른 값은 '\'입니다.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>'{0}' 단위는 'DirectionsLengthUnits'로 유효하지 않습니다.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>값은 0보다 커야 합니다.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>인증된 사용자만 작업을 사용할 수 있습니다.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>null 지오메트리가 있는 경유지는 지원되지 않습니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>잘못된 배열이 전달되었습니다. 올바른 값은 ','입니다.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{1}' 컬렉션에서 '{0}'의 ID는 고유해야 합니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>로케이터 파일의 형식이 지원되지 않습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>타일 내보내기 작업 시간 초과</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>서비스가 실행 중이면 {0} 속성을 변경할 수 없습니다.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>로컬 서버가 중지되지 않은 상태에서 시작하려고 했습니다.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>{0}이(가) 편집함</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 익스텐션 라이선스 번호 {0}이(가) 잘못되었습니다. 익스텐션 라이선스가 필요한 경우 기본 라이선스가 사용됩니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit를 초과했습니다.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable은 {0} 첨부를 구현하지 않습니다.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB 값은 숫자여야 함</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>'{0}' 번호는 음수일 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>1분 전에 편집됨</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>{0}시간 전에 생성됨</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>요소 유형 '{0}'에 대해서는 GetSymbol이 지원되지 않습니다.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>'{0}' 객체 유형은 '{1}' 유형으로 변환할 수 없습니다.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>OAuth 토큰을 생성하려면 먼저 OAuth ClientId를 설정해야 합니다.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>{0}이(가) {1}분 전에 편집함</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>UI 스레드에서 허용되지 않는 작업입니다.</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>SceneView 렌더링에는 256MB(268, 435, 456바이트) 이상의 메모리가 필요합니다.</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}'이(가) 필수 데이터 유형인 '{1}'이(가) 아닙니다.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>알 수 없는 리소스 {0}입니다. 서버를 등록해야 합니다.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>잘못된 배열이 전달되었습니다. 올바른 값은 ']'입니다.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>'TimeExtent'로 변환할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}에 편집함</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>포털 인증의 로그인 기간이 만료되었습니다. 사용자는 다시 로그인해야 합니다.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}'을(를) 예상 피처 유형 목록에서 찾을 수 없습니다.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}'이(가) 일치하는 '{1}' 없이 호출되었습니다.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON 문자열이 잘못되었거나 지원되지 않습니다.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>포인트 중 하나 이상의 포인트가 null입니다.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>한 시간 전에 생성됨</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>값은 0보다 작을 수 없습니다.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>'{0}' 정책은 '유턴 정책'으로 유효하지 않습니다.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>레이어 유형 {0}이(가) 지원되지 않습니다.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>편집기와 연결된 맵이 없습니다.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>로컬 서버에서 이미 실행 중이므로 이 서비스를 시작할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>{0}이(가) {1}시간 전에 편집함</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>토큰을 새로 고칠 수 없습니다.</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}'이(가) 개체 외부에서 호출되었습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath가 지정되지 않았습니다. ArcGISRuntime 배포 'symbols' 폴더의 경로로 ArcGISRuntimeEnvironment.SymbolsPath를 설정하세요. 응용프로그램이 설치된 위치와 상대적인 경로(예: ".\Assets\symbols")를 지정할 수 있습니다.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>잘못된 MinScale 및 MaxScale 값입니다. 지정된 축척 범위는 {0}에서 {1} 사이여야 합니다.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>{0}이(가) {1}에서 {2}에 생성함</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem은 포털에 저장되어야 하며 올바른 ID를 포함해야 합니다.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>누락되거나 또는 지원되지 않는 지오메트리 유형</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>객체 그래프를 '{0}' 유형으로 직렬화 해제할 수 없습니다.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>지오메트리를 재투영할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>{0}이(가) 몇 초 전에 생성함</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>문자열로 변환할 수 없습니다.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0}은(는) 내부 전용임</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>편집을 적용하려면 먼저 피처를 초기화해야 합니다.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>지오코드를 반전할 수 없습니다.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>{0}이(가) 1분 전에 편집함</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows가 지원되지 않습니다.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>로컬 서버가 요청에 응답하지 않습니다. 로컬 서버가 손상된 것 같습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 관련 라이선스 오류입니다. 기본 라이선스가 잘못되었습니다.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>피처 서비스에 존재하지 않는 피처에서, 있어서는 안 되는 그래픽에 '{0}' 등록정보가 이미 있습니다.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment 초기화 중 오류가 발생했습니다. ArcGIS Runtime 배포를 로드할 수 없습니다.</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>맵의 Open GL 컨텍스트를 설정하지 못함</value>
+  </data>
+</root>

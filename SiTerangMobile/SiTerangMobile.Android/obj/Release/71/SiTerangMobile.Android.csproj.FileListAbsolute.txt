@@ -1,0 +1,3 @@
+D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\71\MonoAndroid,Version=v7.1.AssemblyAttributes.cs
+D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\71\build.props
+D:\Work\Xamarin Projects\SiTerangMobile\SiTerangMobile\SiTerangMobile.Android\obj\Release\71\adb.props

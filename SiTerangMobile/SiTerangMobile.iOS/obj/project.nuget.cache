@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RLVcae1fqjWeT6/cp4J8ORtnfDGZ/0PopJ/cP9KmEOY2AUgHmMr7CGhDmrem+aNbZtBR+2ql5a8bejDpZWvIkA==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.iOS\\SiTerangMobile.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\esri.arcgisruntime\\100.14.0\\esri.arcgisruntime.100.14.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\esri.arcgisruntime.runtimes.ios\\100.14.0\\esri.arcgisruntime.runtimes.ios.100.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

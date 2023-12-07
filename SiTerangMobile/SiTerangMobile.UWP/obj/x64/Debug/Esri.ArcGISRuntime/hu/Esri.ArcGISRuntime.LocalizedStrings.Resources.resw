@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Nem alakítható át „{0}” tömbbé.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Nem található a minimumkövetelményeknek eleget tevő Open GL alaplapi keretpuffer-konfiguráció</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Az scARGB értékeknek 0 és 1 között kell lenniük</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>A Graphic.Geometry nem egyezik a szolgáltatás várt „{0}” geometriatípusával.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>Az „Url” nincs beállítva.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>A LocalServerApplicationStatePath nem állítható be az ArcGISRuntimeEnvironment inicializálását követően.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>A részleteket lásd a belső kivételben.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Létrehozta: {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>A vektoroselem-tábla nincs inicializálva.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>A null érték nem alakítható át értéktípussá.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>A LocatorServiceInfo nem kérhető le.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Nem lehetséges az átalakítás {0} értéktípusról.</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>A(z) {0} nem változtatható meg a szolgáltatás futása közben.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>A tokenszolgáltatás URL-címe nincs beállítva.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>A geometria típusa nem támogatott.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>A portálra történő mentés előtt be kell tölteni a térképet.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Nem sikerült a CSV elemzése.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Módosítv {0} perce</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>A koordináta-rendszer nem érvényes.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>A szolgáltatás nem indítható el, mert ugyanazzal a(z) „{0}” névvel már fut egy helyi szolgáltatás.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>A réteg nem támogatja a csatolmányokat.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>A LocalService elindítására irányuló kísérlet, miután a szolgáltatás leállt.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nAz összeomlási memóriaképfáj mentési helye: „{0}”</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Lezáratlan karakterlánc került be.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>A csempézési séma jelenleg nem támogatott.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Nem lehet olvasni az adatfolyamból</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Nem hajtható végre szerkesztés olyan vektoros elemen, amely nem létezik.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>{0} módosította néhány másodperce</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>A szolgáltatás nem implementálja a(z) „{0}” végpontot.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>A Bing Map réteg nem rajzolható ki, mert nem állnak rendelkezésre bing kulcsok.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>A Where feltétel és a geometria nem lehet egyidejűleg null értékű.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>A csempeexportálási műveletet törölték</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>A művelet nem támogatott GraphicsSource használatakor.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Legalább egyet be kell állítani a következő lekérdezési paraméterek közül: szöveg, geometria, Where feltétel, ObjectID mezők, TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>A LocalService leállítására irányuló kísérlet, miközben a szolgáltatás nem fut.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>A vektoros szolgáltatás nem biztosítja a kívánt metaadatokat.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A(z) {0} számú bővítménylicensz lejárt.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>A csempeexportálási művelet megszakítva</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>{0} hozta létre ekkor: {1}, {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>A TempPath nem állítható be az ArcGISRuntimeEnvironment inicializálását követően.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A(z) {0} számú bővítménylicensz érvénytelen.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Hibás kilépés.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>A kért „{0}” szolgáltatás nem érhető el ehhez a vektoros szolgáltatáshoz.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Belső hiba.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>A parancs nem hajtható végre.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Nem hozható létre a réteg webtérképrétegről.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>A locator nem támogatta a kereszteződéseket.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>{0} módosította ekkor: {1}, {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Az értéknek nullának vagy annál nagyobbnak kell lennie</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Módosítva ekkor: {0}, {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>Az scARGB színkarakterláncoknak három vagy négy vesszővel tagolt értéket kell definiálniuk</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>A nullgeometriával rendelkező határok nem támogatottak.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Érvénytelen tömb került be, a rendszer „[” szimbólumot várt.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Ez a tulajdonság nem változtatható meg a MessageLayer réteg inicializálását követően.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>A megadott elérési útvonal nem létezik.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Az átalakítás csak karakterlánc típusról támogatott</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>A szimbólum nem szerializálható a JSON programnyelvhez.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>A szolgáltatás nem támogatja a csempék exportálását</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>A(z) {0} null értékű vagy üres.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Nem hozható létre a ServiceFeatureTable elem „{0}” típusú szolgáltatásrétegről.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>A(z) {0} fájl már létezik, és a letöltési műveletet úgy állították be, hogy ne írja felül a meglévő fájlokat</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>A réteg inicializálását követően a(z) „{0}” tulajdonság nem módosítható.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>A RouteTask nem hozható létre.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Az érvényesítés végrehajtásához inicializálni kell a vektoroselem-réteget.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>A vektoros szolgáltatás nem biztosítja a kívánt objektumazonosító mezőt.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Hiba történt az ArcGISRuntimeEnvironment inicializálásakor. Az ArcGISRuntime telepítés mappája nem található. Győződjön meg arról, hogy a(z) „{0}” nevű mappa ugyanabban a mappában található, mint az alkalmazás parancsfájlja, vagy állítsa be az ArcGISRuntimeEnvironment.InstallPath változót úgy, hogy egy másik helyre mutasson. A telepítési mappának az alkalmazás műveleti architektúrájával egyező almappákat kell tartalmaznia.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Módosítva {0} órája</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>A helyi kiszolgálónak standard szintű licenszre van szüksége az elinduláshoz. Az aktuális licensz alapszintű (lásd: ArcGISRuntimeEnvironment.License.Level). Telepítéshez a standard szintű licensszel történő futtatás az ArcGISRuntimeEnvironment.License.SetLicense() változóval inicializálható. Ha alkalmazásfejlesztő, kihagyhatja az ArcGISRuntimeEnvironment.ClientId beállítását, így fejlesztői üzemmódban marad a LocalServer kipróbálásához.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>hu</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Valamilyen belső hiba történt.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Az útvonalhoz megadott érték érvénytelen.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>A szolgáltatás nem implementálja a(z) „{0}” és „{1}” végpontokat.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>A csempeexportálási művelet sikertelen</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>A MovementThreshold és a ReportInterval változók nem lehetnek egyidejűleg nulla értékűek</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>A SymbolsPath nem állítható be az ArcGISRuntimeEnvironment inicializálását követően.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A fő licensz lejárt.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>A LocalServer nincs inicializálva, így nincsenek leállítható futó szolgáltatások.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>A(z) {0} tulajdonság nincs beállítva, a szolgáltatás nem hozható létre.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>A portálelem érvénytelen ehhez a művelethez.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>A réteggyűjtemény nem módosítható közvetlenül, ha a kezelés a WebMapViewModel segítségével történik</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>{0} hozta létre {1} perce</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>{0} hozta létre egy órája</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Az „Alakzattípus” tulajdonsághoz nem érvényes a(z) „{0}” típus.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Nem kérhetők le az alapértelmezett beállítások.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>A szövegelemzés sikertelen.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayer csak egyedi térképhez adható hozzá.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>A Client Id nem állítható be az ArcGISRuntimeEnvironment inicializálását követően.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>A RedirectUri elemet be kell állítani azelőtt, hogy megpróbálnának OAuth tokent létrehozni.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Nem hozható létre MapView. A kért „erőforrások/árnyalók” mappa nem található az ArcGISRuntime telepítésében.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Érvénytelen e-mail-cím.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Módosítva ekkor: {0}, {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Nem sikerült a(z) „{0}” létrehozása, mert az ugyanazon az elérési útvonalon található szolgáltatás leállítása már folyamatban van.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>{0} hozta létre egy perce</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>A locator fájljainak egyike nem található.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Futás közben nem állítható be a szolgáltatások neve. A név csak a szolgáltatás leállítását követően állítható be.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Érvénytelen színnév: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Az üzenet nem dolgozható fel. A MessageLayert sikeresen be kell tölteni egy nézetbe (térkép vagy 3D térkép) a ProcessMessage meghívása előtt.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Nem sikerült a(z) „{0}” létrehozása szerkesztésre, mert a szolgáltatás már fut ugyanazon az elérési útvonalon a(z) „{1}” egy példányaként, amely nem támogatja a szerkesztést.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>A(z) {0} tulajdonság nem állítható be a FeatureLayer inicializálás követően.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>A(z) „{0}” attribútum nem lehet null értékű.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>A megadott ClientId érvénytelen.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>A cím nem geokódolható.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>A(z) „{0}” nem az elvárt tartományba ({1}–{2}) esik.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>A TokenUrl címnek ugyanahhoz a domainhez kell tartoznia, mint a kiszolgálónak</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Érvénytelen objektum került be, a rendszer „:” vagy „}” szimbólumot várt.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>A LocalServer leállítására irányuló kísérlet, miközben a kiszolgáló nem fut.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>A locator fájlja nem támogatott koordináta-rendszert tartalmaz.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>A(z) {0} nem állítható be null értékűre</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>A csatolási művelet sikertelen volt a kiszolgálón.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>A geometria nem szerkeszthető az összes szerkesztési opció letiltott állapotában.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>{0} módosította egy órája</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>A térkép nincs elkészült állapotban.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>A helyalapú szolgáltatások nem érhetők el</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Érvénytelen relációs karakterlánc, a DE-9IM specifikációnak való megfeleléshez legalább 9 karakter hosszúságúnak kell lennie.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Objektumhiba megszakítása.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Nem hozható létre OAuth token engedélyezéskezelő nélkül. Állítsa be az AuthenticationManager.Current.OAuthAuthorizeHandler elemet egy érvényes IOAuthAuthorizeHandler implementációra.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Létrehozva ekkor: {0}, {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>Ehhez a függvényhez csak a WGS84 koordináta-rendszer támogatott.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Ez az alkalmazás fejlesztői licensszel fut. Ez a licensz kizárólag fejlesztéshez és teszteléshez érvényes.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Inicializálatlan geokódolási feladatra irányuló hívás.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>A bemenő hely nem tartalmaz egy kötelező attribútumot.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>A(z) „{0}” túllépte a megkövetelt mezőhosszúságot ({1}).</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>A geometria null értékű vagy üres.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>A RecursionLimit értékének pozitív egész számnak kell lennie.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>A réteg nem jeleníthető meg más koordináta-rendszerrel rendelkező térképen.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>A szolgáltatás nem indult el, így nem állítható le.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Érvénytelen objektum került be, a rendszer a tag nevét várta.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>A kiszolgálói folyamat váratlanul kilépett az indulás során.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>A vegyes koordináta-rendszerek nem támogatottak.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Létrehozva ekkor: {0}, {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Nem olvasható ki a cím a bemeneti kurzorból, vagy a reset() hamis értéket ad.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>A(z) „{0}” tulajdonság nem változtatható meg a réteg inicializálását követően.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Szerkesztve egy órája</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Szerkesztve néhány másodperce</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>A réteg metaadatai nem deszerializálhatók.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Nincsenek a kiemelt tartalmat szolgáltató portálcsoportok.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Nem hozható létre locator.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>A(z) „{0}” típus nem támogatott a tömbök deszerializációjához.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>{0} hozta létre {1} órája</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Érvénytelen szolgáltatás, a térképexportálás nem engedélyezett vagy a szolgáltatástípus nem támogatott.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>A kért paraméter null értékű vagy üres.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>A meghíváskezelő nincs beállítva.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Létrehozva {0} perce</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Először egy portálra kell menteni a térképet a „Map.SaveAs” módszerrel.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>A vektoros szolgáltatás nem engedi végrehajtani a(z) {0} műveletet olyan vektoros elemen, amelynek nem Ön a tulajdonosa.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Nem hozható létre a(z) {0} példánya.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>A vektoros szolgáltatás nem biztosítja a kívánt szolgáltatásokat.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>A szolgáltatás váratlanul leállt. „{0}”</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Licensz csak akkor állítható be, ha az ArcGISRuntimeEnvironment osztályhoz érvényes ClientId tartozik, és sikeresen lefutott az ArcGISRuntimeEnvironment.Initialize módszerre irányuló kérés.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Nem menthetők a csatolmányokon végrehajtott szerkesztések olyan vektoros elemként, amely nem létezik a kiszolgálón. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>A GraphicsSource használata előtt a grafikagyűjteménynek üresnek kell lennie.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>A RenderingMode nem változtatható meg a réteg betöltését követően.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Nem tölthető be az ArcGIS futtatókörnyezet ({0}) vagy annak valamelyik függősége. Győződjön meg arról, hogy a telepítve van a „Microsoft Visual C++ 2015-2019 Redistributable”.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Az érték NaN típusú.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Nincs aktuális felhasználó. A térképeket csak bejelentkezett felhasználó mentheti.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Nem lehet lekérni az alkalmazáskörnyezetet</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>A „karakterlánc” típus nem alakítható át „DateTime” típussá.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Az InstallPath nem állítható be az ArcGISRuntimeEnvironment inicializálását követően.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Az ArcGIS Runtime mag inicializálása sikertelen. Az ArcGIS Runtime mag könyvtár nem érhető el.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>Időtúllépés a GetPositionAsync műveletnél</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Nincs paraméter nélküli konstruktor definiálva a(z) „{0}” típushoz.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>A szolgáltatás nem tartalmaz érvényes csempesémát</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>A locator egy vagy több tulajdonsága érvénytelen.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>A feloldás nem lehetséges.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>A(z) „{0}” attribútumot kötelező megadni a(z) {1} elemhez, és a vektoros szolgáltatásban szereplő vektoros elemeknek tartalmazniuk kell azt.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>A szolgáltatás jelenleg folyamatban van és nem indítható el.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Létrehozva egy perce</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Érvénytelen hexadecimális színformátum</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>A(z) „{0}” típus nem támogatott a szótárak szerializációjához/deszerializációjához, a kulcsoknak karakterláncoknak vagy objektumoknak kell lenniük.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Érvénytelen objektum került be, a rendszer „{” szimbólumot várt.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Az ArcGIS Runtime mag könyvtár explicit betöltése sikertelen. Kivétel adatai: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Létrehozva néhány másodperce</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Az erőforrás nem található.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Nem sikerült létrehozni a geokódolót.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>A renderelő nem szerializálható a JSON programnyelvhez</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Érvénytelen JSON-primitív: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>A LocalServer indítása nem sikerült: nem található a futtatható állomány.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A fő licensz hibás, a rendszer a bővítménylicenszt használja ott, ahol a fő licenszre lenne szükség.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>A megállók nem rendelkeznek konzisztens útvonalnevekkel.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Érvénytelen tömb került be, a rendszer „"” szimbólumot várt.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>A(z) „{0}” egység nem érvényes a „DirectionsLengthUnits” változóhoz.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Az értéknek nagyobbnak kell lennie nullánál.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>A művelet csak hitelesített felhasználók számára érhető el.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>A nullgeometriával rendelkező megállók nem támogatottak.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Érvénytelen tömb került be, a rendszer „,” szimbólumot várt.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>A(z) „{1}” gyűjteményben szereplő „{0}” elemeknek egyedi azonosítókkal kell rendelkezniük.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>A locator fájlja nem támogatott formátumú.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Időtúllépés történt a csempeexportálási műveletnél</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>A(z) {0} tulajdonság nem változtatható meg a szolgáltatás futása közben.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>A LocalServer elindítására irányuló kísérlet, miközben a kiszolgáló nem állt le.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Módosította: {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A(z) {0} számú bővítménylicensz hibás, a rendszer a fő licenszt használja ott, ahol a bővítménylicenszre lenne szükség.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>A RecursionLimit túllépve.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>A GeodatabaseFeatureServiceTable nem implementálja a(z) „{0}” csatolmányokat.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Az scARGB értékeknek számoknak kell lenniük</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>A(z) „{0}” szám nem lehet negatív</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Szerkesztve egy perce</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Létrehozva {0} órája</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>A GetSymbol nem támogatott a következő elemtípushoz: „{0}”.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>A(z) „{0}” típusú objektumok nem alakíthatók át „{1}” típusúvá.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Az OAuth ClientId elemet be kell állítani azelőtt, hogy megpróbálnának OAuth tokent létrehozni.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>{0} módosította {1} perce</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>A művelet kizárólag az UI Threadből engedélyezett</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>A SceneView renderelés legalább 256MB (268.435.456 bájt) memóriát igényel</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>A(z) „{0}” adattípusa nem a megkövetelt „{1}”.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Ismeretlen erőforrás ({0}). A kiszolgálót regisztrálni kell.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Érvénytelen tömb került be, a rendszer „]” szimbólumot várt.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Nem alakítható át „TimeExtent” típussá.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>{0} módosította ekkor: {1}, {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>A portál hitelesítése által biztosított bejelentkezési időtartam lejárt. A felhasználónak újból be kell jelentkeznie.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>A(z) „{0}” nem szerepel a várt vektoroselem-típusok listájában.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>„{0}” hívása megfelelő „{1}” nélkül.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>A JSON karakterlánc érvénytelen vagy nem támogatott.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>A pontok legalább egyike null értékű.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Létrehozva egy órája</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Az érték nem lehet kisebb, mint 0.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Az „Uturn Policy” tulajdonsághoz nem érvényes a(z) „{0}” irányelv.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>A(z) {0} rétegtípus nem támogatott.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Nincs térkép társítva a szerkesztőhöz.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>A szolgáltatás nem indítható el, mert már fut a helyi kiszolgálón.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>{0} módosította {1} órája</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>A token nem frissíthető</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>„{0}” hívása objektumon kívül.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>Nem adták meg az ArcGISRuntimeEnvironment.SymbolsPath útvonalat. Adja meg az ArcGISRuntimeEnvironment.SymbolsPath elérési útvonalat az ArcGISRuntime telepítési helyének „symbols” mappájához. Az útvonal az alkalmazás telepítési helyéhez viszonyítva relatív módon is megadható, például „.\Assets\symbols”.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Érvénytelen MinScale és MaxScale értékek. A megadott skálatartománynak {0} és {1} között kell lennie.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>{0} hozta létre ekkor: {1}, {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>A PortalItem elemet egy portálra kell menteni, és érvényes azonosítót kell tartalmaznia.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Hiányzó vagy nem támogatott geometriatípus</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Az objektumgrafika nem deszeralizálható „{0}” típusúvá.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>A geometria újravetítése nem lehetséges.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>{0} hozta létre néhány másodperce</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Nem alakítható át karakterlánccá.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>A(z) {0} kizárólag belső használatra szolgál</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>A vektoros elem csak az inicializálást követően szerkeszthető.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>A ReverseGeocode nem hajtható végre.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>{0} módosította egy perce</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>A TimeWindow értékei nem támogatottak.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>A LocalServer nem válaszol a kérésekre, előfordulhat, hogy összeomlott.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Licenszhiba az ArcGISRuntimeEnvironment környezetnél. A fő licensz érvénytelen.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>A grafikán már létezik az „{0}” attribútum, amely nem szerepelhet olyan vektoros elemeken, amelyek még nem léteznek vektoros szolgáltatáson.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Hiba történt az ArcGISRuntimeEnvironment inicializálásakor. Az ArcGISRuntime telepítés nem tölthető be.</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Nem sikerült beállítani az Open GL környezetet a térképhez</value>
+  </data>
+</root>

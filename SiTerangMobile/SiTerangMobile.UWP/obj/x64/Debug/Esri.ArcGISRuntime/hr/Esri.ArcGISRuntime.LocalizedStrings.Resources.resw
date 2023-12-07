@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Ne može se pretvoriti u polje „{0}”.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Nije uspjelo lociranje konfiguracije pojasa Open GL okvira s minimalnim mogućnostima</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Vrijednosti scARGB moraju biti između 0 i 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Grafika.geometrije ne podudara se s očekivanom vrstom geometrije „{0}” ove usluge.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>„Url” nije postavljen.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>LocalServerApplicationStatePath se ne može postaviti nakon pokretanja ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Pogledajte unutrašnju iznimku za pojedinosti.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Stvorio/la {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Tablica geoobjekata nije pokrenuta.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Nula se ne može pretvoriti u vrstu vrijednosti.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Ne mogu se dohvatiti informacije usluge Lokatora.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Ne može se pretvoriti iz vrijednosti vrste {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} se ne može se promijeniti kad usluga radi.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>URL usluge tokena nije postavljen.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Vrsta geometrije nije podržana.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Kartu treba učitati prije spremanja na portal.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>CSV parsiranje nije uspjelo.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Uređeno prije {0} minute/a</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Prostorna referenca nije važeća.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Ne može se pokrenuti usluga jer lokalna usluga istog naziva „{0}” već radi.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Sloj ne podržava privitke.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Pokušava se pokrenuti lokalna usluga kad se zaustavi.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nDatoteka s ispisom nakon pada sustava spremljena u: „{0}”</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Uneseni nezavršeni tekstualni niz.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Shema ploča trenutno nije podržana.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Ne može se čitati iz toka podataka</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Ne može se izvršiti uređivanje geoobjekta koji ne postoji.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Uredio/la {0} prije nekoliko sekundi</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Usluga ne primjenjuje završnu točku „{0}”.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Sloj Bing Map ne može se nacrtati jer nema pruženih ključeva za Bing.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Gdje uvjet i geometrija ne mogu oboje biti nula.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Izbrisana je radnja izvoza ploče</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Radnja nije podržana kad se upotrebljava izvor grafike.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Treba postaviti barem jedan od sljedećih parametara upita: tekst, geometrija, gdje, ID-jevi objekta ili vremenski obuhvat.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Pokušava se zaustaviti lokalna usluga kad ne radi.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Usluga geoobjekta ne pruža potrebne metapodatke.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Broj licence proširenja {0} je istekao.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Poništenja je radnja izvoza ploče</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Stvorio/la {0} u {1} na {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Ne može se postaviti TempPath nakon pokretanja ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Broj licence proširenja {0} nije važeći.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Loš izlaz.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Potrebna mogućnost „{0}” nije dostupna za ovu uslugu geoobjekta.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Unutrašnja pogreška.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Ne može se izvršiti naredba.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Ne može se stvoriti sloj iz sloja web-karte.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Lokator ne podržava funkciju sjecišta.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Uredio/la {0} u {1} na {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Mora biti veće od ili jednako nuli</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Uređeno u {0} na {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>Nizovi boja scARGB moraju odrediti tri ili četiri vrijednosti određene zarezom</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Ograničenja čija je geometrija nula nisu podržana.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Uneseno neispravno polje, očekivano „[”.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Ovo svojstvo ne može se promijeniti nakon pokretanja sloja poruke.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Određena putanja ne postoji.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Pretvaranje iz vrsta koje nisu tekt nije podržano</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Simbol nije serijaliziran za JSON</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Usluga ne podržava izvoz ploča</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} nema vrijednosti ili je prazno.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Ne može se stvoriti Tablica usluge geoobjekata iz sloja usluge vrste: „{0}”.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Datoteka {0} već postoji, a radnja preuzimanja postavljena je da ne prepiše postojeće datoteke</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Ne može se promijeniti svojstvo „{0}” nakon pokretanja sloja.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Ne može se stvoriti zadatak rute.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Mora se pokrenuti sloj geoobjekata za izvršavanje provjere valjanosti.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Usluga geoobjekta ne pruža potrebno polje ID objekta.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Došlo je do pogreške pri pokretanju ArcGISRuntimeEnvironment. Nije moguće pronaći datoteku za implementaciju ArcGISRuntime. Provjerite postoji li mapa pod nazivom „{0}” u istoj mapi kao i izvršna datoteka aplikacije ili postavite ArcGISRuntimeEnvironment.InstallPath da upućuje na drugu lokaciju. Mapa za implementaciju mora sadržavati podmape koje odgovaraju arhitekturi procesa aplikacije.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Uređeno prije {0} sata/i</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Lokalni poslužitelj zahtijeva licencu standardne razine za pokretanje. Trenutna razina licence je osnovna (pogledajte ArcGISRuntimeEnvironment.License.Level). Za implementaciju možete pokrenuti vrijeme izvođenja licencom standardne razine u ArcGISRuntimeEnvironment.License.SetLicense(). Ako stvarate app, možete izbjeći postavljanje ArcGISRuntimeEnvironment.ClientId da ostane u načinu razvijanja ako želite isprobati naš lokalni poslužitelj.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>hr</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Neka unutrašnja pogreška.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Nevažeća naznačena vrijednost za putanju.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Usluga ne primjenjuje završne točke „{0}” i „{1}”.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Nije uspjela radnja izvoza ploče</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>Prag kretanja i Interval izvještavanja ne mogu oboje biti nula</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Ne može se postaviti SymbolsPath nakon pokretanja ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Istekla je glavna licenca.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>Loklani poslužitelj nije pokrenut, zato nema usluga u tijeku za zaustavljanje.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Svojstvo {0} nije postavljeno, ne može se stvoriti usluga.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Stavka portala nije važeća za ovu radnju.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Ne može se izmijeniti kolekcija sloja izravno kad se upravlja putem Modela prikaza web-karte</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Stvorio/la {0} prije {1} minute/a</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Stvorio/la {0} prije sat vremena</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Vrsta „{0}” nije važeća za 'ShapeType'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Ne mogu se dohvatiti zadane postavke.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Parsiranje teksta nije uspjelo.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Sloj poruke može se dodati jednoj karti.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Ne može se postaviti ID kljenta nakon pokretanja ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Url preusmjeravanja mora se postaviti prije pokušaja generiranja tokena OAuth.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Pregled karte se ne može stvoriti. Potrebna mapa 'resources/shaders' nije pronađena u implementaciji ArcGIS Runtime-a.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Nevažeća adresa e-pošte.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Uređeno u {0} na {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Nije uspjelo stvaranje „{0}” jer se usluga s istom putanjom već zaustavlja.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Stvorio/la {0} prije minutu</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Jedna datoteka lokatora nije pronađena.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Ne može se postaviti naziv usluge kad je usluga u tijeku. Naziv se može postaviti kad se zaustavi usluga.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Nevažeći naziv boje: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Poruka se ne može obraditi. Sloj poruke mora se uspješno učitati u Prikaz (karte ili scene) prije poziva obrade poruke.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Nije uspjelo stvaranje „{0}” za uređivanje jer usluga s istom putanjom već radi kao instanca od „{1}” što ne podržava uređivanje.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Svojstvo {0} ne može se postaviti nakon pokretanja sloja geoobjekta.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Atribut „{0}” ne može biti nula.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Isporučeni ID klijenta nije važeći.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Ne može se geokodirati adresa.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>„{0}” ne spada u očekivani raspon od „{1}-{2}”.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>Url tokena mora pripadati istoj domeni kao i poslužitelj</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Uneseni neispravni objekt, očekivano „:” ili „}”.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Pokušava se zaustaviti lokalni poslužitelj kad ne radi.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Datoteka lokatora ima nepodržanu prostornu referencu.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} ne može se postaviti na postavku bez vrijednosti</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Radnja privitka nije uspjela na poslužitelju.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Ne možete urediti geometriju kad su onemogućene sve opcije uređivanja.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Uredio/la {0} prije sat vremena</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Karta nije spremna.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Ne može se pristupiti uslugama lokacije</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Nevažeće tekstualno polje relacije, mora biti dugo barem 9 znakova i u skladu sa značajkom DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Pogreška poništavanja objekta.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Nije moguće generirati token OAuth bez rukovanja autorizacijom. Postavite Set AuthenticationManager.Current.OAuthAuthorizeHandler u važeću primjenu za IOAuthAuthorizeHandler.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Stvoreno u {0} na {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 jedina je podržana prostorna referenca za ovu funkciju.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Ova aplikacija radi putem licence razvojnog programera. Ova je licenca važeća samo za razvoj i testiranje.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Poziv za nepokrenuti zadatak geokodiranja.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Unesenoj lokaciji nedostaje potrebni atribut.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>„{0}” premašuje potrebnu dužinu polja „{1}”.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometrija nema vrijednosti ili je prazna.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>Ograničenje rekurzije mora biti pozitivni cijeli broj.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Sloj se ne može prikazati na karti s drugačijom prostornom referencom.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Usluga nije pokrenuta, zato se ne može zaustaviti.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Uneseni neispravni objekt, očekivano je ime člana.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Tijekom pokretanja neočekivano je zaustavljen postupak poslužitelja.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Mješovite prostorne reference nisu podržane.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Stvoreno u {0} na {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Ne može se pročitati adresa u ulaznoj kursor strukturi ili je reset() vratio "nevažeće".</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Svojstvo „{0}” ne može se promijeniti nakon pokretanja sloja.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Uređeno prije sat vremena</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Uređeno prije nekoliko sekundi</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Ne mogu se deserijalizirati metapodaci sloja.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Nema grupa portala koje pokreću istaknuti sadržaj.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Ne može se stvoriti Lokator.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Vrsta „{0}” nije podržana za deserijalizaciju polja.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Stvorio/la {0} prije {1} sata/i</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Nevažeća usluga, izvoz karte nije dopušten ili vrsta usluge nije podržana.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Potrebni parametar je nula ili prazan.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Rukovanje izazovom nije postavljeno.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Stvoreno prije {0} minute/a</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Kartu prvo treba spremiti na portal pomoću metode „Map.saveAs”.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Usluga geoobjekta ne omogućuje vam da {0} geoobjekt koji ne posjedujete.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Ne može se stvoriti instanca {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Usluga geoobjekta ne pruža potrebne mogućnosti.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Usluga je neočekivano zaustavljena. „{0}”</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Licenca se može postaviti ako klasa ArcGISRuntimeEnvironment ima važeći ID klijenta i uspješan poziv za metodu ArcGISRuntimeEnvironment.Initialize.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Ne možete spremniti uređivanja privitka u geoobjekt koji ne postoji na poslužitelju. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Kolekcija grafike mora biti prazna prije upotrebe izvora grafike.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>Način renderiranja ne može se promijeniti nakon učitavanja sloja.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Nije moguće učitati ArcGIS Runtime ({0}) ili jednu od njezinih zavisnosti. Provjerite je li „Microsoft Visual C++ 2015-2019” Redistributable instaliran.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Vrijednost je NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Trenutno nema korisnika. Karte može spremiti samo prijavljeni korisnik.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Ne može se vratiti kontekst aplikacije</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Ne može se pretvoriti 'string' u 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>InstallPath se ne može postaviti nakon pokretanja ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nije uspjelo pokretanje ArcGIS Runtime osnovne biblioteke.  ArcGIS Runtime osnovna biblioteka nije dostupna.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>Istekla je radnja GetPositionAsync</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Nema definiranog konstrukora bez parametara za vrstu „{0}”.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Usluga ne sadrži valjanu pločastu shemu</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Jedno ili više svojstava lokatora nije važeće.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Ne može se riješiti.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>„{0}” je potreban atribut za {1} i treba biti prisutan u geoobjektima koji postoje u usluzi geoobjekta.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Usluga je trenutno u tijeku i ne može se pokrenuti.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Stvoreno prije minutu</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Nevažeći format heksadecimalne vrijednosti boja</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Vrsta „{0}” nije podržana za serijalizaciju/deserijalizaciju rječnika, ključevi moraju biti tekstualni nizovi ili objekti.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Uneseni neispravni objekt, očekivano „{”.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nije uspjelo izričito učitavanje ArcGIS Runtime osnovne biblioteke.  Pojedinosti u iznimci: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Stvoreno prije nekoliko sekundi</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Resurs se nije mogao pronaći.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Nije uspjelo stvaranje geokodera.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Renderer nije serijaliziran za JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Neispravna JSON primitiva: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Pokretanje lokalnog poslužitelja nije uspjelo: izvršni program nije pronađen.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Glavna licence nije nije ispravna, koristi se licenca proširenja kad je potebna glavna licenca.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Postaje nemaju dosljedne nazive ruta.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Uneseno neispravno polje, očekivano „\”.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Jedinica „{0}” nije važeća za 'DirectionsLengthUnits.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Vrijednost mora biti veća od nule.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Radnja je dostupna samo za korisnike čija je autentičnost provjerena.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Postaje čija je geometrija nula nisu podržane.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Uneseno neispravno polje, očekivano „,”.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>„{0}” u kolekciji „{1}” mora imati jedinstvene ID-jeve.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Datoteka lokatora ima nepodržani format.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Istekla je radnja izvoza ploče</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Svojstvo {0} ne može se promijeniti kad usluga radi.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Pokušava se pokrenuti lokalni poslužitelj kad nije zaustavljen.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Uredio/la {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Broj licence proširenja {0} nije ispravan, koristi se glavna licenca, a potrebna je licenca proširenja.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>Premašeno je ograničenje rekurzije.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>Tablica usluge geobaze podataka ne primjenjuje {0} privit(a)ka.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Vrijednost scARGB moraju biti brojčane</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Broj „{0}” ne može biti negativan</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Uređeno prije minutu</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Stvoreno prije {0} sata/i</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>Dohvaćanje simbola nije podržano za vrstu elementa: „{0}”.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Ne može se pretvoriti predmet vrste „{0}” u vrstu „{1}”.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>ID klijenta OAuth mora se postaviti prije pokušaja generiranja tokena OAuth.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Uredio/la {0} prije {1} minute/a</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Radnja je dopuštena samo od UI niza</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Za renderiranje u SceneViewu potrebno je minimalno 256 MB (268.435.456 bajtova) memorije</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>„{0}” nije potrebna vrsta podataka „{1}”.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Nepoznati resurs {0}. Poslužitelj treba biti registriran.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Uneseno neispravno polje, očekivano „]”.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Nije se moglo pretvoriti 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Uredio/la {0} u {1} na {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Isteklo je razdoblje prijave iz provjere autentičnosti portala. Korisnik će se trebati ponovo prijaviti.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>„{0}” nije pronađen/a na popisu očekivanih vrsta geoobjekata.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>„{0}” je pozvan/a bez podudarajućih „{1}”.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON niz nije važeći ili nije podržan.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Barem jedna od točaka u točkama nema vrijednosti.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Stvoreno prije sat vremena</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Vrijednost ne može biti manja od nule.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Pravilo „{0}” nije važeće za 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Vrsta sloja {0} nije podržana.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Nema povezane karte s Uređivačem.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Ne može se pokrenuti ova usluga jer već radi na lokalnom poslužitelju.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Uredio/la {0} prije {1} sata/i</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Ne može se osvježiti token</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>„{0}” je pozvan/a izvan objekta.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath nije naznačen. Postavite ArcGISRuntimeEnvironment.SymbolsPath na putanju za mapu implementacije „simbola” ArcGISRuntime. Putanja se može naznačiti u odnosu na instaliranu lokaciju aplikacije, na primjer „\Assets\symbols”.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Nevažeće vrijednosti minimalnog i maksimalnog raspona. Naznačeni raspon mjerila mora biti između {0} i {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Stvorio/la {0} u {1} na {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>Stavka portala mora se spremiti na portal i sadržavati važeći ID.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Vrsta geometrije nedostaje ili nije podržana</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Ne može se deserijalizirati grafikon objekta u vrstu „{0}”.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometrija se ne može ponovo projicirati.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Stvorio/la {0} prije nekoliko sekundi</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Ne može se pretvoriti u tekst.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} je samo za unutrašnju upotrebu</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Geoobjekt se mora pokrenuti prije primjene bilo kakvog uređivanja.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Ne može se obrnuto geokodirati</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Uredio/la {0} prije minutu</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>Vremenski prozori nisu podržani.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>Lokalni poslužitelj ne odgovara na zahtjeve i možda se srušio.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Pogreška licence za ArcGISRuntimeEnvironment. Nije važeća glavna licenca.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Atribut „{0}” već postoji u grafici, a ne bi trebao biti prisutan na geoobjektima koji ne postoje u usluzi geoobjekta.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Pogreška pri pokretanju ArcGISRuntimeEnvironment. Nije moguće učitati implementaciju ArcGISRuntime-a</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Nije uspjelo postavljanje konteksta Open GL za kartu</value>
+  </data>
+</root>

@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.Android\\SiTerangMobile.Android.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.Android\\SiTerangMobile.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.Android\\SiTerangMobile.Android.csproj",
+        "projectName": "SiTerangMobile.Android",
+        "projectPath": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.Android\\SiTerangMobile.Android.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\gis_mobile_fe-develop\\SiTerangMobile\\SiTerangMobile.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Esri.ArcGISRuntime": {
+              "target": "Package",
+              "version": "[100.14.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.AndroidX.ConstraintLayout.Solver": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

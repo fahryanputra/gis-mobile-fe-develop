@@ -1,0 +1,10 @@
+drawable/NextPreviousButton.axml;drawable/nextpreviousbutton.xml
+drawable/NextPreviousFill.axml;drawable/nextpreviousfill.xml
+drawable/NextPreviousOutline.axml;drawable/nextpreviousoutline.xml
+drawable/PauseFill.axml;drawable/pausefill.xml
+drawable/PauseOutline.axml;drawable/pauseoutline.xml
+drawable/PlayPauseButton.axml;drawable/playpausebutton.xml
+drawable/Thumb.axml;drawable/thumb.xml
+drawable/TriangleFill.axml;drawable/trianglefill.xml
+drawable/TriangleOutline.axml;drawable/triangleoutline.xml
+layout/TimeSlider.axml;layout/timeslider.xml

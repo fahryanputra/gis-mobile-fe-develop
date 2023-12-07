@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Nelze převést na pole '{0}'.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Nepodařilo se nalézt konfiguraci vyrovnávací paměti snímků Open GL s minimálními vlastnostmi</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Hodnoty scARGB musí být mezi 0 a 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry se neshoduje s očekávaným typem geometrie služby '{0}'.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' není nastaveno.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>LocalServerApplicationStatePath nelze nastavovat po inicializaci ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Podrobnosti naleznete ve vnitřní výjimce.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Vytvořil {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Tabulka prvků není inicializována.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Prázdný typ nelze převést na typ hodnoty.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Nelze získat LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Nelze převést z hodnoty typu {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} nelze měnit, pokud je služba spuštěná.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Adresa URL tokenové služby není nastavena.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Typ geometrie není podporován.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Mapu je nutné před uložením do portálu nahrát.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Analýza CSV se nezdařila.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Upraveno před {0} minutami</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Souřadnicový systém je neplatný.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Službu nelze spustit, protože je již spuštěna místní služba LocalService se stejným názvem '{0}'.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Vrstva nepodporuje přílohy.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Byl proveden pokus o spuštění služby LocalService, která je zastavená.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nSoubor výpisu chyb se uložil do: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Byl předán neukončený řetězec.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Schéma dělení dlaždic v tuto chvíli není podporováno.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Nelze číst ze streamu</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Úpravu nelze provádět u prvku, který neexistuje.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Upravil {0} před několika sekundami</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Služba neobsahuje implementaci koncového bodu '{0}'.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Vrstvu Bing Map nelze vykreslit, protože nebyl poskytnut žádný klíč Bing Maps.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Podmínka pro výběr a geometrie nesmí být obě prázdné.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Operace exportování dlaždice byla smazána.</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Operace není podporována při používání GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Je nutné nastavit alespoň jeden z následujících parametrů dotazu: Text, Geometry, Where, ObjectIDs nebo TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Byl proveden pokus o zastavení služby LocalService, která není spuštěná.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Služba prvků neposkytuje požadovaná metadata.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Rozšíření licence č. {0} vypršelo.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Operace exportování dlaždice byla zrušena.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Vytvořil {0} dne {1} v {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Po inicializaci ArcGISRuntimeEnvironment nelze nastavit TempPath.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Rozšíření licence č. {0} je neplatné.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Chybný únik.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Požadovaná funkcionalita '{0}' není k dispozici pro tuto službu prvků.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Vnitřní chyba.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Příkaz nelze spustit.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Vrstvu nelze vytvořit z vrstvy webové mapy.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Lokátor nepodporuje funkcionalitu křižovatek.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Upravil {0} dne {1} v {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Musí být větší nebo rovno nule</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Upraveno dne {0} v {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>Řetězce barvy scARGB musí udávat tři nebo čtyři hodnoty oddělené čárkami</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Bariéry s prázdnou geometrií nejsou podporovány.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Bylo předáno neplatné pole, byl očekáván znak '['.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Tuto vlastnost nelze změnit poté, co byla inicializována vrstva MessageLayer.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Zadaná cesta neexistuje.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Převod z jiných typů než řetězec není podporován</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Symbol nelze serializovat do JSON.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Služba nepodporuje exportování dlaždic.</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} je prázdný.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Nelze vytvořit tabulku ServiceFeatureTable z vrstvy služby typu '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Soubor {0} již existuje a stahování bylo nastaveno tak, aby nepřepisovalo existující soubory.</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Vlastnost '{0}' nelze změnit poté, co byla vrstva inicializována.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Nelze vytvořit RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>Před provedením ověření je nutné inicializovat FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Služba prvků neposkytuje požadované pole Object ID.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Při inicializaci ArcGISRuntimeEnvironment došlo k chybě. Nelze nalézt složku nasazení ArcGISRuntime. Zkontrolujte, zda ve stejné složce, ve které se nachází spustitelný soubor vaší aplikace, existuje složka s názvem {0}, nebo nastavte parametr ArcGISRuntimeEnvironment.InstallPath tak, aby odkazoval na alternativní umístění. Složka nasazení musí obsahovat podsložky odpovídající architektuře procesů vaší aplikace.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Upraveno před {0} hodinami</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Ke spuštění místního serveru je vyžadována licence na úrovni standard. Aktuálně je používána licence na úrovni basic (viz ArcGISRuntimeEnvironment.License.Level). Pro instalaci můžete modul runtime inicializovat s licencí na úrovni standard v parametru ArcGISRuntimeEnvironment.License.SetLicense(). Pokud vyvíjíte aplikaci, nemusíte parametr ArcGISRuntimeEnvironment.ClientId nastavovat. Zůstanete tak ve vývojářském režimu a budete moci vyzkoušet server LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>cs</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Došlo k vnitřní chybě.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Jako cesta byla zadána neplatná hodnota.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Služba neobsahuje implementaci koncových bodů '{0}' a '{1}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Operace exportování dlaždice selhala.</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>Hodnoty MovementThreshold a ReportInterval nemohou obě být nula</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>SymbolsPath nelze nastavit po inicializaci ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Hlavní licence vypršela.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>Místní server není inicializován, neexistují tedy žádné služby, které by bylo možné zastavit.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Vlastnost {0} není nastavena, nelze vytvořit službu.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Položka portálu je pro tuto operaci neplatná.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Sbírky vrstev nelze přímo upravovat v případě, že jsou spravovány prostřednictvím WebMapViewModel.</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Vytvořil {0} před {1} minutami</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Vytvořil {0} před hodinou</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Typ '{0}' není platný pro 'Shape Type'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Nelze získat výchozí nastavení.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Analýza textu se nezdařila.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Vrstvu MessageLayer lze přidat pouze do jedné mapy.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Client Id nelze nastavit po inicializaci ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Před pokusem o vygenerování tokenu OAuth je nutné nastavit přesměrování RedirectUri.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Nelze vytvořit zobrazení mapy MapView. V ArcGIS Runtime nebyla nalezena požadovaná složka 'resources/shaders'.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>E-mailová adresa je neplatná.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Upraveno dne {0} v {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Nepodařilo se vytvořit '{0}', služba s touto cestou je již zastavována.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Vytvořil {0} před minutou</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Jeden ze souborů lokátoru nebyl nalezen.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Nelze měnit názvy služeb, zatímco služba probíhá. Názvy lze měnit pouze tehdy, je-li služba zastavena.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Neplatný název barvy: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Zprávu se nepodařilo zpracovat. Před zavoláním ProcessMessage musí být vrstva MessageLayer úspěšně načtena v zobrazení mapy nebo scény.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Nepodařilo se vytvořit '{0}' pro editaci, protože služba se stejnou cestou je již spuštěna jako instance '{1}', který nepodporuje editaci.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Vlastnost {0} nelze nastavovat po inicializaci FeatureLayer.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Atribut '{0}' nesmí být prázdný.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Uvedené číslo ClientId je neplatné.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Adresu nelze geokódovat.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' nespadá do očekávaného rozmezí '{1}-{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl musí patřit ke stejné doméně, k jaké patří server.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Byl předán neplatný objekt, byl očekáván znak ':' nebo '}'.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Byl proveden pokus o zastavení serveru LocalServer, který není spuštěný.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Soubor lokátoru obsahuje nepodporovaný souřadnicový systém.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} nelze nastavit na hodnotu Null.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Operace přílohy na serveru se nezdařila.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Geometrii nelze upravovat, když jsou všechny možnosti editace vypnuty.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Upravil {0} před hodinou</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Mapa není v připraveném stavu.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Nelze získat přístup ke službám polohy</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Relační řetězec je neplatný. Musí být 9 znaků dlouhý a splňovat specifikaci DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Chyba rušení objektu.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Autorizační token OAuth nelze vygenerovat bez autorizační komponenty. Nastavte parametr AuthenticationManager.Current.OAuthAuthorizeHandler na platnou implementaci komponenty IOAuthAuthorizeHandler.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Vytvořeno dne {0} v {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 je jediným podporovaným souřadnicovým systémem u této funkce.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Tato aplikace je spuštěna pomocí vývojářské licence. Tato licence platí pouze pro vývoj a testování.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Byla zavolána neinicializovaná úloha geokódování.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Zadanému umístění chybí požadovaný atribut.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' překračuje požadovanou délku pole '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometrie je prázdná.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit musí být kladné celé číslo.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Vrstvu nelze zobrazit v mapě s odlišným souřadnicovým systémem.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Služba nebyla spuštěna, takže není možné ji zastavit.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Byl předán neplatný objekt, byl očekáván název člena.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Během spouštění došlo k neočekávanému ukončení procesu serveru.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Smíšené souřadnicové systémy nejsou podporovány.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Vytvořeno dne {0} v {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Nelze přečíst adresu ze vstupního kurzoru nebo funkce reset() vrátila false.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Vlastnost '{0}' nelze po inicializaci vrstvy už měnit.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Upraveno před hodinou</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Upraveno před několika sekundami</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Nelze deserializovat metadata vrstvy.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Vybraný obsah neřídí žádné portálové skupiny.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Lokátor nelze vytvořit.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Typ '{0}' není podporován pro deserializaci pole.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Vytvořil {0} před {1} hodinami</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Neplatná služba, exportování mapy není povoleno, nebo typ služby není podporován.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Požadovaný parametr je prázdný.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Komponenta výzvy není nastavena.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Vytvořeno před {0} minutami</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Mapu je nutné nejprve uložit do portálu pomocí metody 'Map.SaveAs'.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Služba prvků neumožňuje {0} prvek, který nevlastníte.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Nelze vytvořit instanci {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Služba prvků nepodporuje požadovanou funkcionalitu.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Služba se neočekávaně ukončila. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Licenci je možné nastavit pouze v případě, že třída ArcGISRuntimeEnvironment vlastní platný identifikátor ClientId a že zavolání metody ArcGISRuntimeEnvironment.Initialize proběhlo úspěšně.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Úpravy přílohy nelze uložit k prvkům, které na serveru neexistují. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Před použitím GraphicsSource musí být grafická sbírka prázdná.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>RenderingMode nelze změnit po načtení vrstvy.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Modul ArcGIS Runtime ({0}) nebo jeden z jeho závislých modulů se nepodařilo načíst. Ujistětě se, že je nainstalovaný "Microsoft Visual C++ 2015-2019 Redistributable".</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Hodnota je NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Žádný aktuální uživatel. Mapy může ukládat pouze přihlášený uživatel.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Nepodařilo se načíst kontext aplikace</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Nepodařilo se převést 'string' na 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>InstallPath nelze nastavit po inicializaci ArcGISRuntimeEnvironment.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nepodařilo se inicializovat jádro ArcGIS Runtime. Knihovna jádra ArcGIS Runtime není dostupná.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>U operace GetPositionAsync vypršel časový limit</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Není definován konstruktér bez parametrů pro typ '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Služba neobsahuje platné schéma dělení dlaždic.</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Jedna nebo více vlastností lokátoru je neplatná.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Nelze vyřešit.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>Atribut '{0}' je pro {1} vyžadován a musí být přítomen u prvků, které se nachází ve službě prvků.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Tato služba právě probíhá a nelze ji spustit.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Vytvořeno před minutou</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Neplatný hex formát barvy</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Typ '{0}' není podporován pro serializaci/deserializaci slovníku, klíče musí být řetězce nebo objekty.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Byl předán neplatný objekt, byl očekáván znak '{'.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Nepodařilo se explicitně načíst knihovnu jádra ArcGIS Runtime. Podrobnosti výjimky: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Vytvořeno před několika sekundami</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Nepodařilo se najít zdroj.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Nepodařilo se vytvořit geokodér.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Vykreslovač nelze serializovat do JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Neplatný JSON primitive: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Spuštění serveru LocalServer se nezdařilo: nebyl nalezen spustitelný soubor.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Hlavní licence je nesprávná, namísto požadované hlavní licence je použito rozšíření licence.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Zastávky neobsahují konzistentní názvy tras.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Byl předán neplatný řetězec, byl očekáván znak '\'".</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Jednotka '{0}' není platná pro 'DirectionsLengthUnits'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Hodnota musí být větší než 0.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Tato operace je k dispozici pouze ověřeným uživatelům.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Zastávky s prázdnou geometrií nejsou podporovány.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Bylo předáno neplatné pole, byl očekáván znak ','.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' ve sbírce '{1}' musí mít jedinečná ID.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Formát souboru lokátoru není podporován.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Operace exportování dlaždice vypršela.</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Vlastnost {0} nelze měnit zatímco služba běží.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Byl proveden pokus o spuštění serveru LocalServer, který není zastavený.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Upravil {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Rozšíření licence č. {0} je nesprávné, namísto vyžadovaného rozšíření licence je použita hlavní licence.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>Byl překročen RecursionLimit.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable neimplementuje {0} přílohy.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Hodnoty scARGB musí být číselné</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Číslo '{0}' nesmí být záporné.</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Upraveno před minutou</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Vytvořeno před {0} hodinami</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol nemá podporu pro typ prvku: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Objekt typu '{0}' nelze převést na typ '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Před pokusem o vygenerování tokenu OAuth je nutné nastavit ClientId.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Upravil {0} před {1} minutami</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operace je povolena pouze z vlákna UI</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Vykreslení SceneView vyžaduje alespoň 256 MB (268 435 456 bytů) paměti</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' nemá požadovaný datový typ '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Neznámý zdroj {0}. Server musí být zaregistrován.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Bylo předáno neplatné pole, byl očekáván znak ']'.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Nepodařilo se převést na 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Upravil {0} dne {1} v {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Přihlašovací lhůta pro autentizaci na portálu vypršela. Uživatel se musí přihlásit znovu.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' nebyl nalezen v seznamu očekávaných typů prvků.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' byl zavolán bez odpovídajícího '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>Řetězec JSON je neplatný nebo není podporován.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Alespoň jeden z bodů je prázdný.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Vytvořeno před hodinou</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Hodnota nesmí být menší než 0.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Zásady '{0}' nejsou platné pro 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Typ vrstvy {0} není podporován.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>K editoru není přiřazena žádná mapa.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Tuto službu nelze spustit, protože již na místním serveru běží.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Upravil {0} před {1} hodinami</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Token nelze obnovit.</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' byl zavolán mimo objekt.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>Parametr ArcGISRuntimeEnvironment.SymbolsPath nebyl určen. Nastavte parametr ArcGISRuntimeEnvironment.SymbolsPath tak, aby odkazoval na cestu ke složce 'symbols' ve vydání ArcGISRuntime. Cestu je možné zadat relativně vzhledem k umístění instalace aplikace, například ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Neplatné hodnoty MinScale a MaxScale. Zadaný rozsah měřítka musí být v rozmezí {0} až {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Vytvořil {0} dne {1} v {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>Položku portálu je nutné uložit do portálu a musí obsahovat platné ID.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Chybějící nebo nepodporovaný typ geometrie</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Nelze deserializovat objektový graf do typu '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometrii nelze znovu vykreslit.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Vytvořil {0} před několika sekundami</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Nelze převést na řetězec.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} je pouze pro interní použití</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Před použitím jakýchkoliv úprav musí být prvek inicializován.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Nelze provést ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Upravil {0} před minutou</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows nejsou podporována.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>Místní server neodpovídá na dotazy a mohlo dojít k jeho pádu.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Chyba licence u ArcGISRuntimeEnvironment. Hlavní licence je neplatná.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Atribut '{0}' již v grafice existuje. Tento atribut nesmí být přítomen u prvků, které ve službě prvků neexistují.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Chyba při inicializaci ArcGISRuntimeEnvironment. Nelze načíst vydání ArcGISRuntime.</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Nepodařilo se nastavit kontext Open GL pro mapu</value>
+  </data>
+</root>

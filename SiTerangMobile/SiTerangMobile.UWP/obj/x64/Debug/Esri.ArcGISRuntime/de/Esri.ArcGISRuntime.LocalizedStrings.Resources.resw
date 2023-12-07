@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Konvertierung in '{0}'-Array nicht möglich.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Eine Open GL-Rahmenpufferkonfiguration mit minimalen Funktionen konnte nicht verortet werden</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>scARGB-Werte müssen zwischen 0 und 1 liegen</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry entspricht nicht dem erwarteten Geometrietyp '{0}' des Service.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' ist nicht festgelegt.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>LocalServerApplicationStatePath kann nach der Initialisierung von ArcGISRuntimeEnvironment nicht festgelegt werden.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Innere Ausnahme mit detaillierten Informationen anzeigen.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Erstellt von {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Feature-Tabelle wurde nicht initialisiert.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>NULL kann nicht in einen Werttyp konvertiert werden.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>LocatorServiceInfo kann nicht abgerufen werden.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Ein Wert vom Typ {0} kann nicht konvertiert werden</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} kann nicht geändert werden, während der Service ausgeführt wird.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>Die Token-Service-URL wurde nicht festgelegt.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Geometrietyp wird nicht unterstützt.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Die Karte muss geladen werden, bevor sie in einem Portal gespeichert wird.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Parsen von CSV fehlgeschlagen.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Vor {0} Minuten bearbeitet</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Raumbezug ist ungültig.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Service kann nicht gestartet werden, da ein lokaler Service mit demselben Namen '{0}' bereits ausgeführt wird.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Layer unterstützt keine Anlagen.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Es wird versucht, einen LocalService zu starten, während er beendet wurde.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nAbsturzabbilddatei gespeichert unter: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>Eine nicht abgeschlossene Zeichenfolge wurde übergeben.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Kachelschema wird derzeit nicht unterstützt.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Lesen aus dem Datenstrom nicht möglich.</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Es können keine Features bearbeitet werden, die nicht vorhanden sind.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Von {0} kurz zuvor bearbeitet</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Service implementiert keinen '{0}'-Endpunkt.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Der Bing Map-Layer kann nicht dargestellt werden, da keine Bing-Schlüssel bereitgestellt wurden.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Where-Klausel und Geometrie dürfen nicht beide Null sein.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Kachel-Exportvorgang wurde gelöscht</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Vorgang wird bei Verwendung von GraphicsSource nicht unterstützt.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Mindestens einer der folgenden Abfrageparameter muss festgelegt werden: Text, Geometrie, Wo, ObjectIDs oder TimeExtent.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Es wird versucht, einen LocalService zu beenden, während er nicht ausgeführt wird.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Feature-Service liefert nicht die erforderlichen Metadaten.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Die Erweiterungs-Lizenznummer {0} ist abgelaufen.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Kachel-Exportvorgang wurde abgebrochen</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Von {0} am {1} um {2} erstellt</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>TempPath kann nach der Initialisierung von ArcGISRuntimeEnvironment nicht festgelegt werden.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Die Erweiterungs-Lizenznummer {0} ist ungültig.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Fehlerhaftes Escape.</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Die erforderliche Funktion '{0}' ist für diesen Feature-Service nicht verfügbar.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Interner Fehler.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Befehl kann nicht ausgeführt werden.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Der Layer kann nicht aus dem Webkarten-Layer erstellt werden.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Schnittpunktfunktionen werden von Locator nicht unterstützt.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Von {0} am {1} um {2} bearbeitet</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Muss größer oder gleich Null sein</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Am {0} um {1} bearbeitet</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>scARGB-Farbzeichenfolgen müssen drei oder vier durch Kommas getrennte Werte aufweisen</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Barrieren mit NULL-Geometrie werden nicht unterstützt.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Ein ungültiges Array wurde übergeben. Erwartet wurde "[".</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Diese Eigenschaft kann nach Initialisierung von MessageLayer nicht geändert werden.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Der angegebene Pfad ist nicht vorhanden.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Konvertieren aus anderen Typen als einer Zeichenfolge wird nicht unterstützt</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Symbol ist für JSON nicht serialisierbar.</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Der Export von Kacheln wird von diesem Service nicht unterstützt.</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} ist Null oder leer.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>ServiceFeatureTable kann aus Service-Layer des folgenden Typs nicht erstellt werden: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>Die Datei {0} ist bereits vorhanden und für den Download-Vorgang wurde festgelegt, vorhandene Dateien nicht zu überschreiben.</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Die Eigenschaft '{0}' kann nach der Initialisierung des Layers nicht geändert werden.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>RouteTask kann nicht erstellt werden.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>FeatureLayer muss für die Durchführung der Überprüfung initialisiert werden.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Feature-Service enthält nicht das erforderliche Objekt-ID-Feld.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Fehler beim Initialisieren der ArcGISRuntimeEnvironment. Der Ordner der ArcGISRuntime-Bereitstellung kann nicht gefunden werden. Stellen Sie sicher, dass sich ein Ordner namens "{0}" im selben Ordner wie die ausführbare Datei Ihrer Anwendung befindet, oder legen Sie ArcGISRuntimeEnvironment.InstallPath so fest, dass auf einen alternativen Speicherort verwiesen wird. Der Ordner der Bereitstellung muss bestimmte Unterordner enthalten, die mit der Prozessarchitektur Ihrer Anwendung übereinstimmen.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Vor {0} Stunden bearbeitet</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Lokaler Server benötigt für den Start eine Lizenz der Stufe "Standard". Die aktuelle Lizenzstufe ist "Basic" (siehe ArcGISRuntimeEnvironment.License.Level). Für eine Bereitstellung können Sie Runtime mit einer Lizenz der Stufe "Standard" in ArcGISRuntimeEnvironment.License.SetLicense() initialisieren. Sollten Sie eine App entwickeln, können Sie die Festlegung von ArcGISRuntimeEnvironment.ClientId vermeiden, um im Entwicklermodus zu bleiben und LocalServer testen zu können.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Interne Fehler.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Ungültiger Wert für Pfad angegeben.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Service implementiert keine '{0}'- und  '{1}'-Endpunkte.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Kachel-Exportvorgang ist fehlgeschlagen</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold und ReportInterval dürfen nicht beide Null sein</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>SymbolsPath kann nicht nach der Initialisierung von ArcGISRuntimeEnvironment festgelegt werden.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Hauptlizenz ist abgelaufen.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer wurde nicht initialisiert, daher können keine ausgeführten Services beendet werden.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Eigenschaft '{0}' ist nicht festgelegt. Ein Service kann nicht erstellt werden.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Portal-Element ist für diesen Vorgang ungültig.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Wenn die Layer-Sammlung von WebMapViewModel verwaltet wird, kann sie nicht direkt geändert werden.</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Von {0} vor {1} Minuten erstellt</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Von {0} vor 1 Stunde erstellt</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Typ '{0}' ist für 'Shape-Typ' ungültig.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Standardeinstellungen können nicht abgerufen werden.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Text-Parsen fehlgeschlagen.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>Ein MessageLayer kann nur zu einer einzelnen Karte hinzugefügt werden.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Client-ID kann nicht nach der Initialisierung von ArcGISRuntimeEnvironment festgelegt werden.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>Bevor Sie versuchen, ein OAuth-Token zu generieren, muss RedirectUri festgelegt werden.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>MapView kann nicht erstellt werden. Der erforderliche Ordner 'Ressourcen/Shader' wurde in der ArcGIS Runtime-Bereitstellung nicht gefunden.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>E-Mail-Adresse ist ungültig.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Am {0} um {1} bearbeitet</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>'{0}' konnte nicht erstellt werden, da der Service mit demselben Pfad bereits beendet wird.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Von {0} vor 1 Minute erstellt</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Eine Locator-Datei konnte nicht gefunden werden.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Der Servicename kann nicht festgelegt werden, während der Service ausgeführt wird. Der Name kann nur festgelegt werden, wenn der Service beendet wird.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Ungültiger Farbname: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Die Meldung konnte nicht verarbeitet werden. MessageLayer muss vor dem Aufruf von ProcessMessage in eine Ansicht (Karte oder Szene) erfolgreich geladen worden sein.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>'{0}' für die Bearbeitung konnte nicht erstellt werden, da der Service mit demselben Pfad bereits als eine Instanz von '{1}' ausgeführt wird, die die Bearbeitung nicht unterstützt.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>{0}-Eigenschaft kann nach der Initialisierung von FeatureLayer nicht festgelegt werden.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>'{0}'-Attribut darf nicht Null sein.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>Die angegebene ClientID ist ungültig.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Adresse kann nicht geokodiert werden.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' liegt nicht innerhalb des erwarteten Bereichs von '{1}-{2}'.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl muss der gleichen Domäne angehören wie der Server.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Ein ungültiges Objekt wurde übergeben. Erwartet wurde ":" oder "}".</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Es wird versucht, den LocalServer zu beenden, falls er nicht ausgeführt wird.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>Raumbezug der Locator-Datei wird nicht unterstützt.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} darf nicht auf NULL gesetzt werden.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Anlageoperation auf Server fehlgeschlagen.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Sie können die Geometrie nicht bearbeiten, wenn alle Bearbeitungsoptionen deaktiviert wurden.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Von {0} vor 1 Stunde bearbeitet</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Karte ist nicht ausführbereit.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Auf Standortdienste kann nicht zugegriffen werden</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>Ungültige Beziehungs-Zeichenfolge. Sie muss gemäß DE-9IM-Spezifikation 9 Zeichen umfassen.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Abbruchfehler bei Objekt.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>OAuth-Token kann ohne Authorization Handler nicht generiert werden. Legen Sie für AuthenticationManager.Current.OAuthAuthorizeHandler eine gültige IOAuthAuthorizeHandler-Implementierung fest.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Am {0} um {1} erstellt</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 ist der einzige Raumbezug, der für diese Funktion unterstützt wird.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Diese Anwendung wird mit einer Entwicklungslizenz ausgeführt. Die Lizenz ist nur für Entwicklungs- und Testzwecke gültig.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Aufruf eines nicht initialisierten Geokodierungs-Tasks.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Der Eingabe-Position fehlt ein erforderliches Attribut.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' hat die erforderliche Feldlänge '{1}' überschritten.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometrie ist Null oder leer.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit muss eine positive ganze Zahl sein.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Layer kann auf einer Karte mit anderem Raumbezug nicht angezeigt werden.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Der Service wurde nicht gestartet und kann daher nicht beendet werden.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Ein ungültiges Objekt wurde übergeben. Erwartet wurde ein Mitgliedername.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Server-Prozess wurde während des Starts unerwartet beendet.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Gemischter Raumbezug wird nicht unterstützt.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Am {0} um {1} erstellt</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Adresse kann nicht aus Eingabe-Cursor gelesen werden oder reset()-Rückgabe ist falsch.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Eigenschaft '{0}' kann nicht geändert werden, sobald der Layer initialisiert wurde.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Vor 1 Stunde bearbeitet</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Kurz zuvor bearbeitet</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Serialisierung der Layer-Metadaten kann nicht aufgehoben werden.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Ausgewählter Inhalt wird von keiner Portal-Gruppe gesteuert.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Locator kann nicht erstellt werden.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Der Typ '{0}' wird für die Deserialisierung eines Arrays nicht unterstützt.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Von {0} vor {1} Stunden erstellt</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Ungültiger Service, Kartenexport nicht zulässig oder Service-Typ wird nicht unterstützt.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Erforderlicher Parameter ist NULL oder leer.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Es wurde kein Challenge Handler festgelegt.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Vor {0} Minuten erstellt</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Die Karte muss zuerst mit der Methode 'Map.SaveAs' in einem Portal gespeichert werden.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Der Feature-Service lässt nicht zu, dass Sie ein Feature {0}, das nicht Ihr eigenes ist.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Die Instanz von {0} kann nicht erstellt werden.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Feature-Service enthält nicht die erforderlichen Funktionen.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Service wurde unerwartet beendet. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Eine Lizenz kann nur dann festgelegt werden, wenn die ArcGISRuntimeEnvironment-Klasse eine gültige ClientID besitzt und der Aufruf der ArcGISRuntimeEnvironment.Initialize-Methode erfolgreich war.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Sie können keine Anlagenänderungen für ein Feature speichern, das nicht auf dem Server vorhanden ist. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Grafik-Sammlung muss leer sein, um GraphicsSource verwenden zu können.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>RenderingMode kann nicht geändert werden, wenn der Layer geladen ist.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>ArcGIS Runtime ({0}) oder eine der zugehörigen Abhängigkeiten konnte nicht geladen werden. Stellen Sie sicher, dass "Microsoft Visual C++ 2015-2019 Redistributable" installiert ist.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Wert ist NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Kein aktueller Benutzer. Karten dürfen nur von einem angemeldeten Benutzer gespeichert werden.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Anwendungskontext kann nicht abgerufen werden</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>'string' konnte nicht in 'DateTime' konvertiert werden.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>InstallPath kann nicht nach der Initialisierung von ArcGISRuntimeEnvironment nicht festgelegt werden.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Fehler beim Initialisieren des ArcGIS Runtime-Kernes. Auf die ArcGIS Runtime-Kernbibliothek kann nicht zugegriffen werden.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>GetPositionAsync-Vorgang hat das Zeitlimit überschritten</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Es ist kein parameterloser Konstruktor für den Typ von '{0}' definiert.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Service enthält kein gültiges Kachelschema.</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Mindestens eine Locator-Eigenschaft ist ungültig.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Kann nicht berechnet werden.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' ist ein erforderliches Attribut für {1} und sollte in den im Feature-Service enthaltenen Features vorhanden sein.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Der Service ist momentan in Bearbeitung und kann nicht gestartet werden.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Vor 1 Minute erstellt</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Ungültiges hexadezimales Farbformat</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Der Typ '{0}' wird für die Serialisierung/Deserialisierung eines Wörterbuchs nicht unterstützt. Schlüssel müssen Zeichenfolgen oder Objekte sein.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Ein ungültiges Objekt wurde übergeben. Erwartet wurde '{'.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Fehler beim expliziten Laden der ArcGIS Runtime-Kernbibliothek, Ausnahmedetails: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Kurz zuvor erstellt</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Ressource konnte nicht verortet werden.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Geocoder konnte nicht erstellt werden.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Renderer ist für JSON nicht serialisierbar</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>Ungültiger JSON-Primitiv: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Fehler beim Starten von LocalServer: Ausführbare Datei wurde nicht gefunden.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Die Hauptlizenz ist falsch. Es wird eine Erweiterungslizenz verwendet, obwohl eine Hauptlizenz erforderlich ist.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Die Routennamen der Stopps sind inkonsistent.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>Eine ungültige Zeichenfolge wurde übergeben. Erwartet wurde '\'".</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Einheit '{0}' ist für 'DirectionsLengthUnits' ungültig.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Wert muss größer als Null sein.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Vorgang ist nur für authentifizierte Benutzer zugänglich.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Stopps mit NULL-Geometrie werden nicht unterstützt.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Ein ungültiges Array wurde übergeben. Erwartet wurde ",".</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' in der Sammlung '{1}' müssen über eindeutige IDs verfügen.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>Format der Locator-Datei wird nicht unterstützt.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Zeitüberschreitung bei Kachel-Exportvorgang</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Eigenschaft '{0}' kann nicht geändert werden, während der Service ausgeführt wird.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Es wird versucht, den LocalServer zu starten, falls er nicht beendet wurde.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Von {0} bearbeitet</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Die Erweiterungs-Lizenznummer {0} ist falsch. Es wird eine Hauptlizenz verwendet, obwohl eine Erweiterungslizenz erforderlich ist.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit überschritten.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable implementiert keine {0}-Anlagen.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>scARGB-Werte müssen numerisch sein</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Die Zahl '{0}' kann nicht negativ sein.</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Vor 1 Minute bearbeitet</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Vor {0} Stunden erstellt</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol wird für den Elementtyp nicht unterstützt: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Ein Objekt vom Typ '{0}' kann nicht in den Typ '{1}' konvertiert werden.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>Bevor Sie versuchen, ein OAuth-Token zu generieren, muss die OAuth-ClientID festgelegt werden.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Von {0} vor {1} Minuten bearbeitet</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operation ist nur über den UI-Thread zulässig</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Für das SceneView-Rendering sind mindestens 256 MB (268.435.456 Byte) an Speicher erforderlich</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' entspricht nicht dem erforderlichen Datentyp '{1}'.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Unbekannte Ressource {0}. Der Server muss registriert werden.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Ein ungültiges Array wurde übergeben. Erwartet wurde "]".</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Konvertierung in 'TimeExtent' nicht möglich.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Von {0} am {1} um {2} bearbeitet</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Die Anmelde-Dauer der Portal-Authentifizierung ist abgelaufen. Der Benutzer muss sich erneut anmelden.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' wurde in der Liste der erwarteten Feature-Typen nicht gefunden.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' wurde ohne übereinstimmende '{1}' aufgerufen.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>JSON-String ist ungültig oder wird nicht unterstützt.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Von den Punkten ist mindestens ein Punkt gleich Null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Vor einer Stunde erstellt</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Wert darf nicht kleiner als null sein.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Richtlinie '{0}' ist für 'Wendenregel' ungültig.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Layer-Typ {0} wird nicht unterstützt.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Mit dem Editor ist keine Karte verknüpft.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Dieser Service kann nicht gestartet werden, da er bereits auf dem LocalServer ausgeführt wird.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Von {0} vor {1} Stunden bearbeitet</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Token kann nicht aktualisiert werden</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' wurde außerhalb eines Objekts aufgerufen.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath wurde nicht angegeben. Legen Sie als Pfad für ArcGISRuntimeEnvironment.SymbolsPath den Ordner 'Symbole' der ArcGISRuntime-Bereitstellung fest. Der Pfad kann relativ zum Installationsverzeichnis der Anwendung angegeben werden, zum Beispiel ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Ungültige Werte für MinScale und MaxScale. Der angegebene Maßstabsbereich muss zwischen {0} und {1} liegen.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Von {0} am {1} um {2} erstellt</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem muss in einem Portal gespeichert werden und eine gültige ID aufweisen.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Geometrietyp fehlt oder wird nicht unterstützt</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Ein Objektdiagramm kann nicht in einen Typ von '{0}' deserialisiert werden.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometrie kann nicht neu projiziert werden.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Von {0} kurz zuvor erstellt</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Konvertierung in String nicht möglich.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} ist nur für die interne Verwendung vorgesehen</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Feature muss initialisiert sein, bevor eine Bearbeitung übernommen werden kann.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>ReverseGeocode kann nicht ausgeführt werden.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Von {0} vor 1 Minute bearbeitet</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows werden nicht unterstützt.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer reagiert nicht auf Anforderungen und ist möglicherweise abgestürzt.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Lizenzfehler bei ArcGISRuntimeEnvironment. Die Hauptlizenz ist ungültig.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>'{0}'-Attribut ist bereits in der Grafik enthalten, was für Features, die nicht bereits im Feature-Service enthalten sind, nicht zulässig ist.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Fehler beim Initialisieren von ArcGISRuntimeEnvironment. ArcGISRuntime-Bereitstellung kann nicht geladen werden.</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Für die Karte konnte kein Open GL-Kontext festgelegt werden</value>
+  </data>
+</root>

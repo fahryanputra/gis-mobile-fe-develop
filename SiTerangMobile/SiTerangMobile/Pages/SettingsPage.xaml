@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiTerangMobile.Pages.SettingsPage"
+             xmlns:local="clr-namespace:SiTerangMobile;assembly=SiTerangMobile">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="0" Margin="0">
+                <Frame BackgroundColor="White" Padding="50" Margin="0" BorderColor="Transparent" HasShadow="False">
+                    <StackLayout Padding="-30">
+                        <Image Source="{local:ImageResource SiTerangMobile.Assets.logo.png}" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        <Label Text="SITERANG" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20"/>
+                        <Label Text="version 1.0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="16" TextColor="#ffb43a"/>
+                    </StackLayout>
+                </Frame>
+                <StackLayout Padding="10">
+                    <Label Text="Settings:" FontSize="Title" Padding="0, 20"/>
+                    <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="0">
+                        <Frame BorderColor="#ffb43a" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" CornerRadius="20">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="55"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="55" />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="John Doe" FontSize="22"/>
+                                    <Label Text="johndoe@gmail.com"/>
+                                </StackLayout>
+                                    <Button Grid.Column="2" BackgroundColor="Transparent" ImageSource="{local:ImageResource SiTerangMobile.Assets.ActionBar.edit.png}" Padding="0"/>
+                            </Grid>
+                        </Frame>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="0">
+                        <Frame BorderColor="#ffb43a" HorizontalOptions="Fill" VerticalOptions="Fill" HasShadow="True" CornerRadius="20">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="55"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="55" />
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="Akses Geolocation" FontSize="22"/>
+                                    <Label Text="Izinkan aplikasi melihat lokasi"/>
+                                </StackLayout>
+                                <StackLayout Grid.Column="2">
+                                    <Switch x:Name="locationSwitch" OnColor="#34c1cb" ThumbColor="WhiteSmoke" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Toggled="OnLocationToggled"/>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </Frame>
+                    <Label Text="About" FontSize="Title" Padding="0, 40, 0, 20"/>
+                    <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat lacinia orci vitae tincidunt. Duis nibh ex, fringilla vel finibus commodo, interdum sit amet libero. Phasellus luctus arcu eu libero laoreet, id pulvinar odio interdum. Cras quis pulvinar ipsum."
+                   TextColor="Gray" 
+                   FontSize="Body"/>
+                    <Button Text="Logout"
+                        TextColor="Blue" 
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="Start" 
+                        Margin="0, 50, 0, 0"
+                        BorderWidth="0"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

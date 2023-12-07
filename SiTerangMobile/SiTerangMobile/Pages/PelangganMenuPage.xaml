@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiTerangMobile.PelangganMenuPage">
+    <NavigationPage.TitleView>
+        <Label Text = "PETA LOKASI PELANGGAN" HorizontalTextAlignment="Center" FontSize="Title" TextColor="White" Margin="0, 0, 75, 0"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <Grid Margin="50, 35, 50, 35">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200" />
+                <RowDefinition Height="200" />
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Peta Data Pelanggan"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="0"
+                Clicked="OnDataPelangganClicked"/>
+            <Button Text="Pelanggan Sekitar"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="1"
+                Grid.Row="0"
+                Clicked="OnPelangganSekitarClicked"/>
+            <Button Text="Potensi Pasar"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="2"
+                Grid.Row="0"/>
+            <Button Text="Peta Tunggakan"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="3"
+                Grid.Row="0"/>
+
+            <Button Text="Pelanggan Kode N"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="1"/>
+            <Button Text="Pelanggan P2TL"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="1"
+                Grid.Row="1"/>
+            <Button Text="Pelanggan SPLTU"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="2"
+                Grid.Row="1"/>
+            <Button Text="Peta AMR"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="3"
+                Grid.Row="1"/>
+
+            <Button Text="Pascabayar/Prabayar"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

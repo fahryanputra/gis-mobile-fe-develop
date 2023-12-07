@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SiTerangMobile.Pages.LoginPage"
+             xmlns:local="clr-namespace:SiTerangMobile;assembly=SiTerangMobile"
+             xmlns:pages="clr-namespace:SiTerangMobile.Pages"
+             BackgroundColor="#31b5be">
+    <NavigationPage.HasNavigationBar>false</NavigationPage.HasNavigationBar>
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="Center" HorizontalOptions="Center" Padding="50">
+            <StackLayout>
+                <Image Source="{local:ImageResource SiTerangMobile.Assets.logo.png}"/>
+                <Image Source="{local:ImageResource SiTerangMobile.Assets.logo_text_yellow.png}"/>
+                <Label Text="Silahkan login" TextColor="White" FontSize="Title" HorizontalTextAlignment="Center" Padding="50" FontAttributes="Bold"/>
+                <Label Text="Email" TextColor="#ffb43a"/>
+                <Entry x:Name="emailEntry" Placeholder="Email" PlaceholderColor="White" TextColor="White"/>
+                <Label Text="Password" TextColor="#ffb43a"/>
+                <Grid ColumnDefinitions="*, 50">
+                    <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="Password" PlaceholderColor="White" TextColor="White"/>
+                    <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0" Grid.Column="1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnShowButtonClicked"/>
+                        </Frame.GestureRecognizers>
+                        <Image x:Name="eyeIcon" Source="{local:ImageResource SiTerangMobile.Assets.eye.png}"/>
+                    </Frame>
+                </Grid>
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0, 5, 0, 20">
+                    <Label Text="Lupa password?" TextColor="#ffb43a" HorizontalTextAlignment="End"/>
+                </Frame>
+                <Frame BackgroundColor="#34c1cb" CornerRadius="20" Padding="10, 15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLoginButtonClicked"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Image Source="{local:ImageResource SiTerangMobile.Assets.lock-open-variant.png}" Margin="0, 0, 10, 0"/>
+                        <Label Text="Login" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" FontSize="18" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Frame>
+                <Label x:Name="messageLabel"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringToArrayConverter_TypeNotSupported" xml:space="preserve">
+    <value>Tidak dapat mengonversi menjadi array '{0}'.</value>
+  </data>
+  <data name="OpenGL_FrameBufferConfigLoadFailed" xml:space="preserve">
+    <value>Gagal menemukan konfigurasi penyangga rangka Open GL dengan kemampuan minimum</value>
+  </data>
+  <data name="ColorConverter_scArgbOutOfRange" xml:space="preserve">
+    <value>Nilai scARGB harus di antara 0 dan 1</value>
+  </data>
+  <data name="FeatureLayer_GeometryTypeMismatch" xml:space="preserve">
+    <value>Graphic.Geometry tidak cocok dengan tipe geometri '{0}' layanan yang diinginkan.</value>
+  </data>
+  <data name="Generic_UrlNotSet" xml:space="preserve">
+    <value>'Url' tidak ditetapkan.</value>
+  </data>
+  <data name="ArcGISRuntime_ApplicationStatePath_InvalidChange" xml:space="preserve">
+    <value>Tidak dapat mengatur LocalServerApplicationStatePath setelah ArcGISRuntimeEnvironment diinisialisasi.</value>
+  </data>
+  <data name="Server_InnerException" xml:space="preserve">
+    <value>Lihat pengecualian bagian dalam untuk mengetahui detailnya.</value>
+  </data>
+  <data name="EditSummary_CreatedBy" xml:space="preserve">
+    <value>Dibuat oleh {0}</value>
+  </data>
+  <data name="GeodatabaseFeatureTable_NotInitialized" xml:space="preserve">
+    <value>Tabel fitur tidak diinisialisasi.</value>
+  </data>
+  <data name="ObjectConverter_ValueTypeCannotBeNull" xml:space="preserve">
+    <value>Tidak dapat mengonversi null ke tipe nilai.</value>
+  </data>
+  <data name="Locator_CannotGetLocatorServiceInfo" xml:space="preserve">
+    <value>Tidak dapat memperoleh LocatorServiceInfo.</value>
+  </data>
+  <data name="TimeExtent_ConversionFailed" xml:space="preserve">
+    <value>Tidak dapat mengonversi dari nilai tipe {0}</value>
+  </data>
+  <data name="WorkspaceInfo_0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>{0} tidak dapat diubah saat layanan sedang berjalan.</value>
+  </data>
+  <data name="Security_NoTokenServiceUrl" xml:space="preserve">
+    <value>URL layanan token tidak ditetapkan.</value>
+  </data>
+  <data name="Generic_GeometryTypeNotSupported" xml:space="preserve">
+    <value>Tipe geometri tidak didukung.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoaded" xml:space="preserve">
+    <value>Peta harus dimuat sebelum menyimpannya ke portal.</value>
+  </data>
+  <data name="CsvLayer_Parsing_FormatException" xml:space="preserve">
+    <value>Pemilahan CSV gagal.</value>
+  </data>
+  <data name="EditSummary_EditedMinutesAgo" xml:space="preserve">
+    <value>Diedit {0} menit yang lalu</value>
+  </data>
+  <data name="SpatialReference_Invalid" xml:space="preserve">
+    <value>Referensi spasial tidak valid.</value>
+  </data>
+  <data name="Server_ServiceWithName0AlreadyRunning" xml:space="preserve">
+    <value>Tidak dapat memulai layanan karena LocalService dengan Nama '{0}' yang sama sedang berjalan.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentsNotSupported" xml:space="preserve">
+    <value>Layer tidak mendukung lampiran.</value>
+  </data>
+  <data name="Service_InvalidStatus" xml:space="preserve">
+    <value>Mencoba memulai LocalService saat layanan dihentikan.</value>
+  </data>
+  <data name="Server_CrashDump0" xml:space="preserve">
+    <value>\nFile crash dump disimpan ke: '{0}'</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_UnterminatedString" xml:space="preserve">
+    <value>String tidak terputus lolos.</value>
+  </data>
+  <data name="Wmts_TilingSchemeNotSupported" xml:space="preserve">
+    <value>Skema tiling (ubin) tidak didukung saat ini.</value>
+  </data>
+  <data name="FeatureLayer_AttachmentReadAccessFailed" xml:space="preserve">
+    <value>Tidak dapat membaca dari stream</value>
+  </data>
+  <data name="FeatureTable_EditOnFeatureNotFound" xml:space="preserve">
+    <value>Tidak dapat melakukan edit pada fitur yang tidak ada.</value>
+  </data>
+  <data name="EditSummary_EditedBySecondsAgo" xml:space="preserve">
+    <value>Diedit oleh {0} beberapa detik yang lalu</value>
+  </data>
+  <data name="Generic_ServiceNotImplement0Endpoint" xml:space="preserve">
+    <value>Layanan tidak mengimplementasikan titik akhir '{0}'.</value>
+  </data>
+  <data name="WebMap_NoBingToken" xml:space="preserve">
+    <value>Layer Bing Map tidak dapat digambar karena tidak ada kunci bing disediakan.</value>
+  </data>
+  <data name="FeatureLayer_DeleteQueryParametersMissing" xml:space="preserve">
+    <value>Di mana klausa dan geometri tidak boleh null.</value>
+  </data>
+  <data name="ExportTileCacheTask_Deleted" xml:space="preserve">
+    <value>Operasi ekspor tile dihapus</value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsPropertyWhenGraphicsSourceIsSet" xml:space="preserve">
+    <value>Operasi tidak didukung saat menggunakan GraphicsSource.</value>
+  </data>
+  <data name="QueryTask_RequiredParameterMissing" xml:space="preserve">
+    <value>Paling sedikit satu dari parameter kueri berikut: Teks, Geometri, Tempat, ObjectID, atau TimeExtent, harus ditetapkan.</value>
+  </data>
+  <data name="Service_InvalidStopStatus" xml:space="preserve">
+    <value>Mencoba menghentikan LocalService saat layanan tidak berjalan.</value>
+  </data>
+  <data name="FeatureLayer_ServiceInfoMissing" xml:space="preserve">
+    <value>Feature service tidak menyediakan metadata yang diperlukan.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Expired" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Nomor lisensi tambahan {0} kedaluwarsa.</value>
+  </data>
+  <data name="ExportTileCacheTask_Cancelled" xml:space="preserve">
+    <value>Operasi ekspor tile dibatalkan</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtDay" xml:space="preserve">
+    <value>Dibuat oleh {0} di {1} pada {2}</value>
+  </data>
+  <data name="ArcGISRuntime_TempPath_InvalidChange" xml:space="preserve">
+    <value>Tidak dapat mengatur TempPath setelah ArcGISRuntimeEnvironment diinisialisasi.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Invalid" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Nomor lisensi tambahan {0} tidak valid.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_BadEscape" xml:space="preserve">
+    <value>Keluar dengan cara yang tidak baik</value>
+  </data>
+  <data name="FeatureLayer_RequiredCapabilityMissing" xml:space="preserve">
+    <value>Kemampuan '{0}' yang diperlukan tidak tersedia untuk feature service ini.</value>
+  </data>
+  <data name="Generic_InternalError" xml:space="preserve">
+    <value>Kesalahan internal.</value>
+  </data>
+  <data name="DelegateCommand_CannotExecute" xml:space="preserve">
+    <value>Tidak dapat menjalankan perintah.</value>
+  </data>
+  <data name="WebMap_CannotCreateLayer" xml:space="preserve">
+    <value>Tidak dapat membuat layer dari layer webmap.</value>
+  </data>
+  <data name="Locator_GeocodeCode_IntersectionsNotSupported" xml:space="preserve">
+    <value>Penentu lokasi tidak mendukung fungsi persimpangan.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtDay" xml:space="preserve">
+    <value>Diedit oleh {0} di {1} pada {2}</value>
+  </data>
+  <data name="Geolocator_GreaterThanEqualToZero" xml:space="preserve">
+    <value>Harus lebih besar daripada atau sama dengan nol</value>
+  </data>
+  <data name="EditSummary_EditedOnAtFull" xml:space="preserve">
+    <value>Diedit tanggal {0} pukul {1}</value>
+  </data>
+  <data name="ColorConverter_WrongNumberOfScArgbValues" xml:space="preserve">
+    <value>String warna scARGB harus menentukan tiga atau empat nilai yang dipisah koma</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryBarriers" xml:space="preserve">
+    <value>Penghalang dengan geometri null tidak didukung.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayStart" xml:space="preserve">
+    <value>Array tidak valid lolos, '[' diharapkan.</value>
+  </data>
+  <data name="MessageLayer_PropertyCannotBeChanged" xml:space="preserve">
+    <value>Properti ini tidak dapat diubah setelah MessageLayer diinisialisasi.</value>
+  </data>
+  <data name="Generic_SpecifiedPathNotFound" xml:space="preserve">
+    <value>Jalur yang ditentukan tidak ada.</value>
+  </data>
+  <data name="ColorConverter_UnsupportedTypeConversion" xml:space="preserve">
+    <value>Mengonversi dari tipe selain string tidak didukung</value>
+  </data>
+  <data name="Symbol_JsonSerializationNotSupported" xml:space="preserve">
+    <value>Simbol tidak dapat diserialisasikan ke JSON</value>
+  </data>
+  <data name="ExportTileCacheTask_NoExportCapability" xml:space="preserve">
+    <value>Layanan tidak mendukung ekspor tile</value>
+  </data>
+  <data name="Generic_0IsNullOrEmpty" xml:space="preserve">
+    <value>{0} null atau kosong.</value>
+  </data>
+  <data name="ServiceFeatureTable_InvalidServiceLayerType0" xml:space="preserve">
+    <value>Tidak dapat membuat ServiceFeatureTable dari layer layanan tipe: '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_FileExists" xml:space="preserve">
+    <value>File {0} sudah ada, dan operasi pengunduhan telah diatur untuk tidak menimpa file yang ada</value>
+  </data>
+  <data name="Layer_CannotChangeProperty0AfterInitialization" xml:space="preserve">
+    <value>Tidak dapat mengubah properti '{0}' setelah layer diinisialisasi.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotCreateRouteTask" xml:space="preserve">
+    <value>Tidak dapat membuat RouteTask.</value>
+  </data>
+  <data name="FeatureLayer_ValidationNotInitialized" xml:space="preserve">
+    <value>FeatureLayer harus diinisialiasi untuk melakukan validasi.</value>
+  </data>
+  <data name="FeatureLayer_ObjectIdFieldMissing" xml:space="preserve">
+    <value>Feature service tidak menyediakan kolom ID Objek yang diperlukan.</value>
+  </data>
+  <data name="ArcGISRuntime_NoDeploymentFound" xml:space="preserve">
+    <value>Kesalahan menginisialisasi ArcGISRuntimeEnvironment. Tidak dapat menemukan folder implementasi ArcGISRuntime. Pastikan tidak ada folder dengan nama "{0}" di folder yang sama tempat aplikasi Anda dijalankan, atau atur ArcGISRuntimeEnvironment.InstallPath untuk menunjukkan lokasi alternatif. Folder penerapan harus berisi sub-folder yang cocok dengan arsitektur proses aplikasi Anda.</value>
+  </data>
+  <data name="EditSummary_EditedHoursAgo" xml:space="preserve">
+    <value>Diedit {0} jam yang lalu</value>
+  </data>
+  <data name="Server_License_Failure" xml:space="preserve">
+    <value>Server Lokal memerlukan lisensi standar untuk mulai. Lisensi saat ini adalah lisensi dasar (lihat ArcGISRuntimeEnvironment.License.Level). Untuk penyebaran, Anda dapat menginisialisasi runtime dengan lisensi standar dalam ArcGISRuntimeEnvironment.License.SetLicense(). Jika Anda sedang mengembangkan suatu aplikasi, Anda dapat menghindari pengaturan ArcGISRuntimeEnvironment.ClientId agar tetap dalam mode pengembang untuk menguji coba LocalServer.</value>
+  </data>
+  <data name="Resources_Language" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="Locator_GeocodeCode_InternalError" xml:space="preserve">
+    <value>Beberapa kesalahan internal.</value>
+  </data>
+  <data name="Service_InvalidPath" xml:space="preserve">
+    <value>Nilai yang ditentukan untuk jalur tidak valid.</value>
+  </data>
+  <data name="FeatureServ_ServiceNotImplement01Endpoints" xml:space="preserve">
+    <value>Layanan tidak mengimplementasikan titik akhir '{0}' dan '{1}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_Failed" xml:space="preserve">
+    <value>Operasi ekspor tile gagal</value>
+  </data>
+  <data name="Geolocator_MovementThresholdReportIntervalBothZero" xml:space="preserve">
+    <value>MovementThreshold dan ReportInterval tidak boleh nol</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPath_InvalidChange" xml:space="preserve">
+    <value>Tidak dapat mengatur SymbolsPath setelah ArcGISRuntimeEnvironment diinisialisasi.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Expired" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Lisensi utama telah kedaluwarsa.</value>
+  </data>
+  <data name="Service_NoRunningServiceToStop" xml:space="preserve">
+    <value>LocalServer tidak diinisialisasi, jadi tidak ada layanan berjalan yang akan dihentikan.</value>
+  </data>
+  <data name="Generic_0PropertyNotSetCantStartService" xml:space="preserve">
+    <value>Properti {0} tidak diatur, tidak dapat membuat layanan.</value>
+  </data>
+  <data name="Portal_InvalidItem" xml:space="preserve">
+    <value>Item portal tidak valid untuk operasi ini.</value>
+  </data>
+  <data name="WebMapViewModel_CannotModifyLayers" xml:space="preserve">
+    <value>Tidak dapat memodifikasi kumpulan layer langsung saat dikelola oleh WebMapViewModel</value>
+  </data>
+  <data name="EditSummary_CreatedByMinutesAgo" xml:space="preserve">
+    <value>Dibuat oleh {0} {1} menit yang lalu</value>
+  </data>
+  <data name="EditSummary_CreatedByAnHourAgo" xml:space="preserve">
+    <value>Dibuat oleh {0} satu jam yang lalu</value>
+  </data>
+  <data name="NetworkAnalyst_ShapeTypeInvalid" xml:space="preserve">
+    <value>Tipe '{0}' tidak valid untuk 'Shape Type'.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotGetDefaultSettings" xml:space="preserve">
+    <value>Tidak dapat memperoleh pengaturan default.</value>
+  </data>
+  <data name="GeometryConverter_TextParseFailed" xml:space="preserve">
+    <value>Pemilahan teks gagal.</value>
+  </data>
+  <data name="MessageLayer_CanOnlyBeAddedToSingleMap" xml:space="preserve">
+    <value>MessageLayer hanya dapat ditambahkan ke Peta tunggal.</value>
+  </data>
+  <data name="ArcGISRuntime_ClientId_InvalidChange" xml:space="preserve">
+    <value>Tidak dapat menetapkan Client Id setelah ArcGISRuntimeEnvironment diinisialisasi.</value>
+  </data>
+  <data name="Security_NoAuthRedirectUri" xml:space="preserve">
+    <value>RedirectUri harus diatur sebelum mencoba menghasilkan token OAuth.</value>
+  </data>
+  <data name="ArcGISRuntime_ShadersFolderNotFound" xml:space="preserve">
+    <value>Tidak dapat membuat MapView. Folder 'resources/shaders' yang diperlukan tidak ditemukan dalam penyebaran ArcGIS Runtime.</value>
+  </data>
+  <data name="Generic_InvalidEmailAddress" xml:space="preserve">
+    <value>Alamat email tidak valid.</value>
+  </data>
+  <data name="EditSummary_EditedOnAtDay" xml:space="preserve">
+    <value>Diedit tanggal {0} pukul {1}</value>
+  </data>
+  <data name="Generic_FailedToCreate0SamePathStopping" xml:space="preserve">
+    <value>Gagal membuat '{0}' sebagai karena layanan dengan jalur yang sama telah berhenti.</value>
+  </data>
+  <data name="EditSummary_CreatedByAMinuteAgo" xml:space="preserve">
+    <value>Dibuat oleh {0} satu menit yang lalu</value>
+  </data>
+  <data name="Locator_GeocodeCode_FileNotFound" xml:space="preserve">
+    <value>Satu file penentu lokasi tidak ditemukan.</value>
+  </data>
+  <data name="Service_CantSetName" xml:space="preserve">
+    <value>Tidak dapat menetapkan nama layanan saat layanan sedang berlangsung. Nama hanya dapat ditetapkan saat layanan dihentikan.</value>
+  </data>
+  <data name="ColorConverter_InvalidColorName" xml:space="preserve">
+    <value>Nama warna tidak valid: {0}</value>
+  </data>
+  <data name="MessageLayer_UnableToProcessMessages" xml:space="preserve">
+    <value>Pesan tidak dapat diproses. MessageLayer harus telah dimuat ke Tampilan (Peta atau Scene) sebelum memanggil ProcessMessage.</value>
+  </data>
+  <data name="FeatureServ_FailedToCreate0DuplicateServicePath1" xml:space="preserve">
+    <value>Gagal membuat '{0}' untuk pengeditan karena layanan dengan jalur yang sama sedang berjalan sebagai permintaan '{1}' yang tidak mendukung pengeditan.</value>
+  </data>
+  <data name="FeatureLayer_PropertySetNotAllowedAfterInitialize" xml:space="preserve">
+    <value>Properti {0} tidak dapat diatur setelah FeatureLayer diinisialisasi.</value>
+  </data>
+  <data name="FeatureLayer_AttributeNotNullable" xml:space="preserve">
+    <value>Atribut '{0}' tidak boleh null.</value>
+  </data>
+  <data name="ArcGISRuntime_License_ClientId_Invalid" xml:space="preserve">
+    <value>ClientId yang disediakan tidak valid.</value>
+  </data>
+  <data name="Locator_CannotGeocodeAddress" xml:space="preserve">
+    <value>Tidak dapat melakukan geocode alamat.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededRange" xml:space="preserve">
+    <value>'{0}' tidak masuk dalam rentang '{1}-{2}' yang diinginkan.</value>
+  </data>
+  <data name="Security_CrossDomainTokenUrl" xml:space="preserve">
+    <value>TokenUrl harus termasuk dalam domain yang sama dengan server</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidObject" xml:space="preserve">
+    <value>Objek tidak valid lolos, ':' atau '}' diharapkan.</value>
+  </data>
+  <data name="Server_InvalidStopStatus" xml:space="preserve">
+    <value>Mencoba menghentikan LocalServer saat server tidak berjalan.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedSpatialReference" xml:space="preserve">
+    <value>File penentu lokasi memiliki referensi spasial yang tidak didukung.</value>
+  </data>
+  <data name="Property_CannotBeSetToNull" xml:space="preserve">
+    <value>{0} tidak dapat diatur menjadi null</value>
+  </data>
+  <data name="FeatureLayer_AttachmentFailedOnServer" xml:space="preserve">
+    <value>Operasi lampiran gagal pada server.</value>
+  </data>
+  <data name="Editor_InvalidOperationNoEditingAllowed" xml:space="preserve">
+    <value>Anda tidak dapat mengedit geometri jika semua opsi pengeditan dinonaktifkan.</value>
+  </data>
+  <data name="EditSummary_EditedByAnHourAgo" xml:space="preserve">
+    <value>Diedit oleh {0} satu jam yang lalu</value>
+  </data>
+  <data name="Editor_MapIsNotReady" xml:space="preserve">
+    <value>Peta tidak dalam status siap.</value>
+  </data>
+  <data name="Geolocator_LocationServicesUnavailable" xml:space="preserve">
+    <value>Tidak dapat mengakses layanan lokasi</value>
+  </data>
+  <data name="GeometryEngine_RelationString" xml:space="preserve">
+    <value>String hubungan tidak valid, harus sepanjang 9 karakter sesuai dengan spesifikasi DE-9IM.</value>
+  </data>
+  <data name="NetworkAnalyst_CancellationError" xml:space="preserve">
+    <value>Kesalahan pembatalan objek.</value>
+  </data>
+  <data name="Security_NoOAuthAuthorizeComponent" xml:space="preserve">
+    <value>Tidak dapat menghasilkan token OAuth tanpa pengelola otorisasi. Tetapkan AuthenticationManager.Current.OAuthAuthorizeHandler ke implementasi IOAuthAuthorizeHandler yang valid.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtFull" xml:space="preserve">
+    <value>Dibuat tanggal {0} pukul {1}</value>
+  </data>
+  <data name="Portal_SupportOnlyWGS84" xml:space="preserve">
+    <value>WGS84 adalah satu-satunya referensi spasial yang didukung untuk fungsi ini.</value>
+  </data>
+  <data name="Server_Nag_Message_Body" xml:space="preserve">
+    <value>Aplikasi ini berjalan menggunakan lisensi pengembang. Lisensi ini valid hanya untuk pengembangan dan pengujian saja.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UninitializedGeocodeTask" xml:space="preserve">
+    <value>Panggil untuk membatalkan inisialisasi tugas geocode.</value>
+  </data>
+  <data name="Locator_GeocodeCode_RequiredFieldMissing" xml:space="preserve">
+    <value>Lokasi input kehilangan atribut yang diperlukan.</value>
+  </data>
+  <data name="FeatureLayer_AttributeExceededLength" xml:space="preserve">
+    <value>'{0}' sudah melampaui panjang kolom yang diperlukan '{1}'.</value>
+  </data>
+  <data name="Generic_GeometryIsNullOrEmpty" xml:space="preserve">
+    <value>Geometri null atau kosong.</value>
+  </data>
+  <data name="JavaScriptSerializer_InvalidRecursionLimit" xml:space="preserve">
+    <value>RecursionLimit harus berupa integer positif.</value>
+  </data>
+  <data name="TiledLayer_LoadFailedSpatialReferenceMismatch" xml:space="preserve">
+    <value>Layer tidak dapat ditampilkan pada Peta dengan referensi spasial yang berbeda.</value>
+  </data>
+  <data name="Service_NotStartedCantStopped" xml:space="preserve">
+    <value>Layanan tidak dimulai, jadi layanan tidak dapat dihentikan.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidMemberName" xml:space="preserve">
+    <value>Objek tidak valid lolos, nama anggota diharapkan.</value>
+  </data>
+  <data name="Server_UnexpectedExit" xml:space="preserve">
+    <value>Proses server keluar tiba-tiba saat startup.</value>
+  </data>
+  <data name="Generic_MixSpatialReferenceNotSupported" xml:space="preserve">
+    <value>Referensi spasial campuran tidak didukung.</value>
+  </data>
+  <data name="EditSummary_CreatedOnAtDay" xml:space="preserve">
+    <value>Dibuat tanggal {0} pukul {1}</value>
+  </data>
+  <data name="Locator_GeocodeCode_CannotReadAddress" xml:space="preserve">
+    <value>Tidak dapat membaca alamat dari kursor input atau proses reset salah.</value>
+  </data>
+  <data name="FeatureLayer_PropertyChangeAfterInitializeNotAllowed" xml:space="preserve">
+    <value>Properti '{0}' tidak dapat diubah setelah layer diinisialisasi.</value>
+  </data>
+  <data name="EditSummary_EditedAnHourAgo" xml:space="preserve">
+    <value>Diedit satu jam yang lalu</value>
+  </data>
+  <data name="EditSummary_EditedSecondsAgo" xml:space="preserve">
+    <value>Diedit beberapa detik yang lalu</value>
+  </data>
+  <data name="WebMap_CannotDeserializeMetadata" xml:space="preserve">
+    <value>Tidak dapat mendeserialiasi Metadata Layer.</value>
+  </data>
+  <data name="Portal_NoGroupDriveContent" xml:space="preserve">
+    <value>Tidak ada kelompok portal menjalankan konten utama.</value>
+  </data>
+  <data name="Locator_CannotCreateLocator" xml:space="preserve">
+    <value>Tidak dapat membuat Penentu Lokasi.</value>
+  </data>
+  <data name="ObjectConverter_ArrayTypeNotSupported" xml:space="preserve">
+    <value>Tipe '{0}' tidak didukung untuk deserialisasi array.</value>
+  </data>
+  <data name="EditSummary_CreatedByHoursAgo" xml:space="preserve">
+    <value>Dibuat oleh {0} {1} jam yang lalu</value>
+  </data>
+  <data name="WebMap_InvalidService" xml:space="preserve">
+    <value>Layanan tidak valid, Ekspor Peta tidak diizinkan, atau tipe layanan tidak didukung.</value>
+  </data>
+  <data name="Generic_RequiredParameterIsNullOrEmpty" xml:space="preserve">
+    <value>Parameter yang diperlukan null atau kosong.</value>
+  </data>
+  <data name="Security_NoChallengeHandler" xml:space="preserve">
+    <value>Pengelola tantangan belum diatur.</value>
+  </data>
+  <data name="Server_Nag_Message_Title" xml:space="preserve">
+    <value>ArcGIS Runtime</value>
+  </data>
+  <data name="EditSummary_CreatedMinutesAgo" xml:space="preserve">
+    <value>Dibuat {0} menit yang lalu</value>
+  </data>
+  <data name="Map_SavePortal_NoPortalItem" xml:space="preserve">
+    <value>Peta harus disimpan terlebih dahulu ke portal dengan menggunakan metode 'Map.SaveAs'.</value>
+  </data>
+  <data name="FeatureLayer_OwnershipAccessFail" xml:space="preserve">
+    <value>Feature service tidak mengizinkan Anda untuk {0} fitur yang tidak Anda miliki.</value>
+  </data>
+  <data name="ObjectConverter_CannotCreateListType" xml:space="preserve">
+    <value>Tidak dapat membuat contoh {0}.</value>
+  </data>
+  <data name="FeatureLayer_CapabilitiesMissing" xml:space="preserve">
+    <value>Feature service tidak menyediakan kemampuan yang diperlukan.</value>
+  </data>
+  <data name="Server_ServiceStopped0" xml:space="preserve">
+    <value>Layanan dihentikan tiba-tiba. '{0}'</value>
+  </data>
+  <data name="ArcGISRuntime_License_SetLicenseInvalid" xml:space="preserve">
+    <value>Lisensi hanya dapat ditetapkan jika kelas ArcGISRuntimeEnvironment memiliki ClientId yang valid dan pemanggilan metode ArcGISRuntimeEnvironment.Initialize berhasil.</value>
+  </data>
+  <data name="FeatureLayer_ApplyAttachmentUnsavedFeature" xml:space="preserve">
+    <value>Anda tidak dapat menyimpan edit lampiran ke fitur yang tidak ada di server. </value>
+  </data>
+  <data name="GraphicsLayer_CannotModifyGraphicsSourceWhenGraphicsItemsArePresent" xml:space="preserve">
+    <value>Kumpulan grafik harus kosong sebelum menggunakan GraphicsSource.</value>
+  </data>
+  <data name="GraphicsLayer_RenderingMode_SetAfterLoaded" xml:space="preserve">
+    <value>RenderingMode tidak dapat diubah setelah layer dimuat.</value>
+  </data>
+  <data name="ArcGISRuntime_NativeLoadError" xml:space="preserve">
+    <value>Tidak dapat memuat ArcGIS Runtime ({0}) atau salah satu dependensinya. Pastikan "Microsoft Visual C++ 2015-2019 Redistributable" sudah diinstal.</value>
+  </data>
+  <data name="Generic_NumberCannotBeNan" xml:space="preserve">
+    <value>Nilai adalah NaN.</value>
+  </data>
+  <data name="Map_SavePortal_NotLoggedIn" xml:space="preserve">
+    <value>Tidak ada pengguna saat ini. Peta hanya dapat disimpan oleh pengguna yang masuk.</value>
+  </data>
+  <data name="Geolocator_NullApplicationContext" xml:space="preserve">
+    <value>Tidak dapat mengambil konteks aplikasi</value>
+  </data>
+  <data name="TimeExtent_StringToDateFailed" xml:space="preserve">
+    <value>Tidak dapat mengonversi 'string' menjadi 'DateTime'.</value>
+  </data>
+  <data name="ArcGISRuntime_InstallPath_InvalidChange" xml:space="preserve">
+    <value>Tidak dapat mengatur InstallPath setelah ArcGISRuntimeEnvironment diinisialisasi.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedImplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Gagal menginisialisasi inti ArcGIS Runtime.  Perpustakaan inti ArcGIS Runtime tidak dapat diakses.</value>
+  </data>
+  <data name="Geolocator_GetPositionTimeout" xml:space="preserve">
+    <value>Operasi GetPositionAsync kehabisan waktu</value>
+  </data>
+  <data name="ObjectConverter_NoConstructor" xml:space="preserve">
+    <value>Tidak ada konstruktor ditentukan untuk tipe '{0}'.</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidTileScheme" xml:space="preserve">
+    <value>Layanan tidak berisi skema tile yang valid</value>
+  </data>
+  <data name="Locator_GeocodeCode_InvalidLocatorProperties" xml:space="preserve">
+    <value>Satu properti penentu lokasi atau lebih tidak valid.</value>
+  </data>
+  <data name="NetworkAnalyst_CannotSolve" xml:space="preserve">
+    <value>Tidak dapat memecahkan.</value>
+  </data>
+  <data name="FeatureLayer_ExistingFeatureObjectIdMissing" xml:space="preserve">
+    <value>'{0}' adalah atribut yang diperlukan untuk {1} dan harus terdapat pada fitur yang ada pada feature service.</value>
+  </data>
+  <data name="Generic_InServiceCantBeStarted" xml:space="preserve">
+    <value>Layanan saat ini sedang berlangsung dan tidak dapat dimulai.</value>
+  </data>
+  <data name="EditSummary_CreatedAMinuteAgo" xml:space="preserve">
+    <value>Dibuat satu menit yang lalu</value>
+  </data>
+  <data name="ColorConverter_InvalidHexFormat" xml:space="preserve">
+    <value>Format warna hex tidak valid</value>
+  </data>
+  <data name="ObjectConverter_DictionaryTypeNotSupported" xml:space="preserve">
+    <value>Tipe '{0}' tidak didukung untuk serialisasi/deserialisasi kamus, kunci harus berupa string atau objek.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_ExpectedOpenBrace" xml:space="preserve">
+    <value>Objek tidak valid lolos, '{' diharapkan.</value>
+  </data>
+  <data name="ArcGISRuntime_Android_FailedExplicitRuntimeCoreLibLoad" xml:space="preserve">
+    <value>Gagal to secara eksplisit memuat perpustakaan inti ArcGIS Runtime,  Detail pengecualian: {0}</value>
+  </data>
+  <data name="EditSummary_CreatedSecondsAgo" xml:space="preserve">
+    <value>Dibuat beberapa detik yang lalu</value>
+  </data>
+  <data name="CsvLayer_ResourceNotFound" xml:space="preserve">
+    <value>Sumber daya tidak dapat ditemukan.</value>
+  </data>
+  <data name="Locator_GeocodeCode_GeocoderCreation" xml:space="preserve">
+    <value>Gagal membuat geocoder.</value>
+  </data>
+  <data name="NativeDisplay_JsonSerializationOfRendererNotSupported" xml:space="preserve">
+    <value>Perender tidak dapat diserialisasikan ke JSON</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_IllegalPrimitive" xml:space="preserve">
+    <value>JSON primitif tidak valid: {0}</value>
+  </data>
+  <data name="LocalServer_ExeNotFound" xml:space="preserve">
+    <value>Memulai LocalServer gagal: yang dapat dijalankan tidak ditemukan.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Mismatch" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Lisensi utama salah, lisensi tambahan digunakan di tempat lisensi utama diperlukan.</value>
+  </data>
+  <data name="NetworkAnalyst_InconsistentRouteNames" xml:space="preserve">
+    <value>Perhentian tidak memiliki nama rute konsisten.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_StringNotQuoted" xml:space="preserve">
+    <value>String tidak valid lolos, '\'" diiharapkan.</value>
+  </data>
+  <data name="NetworkAnalyst_DirectionLengthUnitsInvalid" xml:space="preserve">
+    <value>Unit '{0}' tidak valid untuk 'DirectionsLengthUnits'.</value>
+  </data>
+  <data name="Generic_NumberMustBeGreaterThanZero" xml:space="preserve">
+    <value>Nilai harus lebih besar dari nol.</value>
+  </data>
+  <data name="Portal_NotAvailableIfNotAuthenticated" xml:space="preserve">
+    <value>Operasi tersedia hanya untuk pengguna yang diautentikasi.</value>
+  </data>
+  <data name="NetworkAnalyst_NullGeometryStops" xml:space="preserve">
+    <value>Perhentian dengan geometri null tidak didukung.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayExpectComma" xml:space="preserve">
+    <value>Array tidak valid lolos, ',' diharapkan.</value>
+  </data>
+  <data name="MapService_0in1MustHaveUniqueIds" xml:space="preserve">
+    <value>'{0}' dalam kumpulan '{1}' harus memiliki lds unik.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedFileFormat" xml:space="preserve">
+    <value>File penentu lokasi memiliki format yang tidak didukung.</value>
+  </data>
+  <data name="ExportTileCacheTask_TimedOut" xml:space="preserve">
+    <value>Operasi ekspor tile kehabisan waktu</value>
+  </data>
+  <data name="Generic_Property0CantChangeWhenServiceRunning" xml:space="preserve">
+    <value>Properti {0} tidak dapat diubah saat layanan sedang berjalan.</value>
+  </data>
+  <data name="Server_InvalidStatus" xml:space="preserve">
+    <value>Mencoba memulai LocalServer saat server tidak dihentikan.</value>
+  </data>
+  <data name="EditSummary_EditedBy" xml:space="preserve">
+    <value>Diedit oleh {0}</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Extension_Mismatch" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Nomor lisensi tambahan {0} salah, lisensi utama digunakan di tempat lisensi tambahan diperlukan.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_DepthLimitExceeded" xml:space="preserve">
+    <value>RecursionLimit terlampaui.</value>
+  </data>
+  <data name="GeodatabaseFeatureServiceTable_AttachmentNotImplemented" xml:space="preserve">
+    <value>GeodatabaseFeatureServiceTable tidak mengimplementasikan lampiran {0}.</value>
+  </data>
+  <data name="ColorConverter_NonNumericScArgbValue" xml:space="preserve">
+    <value>Nilai scARGB harus numerik</value>
+  </data>
+  <data name="Generic_0CantBenegative" xml:space="preserve">
+    <value>Angka '{0}' tidak boleh negatif</value>
+  </data>
+  <data name="EditSummary_EditedAMinuteAgo" xml:space="preserve">
+    <value>Diedit satu menit yang lalu</value>
+  </data>
+  <data name="EditSummary_CreatedHoursAgo" xml:space="preserve">
+    <value>Dibuat {0} jam yang lalu</value>
+  </data>
+  <data name="Renderer_GetSymbolNotSupportedForType0" xml:space="preserve">
+    <value>GetSymbol tidak didukung untuk tipe elemen: '{0}'.</value>
+  </data>
+  <data name="ObjectConverter_CannotConvertObjectToType" xml:space="preserve">
+    <value>Tidak dapat mengonversi objek tipe '{0}' menjadi tipe '{1}'.</value>
+  </data>
+  <data name="Security_NoOAuthClientId" xml:space="preserve">
+    <value>OAuth ClientId harus diatur sebelum mencoba menghasilkan token OAuth.</value>
+  </data>
+  <data name="EditSummary_EditedByMinutesAgo" xml:space="preserve">
+    <value>Diedit oleh {0} {1} menit yang lalu</value>
+  </data>
+  <data name="Threading_OperationOnlyOnDispatcherThread" xml:space="preserve">
+    <value>Operasi hanya diizinkan dari UI Thread</value>
+  </data>
+  <data name="SceneView_MemoryLimit_TooLow" xml:space="preserve">
+    <value>Perenderan SceneView memerlukan setidaknya memori sebesar 256 MB (268,435,456 bytes)</value>
+  </data>
+  <data name="FeatureLayer_AttributeTypeMismatch" xml:space="preserve">
+    <value>'{0}' bukan merupakan tipe data '{1}' yang diperlukan.</value>
+  </data>
+  <data name="Security_UnknownResource" xml:space="preserve">
+    <value>Sumber daya tidak diketahui {0}. Server harus diregistrasi.</value>
+  </data>
+  <data name="JavaScriptObjectDeserializer_InvalidArrayEnd" xml:space="preserve">
+    <value>Array tidak valid lolos, ']' diharapkan.</value>
+  </data>
+  <data name="TimeExtent_StringToTimeExtentFailed" xml:space="preserve">
+    <value>Tidak dapat mengonversi menjadi 'TimeExtent'.</value>
+  </data>
+  <data name="EditSummary_EditedByOnAtFull" xml:space="preserve">
+    <value>Diedit oleh {0} di {1} pada {2}</value>
+  </data>
+  <data name="ArcGISRuntime_License_LoginRequired" xml:space="preserve">
+    <value>Periode login dari autentikasi Portal sudah kedaluwarsa. Pengguna harus masuk lagi.</value>
+  </data>
+  <data name="FeatureLayer_AttributeFeatureTypeNotFound" xml:space="preserve">
+    <value>'{0}' tidak ditemukan dalam tipe fitur yang diinginkan.</value>
+  </data>
+  <data name="JsonWriter_EndNoMatchingStart" xml:space="preserve">
+    <value>'{0}' dipanggil tanpa kecocokan '{1}'.</value>
+  </data>
+  <data name="JSON_InvalidOrNotSupportedJson" xml:space="preserve">
+    <value>String JSON tidak valid atau tidak didukung.</value>
+  </data>
+  <data name="Geometry_CoordinateConversionNullPointInPoints" xml:space="preserve">
+    <value>Paling sedikit satu titik dalam banyak titik adalah null.</value>
+  </data>
+  <data name="EditSummary_CreatedAnHourAgo" xml:space="preserve">
+    <value>Dibuat satu jam yang lalu</value>
+  </data>
+  <data name="Generic_NumberCannotBeLessThanZero" xml:space="preserve">
+    <value>Nilai tidak boleh kurang dari nol.</value>
+  </data>
+  <data name="NetworkAnalyst_UturnPolicyInvalid" xml:space="preserve">
+    <value>Kebijakan '{0}' tidak valid untuk 'Uturn Policy'.</value>
+  </data>
+  <data name="WebMap_LayerTypeNotSupported" xml:space="preserve">
+    <value>Tipe layer {0} tidak didukung.</value>
+  </data>
+  <data name="Editor_NoAssociatedMap" xml:space="preserve">
+    <value>Tidak ada peta dikaitkan dengan Editor.</value>
+  </data>
+  <data name="Server_ServiceAlreadyRunning" xml:space="preserve">
+    <value>Tidak dapat memulai layanan karena sudah berjalan pada LocalServer.</value>
+  </data>
+  <data name="EditSummary_EditedByHoursAgo" xml:space="preserve">
+    <value>Diedit oleh {0} {1} jam yang lalu</value>
+  </data>
+  <data name="Security_CannotRefreshToken" xml:space="preserve">
+    <value>Tidak dapat menyegarkan token</value>
+  </data>
+  <data name="JsonWriter_PropertyCalledOutsideObject" xml:space="preserve">
+    <value>'{0}' dipanggil di luar suatu objek.</value>
+  </data>
+  <data name="ArcGISRuntime_SymbolsPathNotSpecified" xml:space="preserve">
+    <value>ArcGISRuntimeEnvironment.SymbolsPath tidak ditentukan. Tetapkan ArcGISRuntimeEnvironment.SymbolsPath ke jalur menuju folder 'symbols' penyebaran ArcGISRuntime. Jalur dapat ditentukan terkait dengan lokasi instal aplikasi, misalnya ".\Assets\symbols".</value>
+  </data>
+  <data name="ExportTileCacheTask_InvalidScaleRange" xml:space="preserve">
+    <value>Nilai MinScale dan MaxScale tidak valid. Rentang skala yang ditentukan harus di antara {0} dan {1}.</value>
+  </data>
+  <data name="EditSummary_CreatedByOnAtFull" xml:space="preserve">
+    <value>Dibuat oleh {0} di {1} pada {2}</value>
+  </data>
+  <data name="ArcGISPortalItem_BuildUrl_NoId" xml:space="preserve">
+    <value>PortalItem harus disimpan ke portal dan berisi ID yang valid.</value>
+  </data>
+  <data name="FeatureLayer_InvalidGeometryType" xml:space="preserve">
+    <value>Kehilangan atau tipe geometri tidak didukung</value>
+  </data>
+  <data name="ObjectConverter_DeserializerTypeMismatch" xml:space="preserve">
+    <value>Tidak dapat mendeserialisasi grafik objek menjadi tipe '{0}'.</value>
+  </data>
+  <data name="Locator_GeocodeCode_UnsupportedProjectionTransformation" xml:space="preserve">
+    <value>Geometri tidak dapat diproyeksi ulang.</value>
+  </data>
+  <data name="EditSummary_CreatedBySecondsAgo" xml:space="preserve">
+    <value>Dibuat oleh {0} beberapa detik yang lalu</value>
+  </data>
+  <data name="Converter_TypeToStringNotSupported" xml:space="preserve">
+    <value>Tidak dapat mengonversi string.</value>
+  </data>
+  <data name="Method_InternalUseOnly" xml:space="preserve">
+    <value>{0} hanya untuk penggunaan internal</value>
+  </data>
+  <data name="FeatureLayer_EditNotInitialized" xml:space="preserve">
+    <value>Fitur harus diinisialisasi sebelum edit apa pun dapat diterapkan.</value>
+  </data>
+  <data name="Locator_CannotReverseGeocode" xml:space="preserve">
+    <value>Tidak dapat melakukan ReverseGeocode.</value>
+  </data>
+  <data name="EditSummary_EditedByAMinuteAgo" xml:space="preserve">
+    <value>Diedit oleh {0} satu menit yang lalu</value>
+  </data>
+  <data name="NetworkAnalyst_TimeWindowsNotImplemeted" xml:space="preserve">
+    <value>TimeWindows tidak didukung.</value>
+  </data>
+  <data name="Server_NotResponding" xml:space="preserve">
+    <value>LocalServer tidak merespons permintaan dan mungkin crash.</value>
+  </data>
+  <data name="ArcGISRuntime_License_Deploy_Invalid" xml:space="preserve">
+    <value>Kesalahan lisensi dengan ArcGISRuntimeEnvironment. Lisensi utama tidak valid.</value>
+  </data>
+  <data name="FeatureLayer_NewFeatureObjectIdExists" xml:space="preserve">
+    <value>Atribut '{0}' sudah ada pada grafik, yang seharusnya tidak terdapat pada fitur yang belum ada pada feature service.</value>
+  </data>
+  <data name="ArcGISRuntime_LoadError" xml:space="preserve">
+    <value>Kesalahan menginisialisasi ArcGISRuntimeEnvironment. Tidak dapat membuat penyebaran ArcGISRuntime</value>
+  </data>
+  <data name="MapSurface_FailedToSetOpenGLContext" xml:space="preserve">
+    <value>Gagal menetapkan konteks Open GL untuk peta</value>
+  </data>
+</root>
